@@ -22,7 +22,11 @@ class LudoPlayerRandom:
 
     @staticmethod
     def play(state, dice_roll, next_states):
-        return random.choice(np.argwhere(next_states != False))
+        actions = [0, 1, 2, 3]
+        random.shuffle(actions)
+        for action in actions:
+            if next_states[action] is not False:
+                return action
 
 
 class LudoPlayerFast:
