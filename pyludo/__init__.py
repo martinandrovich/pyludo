@@ -1,3 +1,3 @@
-from pyludo.LudoGame import LudoGame, LudoState, LudoStateFull
-from pyludo.LudoVisualizer import LudoVisualizer, LudoVisualizerStep
-from pyludo.StandardLudoPlayers import LudoPlayerRandom, LudoPlayerFast, LudoPlayerAggressive, LudoPlayerDefensive
+from pyludo.game import LudoGame, LudoState, LudoStateFull
+from pyludo.visualizer import LudoVisualizer, LudoVisualizerStep
+from pyludo.players import LudoPlayerRandom, LudoPlayerFast, LudoPlayerAggressive, LudoPlayerDefensive
