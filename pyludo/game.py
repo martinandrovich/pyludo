@@ -129,14 +129,13 @@ class LudoGame:
 			logging.basicConfig(level=logging.WARNING)
 
 	def step(self):
-		state = self.state
 		self.currentPlayerId = (self.currentPlayerId + 1) % 4
 		player = self.players[self.currentPlayerId]
 
 		dice_roll = random.randint(1, 6)
 		logging.info("Dice rolled a {} for player {} [{}].".format(dice_roll, PLAYER_COLORS[self.currentPlayerId], player.name))
 
-		relative_state = state.get_state_relative_to_player(self.currentPlayerId)
+		relative_state = self.state.get_state_relative_to_player(self.currentPlayerId)
 
 		# get an array possible states
 		# each entry corresponds to a token and its the next state moving that token
@@ -146,16 +145,22 @@ class LudoGame:
 
 		# if there are possible moves, call the .play() method for the player
 		if np.any(rel_next_states != False):
+			
+			# make a move; return index of the token that is wished to be moved
 			token_id = player.play(relative_state, dice_roll, rel_next_states)
-
+			
+			 # change from [n] to n (remove array)
 			if isinstance(token_id, np.ndarray):
 				token_id = token_id[0]
 
 			if rel_next_states[token_id] is False:
 				logging.warning("Player has chosen an invalid move. Choosing first valid move.")
 				token_id = np.argwhere(rel_next_states != False)[0][0]
-
+			
+			# update state with chosen action
+			state_prev = self.state
 			self.state = rel_next_states[token_id].get_state_relative_to_player((-self.currentPlayerId) % 4)
+			logging.info("Moved token {} of player {} [{}] from {} to {}.".format(token_id, PLAYER_COLORS[self.currentPlayerId], player.name, state_prev[self.currentPlayerId][token_id], self.state[self.currentPlayerId][token_id]))
 
 	def play_full_game(self):
 		while self.state.get_winner() == -1:
