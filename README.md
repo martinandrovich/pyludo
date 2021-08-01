@@ -1,6 +1,8 @@
 # Python LUDO game (pyludo)
 
-A python3 LUDO simulator.
+A LUDO simulator in Python3.
+
+![img](pyludo/assets/ludoboard.png)
 
 <details>
 <summary><strong>Game rules</strong></summary></br>
@@ -50,15 +52,9 @@ Text.
 
 The state is a numpy array of shape (4 players, 4 tokens)
 
-`state[i]` will then be the i'th player's tokens, and `state[i][k]` will be the value of the k'th token of player i.
+The game state is represented as integers in a 4x4 numpy `state` array (4 players each with 4 tokens). Such that `state[i]` contains the `i`'th player's tokens, and `state[i][k]` will be the state of the `k`'th token of player `i`.
 
-Home is -1, and goal is 99 for all players.
-The common area is from 0 to 51 but relative to player 0.
-The end lane is 52 to 56 for player 0, 57 to 61 for player 1, etc.
-
-A LudoPlayer is always fed a relative state, where the player itself is player 0.
-
-Note that when you move from home into the common area, you enter at position 1, not 0.
+Home state is `-1`, and goal is `99` for all players. The common area range from `0-51` relative to player 0. The end lane is `52-56` for player 0, `57-61` for player 1 and so forth. A LudoPlayer is always fed a relative state in the `.play()` method, where the player itself is player 0. Note that when you move from home into the common area, you enter at position `1`, not `0`.
 
 ### Creating additional players
 
