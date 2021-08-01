@@ -23,13 +23,15 @@ POS_TO_INDEX = [
 
 class LudoVisualizer(pyglet.window.Window):
 	def __init__(self, state=None):
-		super(LudoVisualizer, self).__init__()
+		super(LudoVisualizer, self).__init__(resizable=True)
 
 		self.state = LudoState() if state is None else state
-		# set scaling
-		self.width, self.height = 600, 600
+		
+		# set BG and size/scaling
+		self.width, self.height = 480, 480
 		bg_img = self.load_img('ludoboard.png')
 		self.scaling = min(bg_img.height, self.height) / max(bg_img.height, self.height)
+		
 		# load sprites
 		self.backgroundSprite = self.load_sprite('ludoboard.png')
 		self.playerSprites = [self.load_sprite(color + 'Player.png') for color in PLAYER_COLORS]
@@ -41,6 +43,13 @@ class LudoVisualizer(pyglet.window.Window):
 		self.dispatch_event("on_draw")
 		self.dispatch_events()
 		self.flip()
+		
+		# set window size (fix)
+		self.set_size(480, 480)
+		
+	def on_resize(self, width, height):
+		# print(self.get_size())
+		return super().on_resize(width, height)
 
 	def index_to_pixels(self, index, token_id=-1, offset_scale=2):
 		offset = [(0, 0), (-1, -1), (1, -1), (1, 1), (-1, 1)][token_id + 1]
