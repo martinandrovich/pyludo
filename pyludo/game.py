@@ -1,13 +1,17 @@
 import random
 import logging
+from datetime import datetime
 import numpy as np
 
 from pyludo.players import PLAYER_COLORS
 from pyludo.helpers import star_jump, is_globe_pos
-
+from pyludo.state_space import ACTION
 
 class LudoState:
 	def __init__(self, state=None, empty=False):
+		
+		random.seed(datetime.now())
+		
 		if state is not None:
 			self.state = state
 		else:
@@ -57,50 +61,85 @@ class LudoState:
 
 	def move_token(self, token_id, dice_roll, is_jump=False):
 		""" move token for player 0 """
+		
 		cur_pos = self[0][token_id]
+		
+		# if token in goal, no actions possible
 		if cur_pos == 99:
-			return False  # can't move tokens in goal
+			return False, ACTION.NONE
 
 		new_state = self.copy()
 		player = new_state[0]
 		opponents = new_state[1:]
 
-		# start move
+		# move from home if token in home and a 6 is rolled
 		if cur_pos == -1:
 			if dice_roll != 6:
-				return False  # can only enter the board by rolling a 6
+				return False, ACTION.NONE
+				
 			player[token_id] = 1
 			opponents[opponents == 1] = -1
-			return new_state
+			
+			return new_state, ACTION.MOVE_FROM_HOME
 
 		target_pos = cur_pos + dice_roll
 
 		# common area move
 		if target_pos < 52:
+		
 			occupants = opponents == target_pos
 			occupant_count = np.sum(occupants)
-			if occupant_count > 1 or (occupant_count == 1 and is_globe_pos(target_pos)):
+			
+			# occupied by multiple other tokens
+			if occupant_count > 1:
 				player[token_id] = -1  # sends self home
-				return new_state
-			star_jump_length = 0 if is_jump else star_jump(target_pos)
-			if occupant_count == 1 and star_jump_length == 0:
-				opponents[occupants] = -1
-			player[token_id] = target_pos
-			if star_jump_length:
-				if target_pos == 51:  # landed on the last star
+				return new_state, ACTION.MOVE_ONTO_ANOTHER_DIE
+			
+			# globe
+			if (occupant_count == 1 and is_globe_pos(target_pos)):
+				player[token_id] = -1  # sends self home
+				return new_state, ACTION.MOVE_ONTO_GLOBE_WHERE_OTHER
+			elif (is_globe_pos(target_pos)):
+				player[token_id] = target_pos
+				return new_state, ACTION.MOVE_ONTO_GLOBE
+			
+			# star
+			if (star_jump_length := star_jump(target_pos)):
+				
+				kill = False
+				if occupant_count == 1:
+					opponents[occupants] = -1
+					kill = True
+					
+				if target_pos == 51:
 					player[token_id] = 99  # send directly to goal
+					return new_state, ACTION.MOVE_ONTO_GOAL
+					
 				else:
-					new_state = new_state.move_token(token_id, star_jump_length, is_jump=True)
-			return new_state
+					player[token_id] = target_pos + star_jump_length
+					return new_state, (ACTION.MOVE_ONTO_STAR_AND_KILL if kill else ACTION.MOVE_ONTO_STAR)
+					
+			# normal move
+			player[token_id] = target_pos
+			
+			if occupant_count == 1:
+				opponents[occupants] = -1
+				return new_state, ACTION.MOVE_ONTO_ANOTHER_KILL
+			else:
+				return new_state, ACTION.MOVE
 
-		# end zone move
+		# victory road move
 		if target_pos == 57:  # token reached goal
 			player[token_id] = 99
+			return new_state, ACTION.MOVE_ONTO_GOAL
+			
 		elif target_pos < 57:  # no goal bounce
 			player[token_id] = target_pos
+			return new_state, ACTION.MOVE_ONTO_VICTORY_ROAD
+			
 		else:  # bounce back from goal pos
 			player[token_id] = 57 - (target_pos - 57)
-		return new_state
+		return new_state, ACTION.MOVE_ONTO_VICTORY_ROAD
 
 	def get_winner(self):
 		for player_id in range(4):
@@ -129,27 +168,35 @@ class LudoGame:
 			logging.basicConfig(level=logging.WARNING)
 
 	def step(self):
+	
+		# advance player
 		self.currentPlayerId = (self.currentPlayerId + 1) % 4
 		player = self.players[self.currentPlayerId]
 
+		# roll dice
 		dice_roll = random.randint(1, 6)
 		logging.info("Dice rolled a {} for player {} [{}].".format(dice_roll, PLAYER_COLORS[self.currentPlayerId], player.name))
-
+		
+		# create relative state for
 		relative_state = self.state.get_state_relative_to_player(self.currentPlayerId)
 
-		# get an array possible states
+		# get an array possible state-action pairs for each token
 		# each entry corresponds to a token and its the next state moving that token
-		rel_next_states = np.array(
+		state_action_pairs = np.array(
 			[relative_state.move_token(token_id, dice_roll) for token_id in range(4)]
 		)
+		
+		# extract list of next possible states (tuple unpacking)
+		# https://stackoverflow.com/questions/12142133/how-to-get-first-element-in-a-list-of-tuples
+		rel_next_states = np.array([i[0] for i in state_action_pairs])
 
 		# if there are possible moves, call the .play() method for the player
 		if np.any(rel_next_states != False):
 			
 			# make a move; return index of the token that is wished to be moved
 			token_id = player.play(relative_state, dice_roll, rel_next_states)
-			
-			 # change from [n] to n (remove array)
+
+			# change from [n] to n (remove array)
 			if isinstance(token_id, np.ndarray):
 				token_id = token_id[0]
 
@@ -161,6 +208,7 @@ class LudoGame:
 			state_prev = self.state
 			self.state = rel_next_states[token_id].get_state_relative_to_player((-self.currentPlayerId) % 4)
 			logging.info("Moved token {} of player {} [{}] from {} to {}.".format(token_id, PLAYER_COLORS[self.currentPlayerId], player.name, state_prev[self.currentPlayerId][token_id], self.state[self.currentPlayerId][token_id]))
+			logging.info("Action: {}".format(state_action_pairs[token_id, 1]))
 
 	def play_full_game(self):
 		while self.state.get_winner() == -1:

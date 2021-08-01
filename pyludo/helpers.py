@@ -9,7 +9,6 @@ def star_jump(pos):
 		return 7
 	return 0
 
-
 def is_globe_pos(pos):
 	if pos == -1 or pos > 51:
 		return False
@@ -19,18 +18,14 @@ def is_globe_pos(pos):
 		return True
 	return False
 
-
 def valid_dice_roll(n):
 	return 1 <= n <= 6
-
 
 def will_send_self_home(state, next_state):
 	return np.sum(state[0] == -1) < np.sum(next_state[0] == -1)
 
-
 def will_send_opponent_home(state, next_state):
 	return np.sum(state[1:] == -1) < np.sum(next_state[1:] == -1)
-
 
 def token_vulnerability(state, token_id):
 	""" returns an approximation of the amount (n) of opponent dice rolls that can send the token home """
