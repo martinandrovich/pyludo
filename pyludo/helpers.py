@@ -1,5 +1,10 @@
 import numpy as np
 
+def randargmax(x, **kw):
+	""" a random tie-breaking argmax"""
+	# https://stackoverflow.com/questions/42071597/numpy-argmax-random-tie-breaking/42071648
+	return np.argmax(np.random.random(x.shape) * (x==x.max()), **kw)
+
 def star_jump(pos):
 	if pos == -1 or pos > 51:
 		return 0
