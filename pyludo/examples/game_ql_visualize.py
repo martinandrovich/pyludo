@@ -6,7 +6,7 @@ from pyludo.player_ql import LudoPlayerQLearning
 
 
 players = [
-	LudoPlayerQLearning(),
+	LudoPlayerQLearning(training=True),
 	LudoPlayerRandom(),
 	LudoPlayerRandom(),
 	LudoPlayerRandom(),
