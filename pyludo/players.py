@@ -23,43 +23,53 @@ class LudoPlayerRandom:
 	name = 'random'
 
 	@staticmethod
-	def play(state, dice_roll, next_states):
-		return random.choice(np.argwhere(next_states != False))
+	def play(state, dice_roll, next_states_actions):
 
+		next_states = np.array([i[0] for i in next_states_actions])
+		return random.choice(np.argwhere(next_states != False))
 
 class LudoPlayerFast:
 	""" moves the furthest token that can be moved """
 	name = 'fast'
 
 	@staticmethod
-	def play(state, _, next_states):
+	def play(state, _, next_states_actions):
+
+		next_states = np.array([i[0] for i in next_states_actions])
+
 		for token_id in np.argsort(state[0]):
 			if next_states[token_id] is not False:
 				return token_id
-
 
 class LudoPlayerAggressive:
 	""" tries to send the opponent home, else random valid move """
 	name = 'aggressive'
 
 	@staticmethod
-	def play(state, dice_roll, next_states):
+	def play(state, dice_roll, next_states_actions):
+
+		next_states = np.array([i[0] for i in next_states_actions])
+
 		for token_id, next_state in enumerate(next_states):
 			if next_state is False:
 				continue
 			if np.sum(next_state[1:] == -1) > np.sum(state[1:] == -1):
 				return token_id
-		return LudoPlayerRandom.play(None, None, next_states)
 
+		return LudoPlayerRandom.play(None, None, next_states_actions)
 
 class LudoPlayerDefensive:
 	""" moves the token that can be hit by most opponents """
 	name = 'defensive'
 
 	@staticmethod
-	def play(state, dice_roll, next_states):
+	def play(state, dice_roll, next_states_actions):
+
+		next_states = np.array([i[0] for i in next_states_actions])
+
 		hit_rates = np.empty(4)
 		hit_rates.fill(-1)
+
 		for token_id, next_state in enumerate(next_states):
 			if next_state is False:
 				continue
