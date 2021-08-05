@@ -1,0 +1,6 @@
+decaying_epsilon: True
+epsilon_min: 0.01
+epsilon_max: 0.7
+epsilon: 0.7
+alpha: 0.001
+gamma: 0.9
