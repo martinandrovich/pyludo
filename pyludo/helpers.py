@@ -1,9 +1,22 @@
 import numpy as np
+import collections
 
 def randargmax(x, **kw):
 	""" a random tie-breaking argmax"""
 	# https://stackoverflow.com/questions/42071597/numpy-argmax-random-tie-breaking/42071648
 	return np.argmax(np.random.random(x.shape) * (x==x.max()), **kw)
+	
+def running_avg(new_val, size=10):
+	
+	if not hasattr(running_avg, "buffer"):
+		running_avg.mean = 0.
+		running_avg.buffer = collections.deque([0] * size, maxlen=size)
+		
+	last_val = running_avg.buffer.popleft()
+	running_avg.buffer.append(new_val)
+	running_avg.mean += 1/size * (new_val - last_val)
+
+	return running_avg.mean
 
 def star_jump(pos):
 	if pos == -1 or pos > 51:
@@ -31,6 +44,21 @@ def will_send_self_home(state, next_state):
 
 def will_send_opponent_home(state, next_state):
 	return np.sum(state[1:] == -1) < np.sum(next_state[1:] == -1)
+	
+def will_send_self_onto_goal(state, next_state):
+	return np.sum(state[0] == 99) < np.sum(next_state[0] == 99)
+
+def will_send_self_onto_victory_road(state, next_state):
+	return np.sum((state[0] >= 52) & (state[0] <= 56)) < np.sum((next_state[0] >= 52) & (next_state[0] <= 56))
+
+def will_win_game(next_state):
+	return np.all(next_state[0] == 99)
+	
+def will_move_from_home(state, next_state):
+	return np.sum(state[0] == -1) > np.sum(next_state[0] == -1)
+	
+def steps_taken(state, next_state):
+	return np.sum(next_state[0] - state[0])
 
 def token_vulnerability(state, token_id):
 	""" returns an approximation of the amount (n) of opponent dice rolls that can send the token home """
