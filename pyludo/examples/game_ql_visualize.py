@@ -1,13 +1,23 @@
 import pyglet
+import logging
+import numpy as np
 
 from pyludo import LudoGame, LudoVisualizerStep
 from pyludo.players import LudoPlayerRandom
 from pyludo.player_ql import LudoPlayerQLearning
 
+logging.basicConfig(level=logging.INFO, force=True)
+
+qtable = np.loadtxt("data/qtable.csv", delimiter=",")
+
+# create players
+p = LudoPlayerQLearning(training=True,
+                        decaying_epsilon=False,
+                        qtable=qtable)
 
 players = [
-	LudoPlayerQLearning(training=True),
-	LudoPlayerRandom(),
+	p,
+	p,
 	LudoPlayerRandom(),
 	LudoPlayerRandom(),
 ]
