@@ -12,28 +12,32 @@ class LudoGame:
 	def __init__(self, players, state=None, info=False):
 
 		assert len(players) == 4, "There must be four players in the game."
-
+		
+		# setup random seed using current time
 		random.seed(datetime.now())
-
+		
 		self.players = players
 		self.currentPlayerId = -1
 		self.state = LudoState() if state is None else state
-
+		
+		# configure logging
 		if info:
-			logging.basicConfig(level=logging.INFO)
+			logging.basicConfig(level=logging.INFO, force=True)
 		else:
-			logging.basicConfig(level=logging.WARNING)
+			logging.basicConfig(level=logging.WARNING, force=True)
 
 	def step(self):
 
 		# advance player
 		self.currentPlayerId = (self.currentPlayerId + 1) % 4
 		player = self.players[self.currentPlayerId]
+		
+		# print("---")
 
 		# roll dice
-		# dice_roll = random.randint(1, 6)
-		dice_roll = 6
-		logging.info("Dice rolled a {} for player {} [{}].".format(dice_roll, PLAYER_COLORS[self.currentPlayerId], player.name))
+		dice_roll = random.randint(1, 6)
+		# dice_roll = 6
+		# logging.info("Dice rolled a {} for player {} [{}].".format(dice_roll, PLAYER_COLORS[self.currentPlayerId], player.name))
 		
 		# create relative state to current player
 		relative_state = self.state.get_state_relative_to_player(self.currentPlayerId)
@@ -64,12 +68,17 @@ class LudoGame:
 			if next_states_actions[token_id,0] is False:
 				logging.warning("Player has chosen an invalid move. Choosing first valid move.")
 				token_id = np.argwhere(next_states_actions[:,0] != False)[0][0]
-
+				
 			# update state with chosen action
 			state_prev = self.state
 			self.state = next_states_actions[token_id,0].get_state_relative_to_player((-self.currentPlayerId) % 4)
-			logging.info("Moved token {} of player {} [{}] from {} to {}.".format(token_id, PLAYER_COLORS[self.currentPlayerId], player.name, state_prev[self.currentPlayerId][token_id], self.state[self.currentPlayerId][token_id]))
-			logging.info("Action: {}".format(next_states_actions[token_id, 1].name))
+			# logging.info("Moved token {} of player {} [{}] from {} to {}.".format(token_id, PLAYER_COLORS[self.currentPlayerId], player.name, state_prev[self.currentPlayerId][token_id], self.state[self.currentPlayerId][token_id]))
+			# logging.info(f"Action: {next_states_actions[token_id, 1].name}")
+			
+			# reward test
+			relative_state_new = self.state.get_state_relative_to_player(self.currentPlayerId)
+			# logging.info(f"Reward: {relative_state.get_reward(relative_state_new)}")
+
 
 
 	def play_full_game(self):

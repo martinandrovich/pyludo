@@ -1,12 +1,16 @@
 import numpy as np
-from enum import Enum, IntEnum
+from aenum import Enum, IntEnum, NoAlias
 
-from pyludo.helpers import star_jump, is_globe_pos
+from pyludo.helpers import star_jump, is_globe_pos, steps_taken, will_send_self_home, will_send_opponent_home, will_send_self_onto_goal, will_send_self_onto_victory_road, will_win_game, will_move_from_home, steps_taken
 
 # Using Enum item as a list index
 # https://stackoverflow.com/questions/56650979/using-enum-item-as-a-list-index
 
+# Using Enum with duplicate values (for rewards)
+# https://stackoverflow.com/questions/31537316/python-enums-with-duplicate-values
+
 class ACTION(IntEnum):
+
 	MOVE_FROM_HOME              = 0
 	MOVE                        = 1
 	MOVE_ONTO_STAR              = 2
@@ -21,6 +25,7 @@ class ACTION(IntEnum):
 	NONE                        = 11
 
 class STATE(IntEnum):
+
 	HOME                        = 0
 	GLOBE                       = 1
 	STAR                        = 2
@@ -31,6 +36,16 @@ class STATE(IntEnum):
 	COMMON_PATH_IN_DANGER       = 7
 	VICTORY_ROAD                = 8
 	GOAL                        = 9
+
+class REWARD(Enum, settings=NoAlias):
+
+	MOVE                        = 5 # proportional to steps taken
+	MOVE_FROM_HOME              = 5
+	DIE                         = -10
+	KILL                        = 5 # + extra proportional to steps taken
+	GET_ONTO_VICTORY_ROAD       = 25
+	GET_IN_GOAL                 = 50
+	WIN                         = 100
 
 class LudoState:
 
@@ -69,7 +84,7 @@ class LudoState:
 		elif is_globe_pos(x):
 			return STATE.GLOBE
 
-		elif (x > 52) and (x < 99):
+		elif (x > 51) and (x < 99):
 			return STATE.VICTORY_ROAD
 
 		elif (x > 0) and (x < 53):
@@ -103,6 +118,33 @@ class LudoState:
 		mat_state_enum = np.array([*STATE],object)[mat_state]
 
 		return mat_state_enum
+
+	def get_reward(self, next_state):
+		""" return reward for player 0 (for relative states) """
+
+		LONGEST_STEP = 13
+
+		if will_send_self_home(self, next_state):
+			return REWARD.DIE
+
+		elif will_send_opponent_home(self, next_state):
+			# return REWARD.KILL
+			return REWARD.KILL.value + steps_taken(self, next_state)/LONGEST_STEP * REWARD.MOVE.value
+
+		elif will_send_self_onto_victory_road(self, next_state):
+			return REWARD.GET_ONTO_VICTORY_ROAD
+
+		elif will_win_game(next_state):
+			return REWARD.WIN
+
+		elif will_send_self_onto_goal(self, next_state):
+			return REWARD.GET_IN_GOAL
+
+		elif will_move_from_home(self, next_state):
+			return REWARD.MOVE_FROM_HOME
+
+		else:
+			return steps_taken(self, next_state)/LONGEST_STEP * REWARD.MOVE.value
 
 	@staticmethod
 	def get_tokens_relative_to_player(tokens, player_id):
@@ -155,7 +197,7 @@ class LudoState:
 				return False, ACTION.NONE
 
 			player[token_id] = 1
-			opponents[opponents == 1] = -1
+			opponents[opponents == 1] = -1 # kill
 
 			return new_state, ACTION.MOVE_FROM_HOME
 
@@ -231,11 +273,11 @@ class LudoState:
 
 		elif target_pos < 57:  # no goal bounce
 			player[token_id] = target_pos
-			return new_state, ACTION.MOVE_ONTO_VICTORY_ROAD
+			return new_state, (ACTION.MOVE_ONTO_VICTORY_ROAD if cur_pos < 52 else ACTION.MOVE)
 
 		else:  # bounce back from goal pos
 			player[token_id] = 57 - (target_pos - 57)
-		return new_state, ACTION.MOVE_ONTO_VICTORY_ROAD
+		return new_state, ACTION.MOVE
 
 	def get_winner(self):
 
