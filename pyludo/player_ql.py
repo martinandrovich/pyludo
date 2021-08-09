@@ -9,33 +9,31 @@ from pyludo.helpers import randargmax, will_send_opponent_home, will_send_self_h
 
 class LudoPlayerQLearning:
 	""" player trained with Q-learning """
-	name = 'q-learning'
 
-	def __init__(self, training=False, qtable=None, decaying_epsilon=False, num_max_episodes=None):
+	def __init__(self, qtable=None, **kwargs):
 		
 		# load Q table from file, or initialize empty
-		
 		if qtable is None: # empty
 			self.qtable = np.zeros((len(STATE), len(ACTION)), dtype=float)
 		elif isinstance(qtable, str): # from path
-			self.qtable = np.loadtxt(qtable, delimiter=",")
+			self.qtable_path = qtable
+			self.qtable = np.loadtxt(self.qtable_path, delimiter=",")
 		elif isinstance(qtable, np.ndarray): # shared
 			self.qtable = qtable
-		# try:
-		# 	self.qtable = np.zeros((len(STATE), len(ACTION)), dtype=float) if qtable == None else np.loadtxt(qtable, delimiter=",")
-		# except:
-		# 	logging.error("Could not load Q-table, initialized an empty table.")
-		# 	self.qtable = np.zeros((len(STATE), len(ACTION)), dtype=float)
 		
-		self.training = training
-		self.epsilon = 0.05 # e-greedy
-		self.decaying_epsilon = decaying_epsilon
-		self.epsilon_min = 0.01
-		self.epsilon_max = 0.7
-		self.alpha = 0.001 # learning rate # 0.0001
-		self.gamma = 0.9 # discount factor
-		self.cur_episode = 0
-		self.num_max_episodes = num_max_episodes
+		# define options from kwargs (or use default values)
+		self.name             = kwargs['name'] if 'name' in kwargs else "q-learning"
+		self.training         = kwargs['training'] if 'training' in kwargs else False
+		self.advanced         = kwargs['advanced'] if 'advanced' in kwargs else False
+		self.decaying_epsilon = kwargs['decaying_epsilon'] if 'decaying_epsilon' in kwargs else False
+		self.epsilon          = kwargs['epsilon'] if 'epsilon' in kwargs else 0.05
+		self.epsilon_min      = kwargs['epsilon_min'] if 'epsilon_min' in kwargs else 0.01
+		self.epsilon_max      = kwargs['epsilon_max'] if 'epsilon_max' in kwargs else self.epsilon
+		self.alpha            = kwargs['alpha'] if 'alpha' in kwargs else 0.01
+		self.gamma            = kwargs['gamma'] if 'gamma' in kwargs else 0.9
+		self.num_max_episodes = kwargs['num_max_episodes'] if 'num_max_episodes' in kwargs else 0.9
+		self.cur_episode      = 0
+		self.cum_reward       = 0
 		
 		if self.decaying_epsilon:
 			self.set_decaying_epsilon()
@@ -47,13 +45,21 @@ class LudoPlayerQLearning:
 		np.savetxt("qtable.csv" if path == None else path, self.qtable, delimiter=",", fmt="%f")
 		
 	def save_info(self, dir):
-		fs_info = open(f"{dir}/info.txt", "a")
-		out = [f"decaying_epsilon: {self.decaying_epsilon}",
+		fs_info = open(f"{dir}/player_info.txt", "a")
+		out = [
+		       f"qtable_path: {self.qtable_path if hasattr(self, 'qtable_path') else 'external'}",
+		       f"decaying_epsilon: {self.decaying_epsilon}",
 		       f"epsilon_min: {self.epsilon_min}",
 		       f"epsilon_max: {self.epsilon_max}",
 		       f"epsilon: {self.epsilon}",
 		       f"alpha: {self.alpha}",
-		       f"gamma: {self.gamma}"]
+		       f"gamma: {self.gamma}",
+		       f"advanced: {self.advanced}",
+		       f"training: {self.training}",
+		]
+
+		for r in REWARD:
+			out.append(repr(r))
 
 		fs_info.write("\n".join(out))
 		
@@ -68,6 +74,7 @@ class LudoPlayerQLearning:
 			return
 			
 		self.cur_episode += 1
+		self.cum_reward = 0
 		
 		if self.decaying_epsilon:
 			self.set_decaying_epsilon()
@@ -75,7 +82,10 @@ class LudoPlayerQLearning:
 	def get_action(self, state, next_states_actions, epsilon=0.05):
 		
 		# get a list of tuples of current (STATE(), ACTION())
-		states_actions = np.array([(state.get_state(i), next_states_actions[i,1]) for i in range(4)], dtype=np.object_)
+		if self.advanced:
+			states_actions = np.array([(state.get_state_advanced(i), next_states_actions[i,1]) for i in range(4)], dtype=np.object_)
+		else:
+			states_actions = np.array([(state.get_state(i), next_states_actions[i,1]) for i in range(4)], dtype=np.object_)
 		# logging.info(states_actions)
 		
 		# create an array of Q values for the given state-actions pairs
@@ -133,20 +143,31 @@ class LudoPlayerQLearning:
 		
 		# observe r and s'
 		next_state = next_states_actions[token_id, 0]
-		reward = state.get_reward(next_state)
-		# logging.info(f"q reward: {reward}")
-		reward = reward.value if isinstance(reward, REWARD) else reward
+		reward_name, reward = state.get_reward(next_state, bonus=self.advanced)
+		# logging.info(f"q reward: {reward_name} ({reward})")
+		self.cum_reward += reward
+		
+		# state indices
+		if self.advanced:
+			state_idx = state.get_state_advanced(token_id)
+			next_state_idx = next_state.get_state_advanced(token_id)
+		else:
+			state_idx = state.get_state(token_id)
+			next_state_idx = next_state.get_state(token_id)
 
 		# compute Q value of most optimal action for next state (s')
-		q_next = max(self.qtable[next_state.get_state(token_id), :])
+		# q_next = max(self.qtable[next_state.get_state(token_id), :])
+		q_next = max(self.qtable[next_state_idx, :])
 		# logging.info(f"q_next {q_next}")
 		
 		# compute new Q value
-		q_current = self.qtable[state.get_state(token_id), action]
+		# q_current = self.qtable[state.get_state(token_id), action]
+		q_current = self.qtable[state_idx, action]
 		q_new = q_current + self.alpha * (reward + self.gamma * q_next - q_current)
 		# logging.info(f"q_current {q_current}, q_next: {q_next}")
 		
 		# update Q table
-		self.qtable[state.get_state(token_id), action] = q_new
+		# self.qtable[state.get_state(token_id), action] = q_new
+		self.qtable[state_idx, action] = q_new
 
 		return token_id

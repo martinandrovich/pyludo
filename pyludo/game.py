@@ -4,7 +4,6 @@ from datetime import datetime
 import numpy as np
 
 from pyludo.players import PLAYER_COLORS
-from pyludo.helpers import star_jump, is_globe_pos
 from pyludo.state import LudoState, LudoStateFull
 
 class LudoGame:
@@ -66,7 +65,7 @@ class LudoGame:
 
 			# check for invalid moves
 			if next_states_actions[token_id,0] is False:
-				logging.warning("Player has chosen an invalid move. Choosing first valid move.")
+				# logging.warning("Player has chosen an invalid move. Choosing first valid move.")
 				token_id = np.argwhere(next_states_actions[:,0] != False)[0][0]
 				
 			# update state with chosen action
@@ -76,10 +75,9 @@ class LudoGame:
 			# logging.info(f"Action: {next_states_actions[token_id, 1].name}")
 			
 			# reward test
-			relative_state_new = self.state.get_state_relative_to_player(self.currentPlayerId)
-			# logging.info(f"Reward: {relative_state.get_reward(relative_state_new)}")
-
-
+			# relative_state_new = self.state.get_state_relative_to_player(self.currentPlayerId)
+			# reward_name, reward = relative_state.get_reward(relative_state_new, bonus=True)
+			# logging.info(f"Reward: {reward_name} ({reward})")
 
 	def play_full_game(self):
 		while self.state.get_winner() == -1:

@@ -18,23 +18,35 @@ def running_avg(new_val, size=10):
 
 	return running_avg.mean
 
-def star_jump(pos):
-	if pos == -1 or pos > 51:
+def star_jump(token_pos):
+	if token_pos == -1 or token_pos > 51:
 		return 0
-	if pos % 13 == 6:
+	if token_pos % 13 == 6:
 		return 6
-	if pos % 13 == 12:
+	if token_pos % 13 == 12:
 		return 7
 	return 0
 
-def is_globe_pos(pos):
-	if pos == -1 or pos > 51:
+def is_home(token_pos):
+	return token_pos == -1
+	
+def is_in_goal(token_pos):
+	return token_pos == 99
+	
+def is_on_globe(token_pos):
+	if token_pos == -1 or token_pos > 51:
 		return False
-	if pos % 13 == 1:
+	if token_pos % 13 == 1:
 		return True
-	if pos % 13 == 9:
+	if token_pos % 13 == 9:
 		return True
 	return False
+
+def is_on_common_path(token_pos):
+	return (token_pos > 0) and (token_pos < 53)
+	
+def is_on_victory_road(token_pos):
+	return (token_pos > 51) and (token_pos < 99)
 
 def valid_dice_roll(n):
 	return 1 <= n <= 6
@@ -59,6 +71,9 @@ def will_move_from_home(state, next_state):
 	
 def steps_taken(state, next_state):
 	return np.sum(next_state[0] - state[0])
+	
+def token_can_kill(state, token_pos):	
+	return np.any((state[1:] > token_pos) & (state[1:] < (token_pos + 6)) & ~( (state[1:] % 13 == 1) | (state[1:] % 13 == 9) ))
 
 def token_vulnerability(state, token_id):
 	""" returns an approximation of the amount (n) of opponent dice rolls that can send the token home """
