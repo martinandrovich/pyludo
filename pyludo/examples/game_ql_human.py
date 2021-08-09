@@ -8,11 +8,13 @@ from pyludo.player_ql import LudoPlayerQLearning
 
 logging.basicConfig(level=logging.INFO, force=True)
 
+qtable = np.loadtxt("data/train_1/qtable.csv", delimiter=",")
+
 players = [
-	LudoPlayerQLearning(qtable="data/train_2/qtable.csv", training=True),
-	LudoPlayerRandom(),
-	LudoPlayerRandom(),
-	LudoPlayerRandom(),
+	LudoPlayerQLearning(qtable=qtable, advanced=True),
+	LudoPlayerQLearning(qtable=qtable, advanced=True),
+	LudoPlayerQLearning(qtable=qtable, advanced=True),
+	LudoPlayerHuman(advanced=False),
 ]
 
 game = LudoGame(players, info=True)
