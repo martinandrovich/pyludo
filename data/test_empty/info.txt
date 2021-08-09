@@ -1,0 +1,4 @@
+players: ['random', 'q-learning', 'random', 'random']
+num_episodes: 100
+num_tests: 10
+wl_final: 0.265

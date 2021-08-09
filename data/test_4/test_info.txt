@@ -1,0 +1,4 @@
+players: ['random', 'random', 'q-learning (data/train_3/qtable.csv)', 'random']
+num_episodes: 1000
+num_tests: 10
+wl_final: 0.5884000000000004

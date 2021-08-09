@@ -1,0 +1,10 @@
+0, {'q-learning': 34, 'random': 66}
+1, {'q-learning': 24, 'random': 76}
+2, {'random': 82, 'q-learning': 18}
+3, {'random': 72, 'q-learning': 28}
+4, {'random': 75, 'q-learning': 25}
+5, {'random': 70, 'q-learning': 30}
+6, {'random': 75, 'q-learning': 25}
+7, {'random': 79, 'q-learning': 21}
+8, {'random': 73, 'q-learning': 27}
+9, {'random': 67, 'q-learning': 33}

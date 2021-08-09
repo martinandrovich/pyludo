@@ -1,0 +1,4 @@
+players: ['random', 'random', 'q-learning (data/train_empty/qtable.csv)', 'random']
+num_episodes: 10
+num_tests: 2
+wl_avg: 0.3

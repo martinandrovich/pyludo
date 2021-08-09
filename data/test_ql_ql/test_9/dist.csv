@@ -1,0 +1,10 @@
+0, {'q-learning-simple': 41, 'q-learning-advanced': 47, 'random': 12}
+1, {'q-learning-simple': 43, 'random': 17, 'q-learning-advanced': 40}
+2, {'random': 14, 'q-learning-simple': 45, 'q-learning-advanced': 41}
+3, {'random': 12, 'q-learning-simple': 44, 'q-learning-advanced': 44}
+4, {'random': 14, 'q-learning-advanced': 46, 'q-learning-simple': 40}
+5, {'q-learning-simple': 44, 'random': 19, 'q-learning-advanced': 37}
+6, {'random': 19, 'q-learning-simple': 40, 'q-learning-advanced': 41}
+7, {'q-learning-simple': 52, 'q-learning-advanced': 31, 'random': 17}
+8, {'random': 18, 'q-learning-simple': 36, 'q-learning-advanced': 46}
+9, {'q-learning-simple': 44, 'q-learning-advanced': 39, 'random': 17}

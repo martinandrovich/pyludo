@@ -1,0 +1,4 @@
+players: ['q-learning-advanced (data/train_1/qtable.csv)', 'q-learning-advanced (data/train_1/qtable.csv)', 'q-learning-simple (data/train_0/qtable.csv)', 'q-learning-simple (data/train_0/qtable.csv)']
+num_episodes: 100
+num_tests: 10
+wl_final: [{0.5209999999999999}, {0.479}]

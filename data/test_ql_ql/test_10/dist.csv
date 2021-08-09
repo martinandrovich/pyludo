@@ -1,0 +1,10 @@
+0, {'q-learning-simple': 50, 'q-learning-advanced': 50}
+1, {'q-learning-advanced': 56, 'q-learning-simple': 44}
+2, {'q-learning-advanced': 58, 'q-learning-simple': 42}
+3, {'q-learning-advanced': 56, 'q-learning-simple': 44}
+4, {'q-learning-simple': 52, 'q-learning-advanced': 48}
+5, {'q-learning-simple': 44, 'q-learning-advanced': 56}
+6, {'q-learning-advanced': 52, 'q-learning-simple': 48}
+7, {'q-learning-simple': 41, 'q-learning-advanced': 59}
+8, {'q-learning-simple': 46, 'q-learning-advanced': 54}
+9, {'q-learning-simple': 47, 'q-learning-advanced': 53}
