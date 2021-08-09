@@ -1,5 +1,7 @@
+from pyludo.state import ACTION
 import random
 import numpy as np
+import pymsgbox
 
 from pyludo.helpers import token_vulnerability
 
@@ -75,3 +77,35 @@ class LudoPlayerDefensive:
 				continue
 			hit_rates[token_id] = token_vulnerability(state, token_id)
 		return random.choice(np.argwhere(hit_rates == np.max(hit_rates)))
+		
+class LudoPlayerHuman:
+	name = "human"
+	
+	def __init__(self, qtable=None, advanced=False, **kwargs):
+		# self.advanced = kwargs['advanced'] if 'advanced' in kwargs else False
+		self.advanced = advanced
+	
+	# @staticmethod
+	def play(self, state, dice_roll, next_states_actions):
+	
+		# get a list of tuples of current (STATE(), ACTION())
+		if self.advanced:
+			states_actions = np.array([(state.get_state_more(i), next_states_actions[i,1]) for i in range(4)], dtype=np.object_)
+		else:
+			states_actions = np.array([(state.get_state(i), next_states_actions[i,1]) for i in range(4)], dtype=np.object_)
+		# states_actions = states_actions[states_actions[:,1] != ACTION.NONE]
+		
+		actions = []
+		for i in range(4):
+			if states_actions[i,1] == ACTION.NONE:
+				continue
+			else:
+				actions.append(f"[{i} @ {state[0,i]}] {states_actions[i,0].name} -> {states_actions[i,1].name}")
+		
+		# actions = [f"[{i} @ {state[0,i]}] {states_actions[i,0].name} -> {states_actions[i,1].name}" for i in range(len(states_actions[:,1]))]
+		
+		answer = pymsgbox.confirm(f"What token/action to use for dice roll {dice_roll}?", "Action", actions)
+		
+		token_id = 0 if answer is None else int(answer[1])
+		# print(answer, token_id)
+		return token_id
