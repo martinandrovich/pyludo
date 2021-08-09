@@ -23,7 +23,7 @@ POS_TO_INDEX = [
 
 class LudoVisualizer(pyglet.window.Window):
 	def __init__(self, state=None):
-		super(LudoVisualizer, self).__init__(resizable=True)
+		super(LudoVisualizer, self).__init__(resizable=False)
 
 		self.state = LudoState() if state is None else state
 		
