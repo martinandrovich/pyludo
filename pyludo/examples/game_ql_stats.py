@@ -9,19 +9,27 @@ from pyludo.player_ql import LudoPlayerQLearning
 
 # config
 NUM_MAX_EPISODES = 1000
-NUM_TESTS = 10
+NUM_TESTS = 100
 
-SESSION_ID = "train_11"
+SESSION_ID = "train_sim_std"
 DATA_DIR = f"data/test_{SESSION_ID}"
 os.mkdir(DATA_DIR)
 
 # create players
 players = [
-	LudoPlayerQLearning(qtable="data/train_11/qtable.csv", advanced=True),
-	LudoPlayerRandom(),
-	LudoPlayerRandom(),
-	LudoPlayerRandom(),
+	LudoPlayerQLearning(qtable="data/train_sim/qtable.csv", advanced=False),
+	# LudoPlayerRandom(),
+	# LudoPlayerRandom(),
+	# LudoPlayerRandom(),
+	# LudoPlayerRandom(),
+	LudoPlayerFast(),
+	LudoPlayerAggressive(),
+	LudoPlayerDefensive(),
 ]
+
+# assign ID's to players
+for i, p in enumerate(players):
+	p.id = i
 
 # write player info to file
 # players[isinstance(players, LudoPlayerQLearning)].save_info(DATA_DIR)
@@ -46,7 +54,8 @@ for test in range(NUM_TESTS):
 		winner = ludoGame.play_full_game()
 
 		scores[players[winner].name] += 1
-		wl = (1 if players[winner].name == "q-learning" else 0)
+		# wl = (1 if players[winner].name == "q-learning" else 0)
+		wl = (1 if players[winner].id == 0 else 0)
 		wl_avg = (wl + episode * wl_avg)/(episode + 1)
 		print(f"Game {episode}/{NUM_MAX_EPISODES} @ {(NUM_MAX_EPISODES * test + episode)/(time.time() - start_time)} game/s")
 

@@ -1,0 +1,10 @@
+0, {'q-learning': 538, 'fast': 43, 'aggressive': 179, 'defensive': 240}
+1, {'aggressive': 193, 'defensive': 220, 'fast': 52, 'q-learning': 535}
+2, {'aggressive': 165, 'fast': 55, 'defensive': 235, 'q-learning': 545}
+3, {'aggressive': 161, 'fast': 54, 'defensive': 235, 'q-learning': 550}
+4, {'fast': 48, 'aggressive': 170, 'defensive': 220, 'q-learning': 562}
+5, {'q-learning': 563, 'fast': 59, 'aggressive': 146, 'defensive': 232}
+6, {'fast': 34, 'aggressive': 168, 'q-learning': 554, 'defensive': 244}
+7, {'defensive': 242, 'fast': 47, 'q-learning': 531, 'aggressive': 180}
+8, {'aggressive': 160, 'defensive': 227, 'q-learning': 562, 'fast': 51}
+9, {'q-learning': 568, 'defensive': 239, 'fast': 53, 'aggressive': 140}

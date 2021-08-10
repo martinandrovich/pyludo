@@ -1,0 +1,4 @@
+players: ['fast', 'q-learning (data/train_adv/qtable.csv)', 'defensive', 'aggressive']
+num_episodes: 1000
+num_tests: 100
+wl_final: 0.55481

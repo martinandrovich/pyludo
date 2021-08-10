@@ -11,12 +11,12 @@ from pyludo.player_ql import LudoPlayerQLearning
 from pyludo.helpers import running_avg
 
 # config
-NUM_MAX_EPISODES = 40_000
+NUM_MAX_EPISODES = 20_000
 qtable_diff = np.inf
 qtable_prev = None
 
 # data output
-SESSION_ID = "train_12"
+SESSION_ID = "train_adv_cont"
 DATA_DIR = f"data/{SESSION_ID}"
 os.mkdir(DATA_DIR)
 
@@ -26,7 +26,8 @@ fs_epsilon = open(f"{DATA_DIR}/epsilon.csv", "a")
 fs_cum_reward = open(f"{DATA_DIR}/cum_reward.csv", "a")
 
 # create new Q-table
-qtable = np.zeros((len(STATE), len(ACTION)), dtype=float)
+qtable = np.loadtxt(f"data/train_adv/qtable.csv", delimiter=",")
+# qtable = np.zeros((len(STATE), len(ACTION)), dtype=float)
 np.savetxt(f"{DATA_DIR}/qtable.csv", qtable, delimiter=",", fmt="%f")
 qtable = np.loadtxt(f"{DATA_DIR}/qtable.csv", delimiter=",")
 
@@ -35,10 +36,10 @@ qtable = np.loadtxt(f"{DATA_DIR}/qtable.csv", delimiter=",")
 p1 = LudoPlayerQLearning(
     qtable=qtable,
     training=True,
-    advanced=True,
+    advanced=True, # simple or advanced SS
     num_max_episodes=NUM_MAX_EPISODES,
     decaying_epsilon=True,
-    epsilon_max=0.7,
+    epsilon_max=0.30,
     epsilon_min=0.01,
     alpha=0.001,
     gamma=0.9,
@@ -52,10 +53,11 @@ p1.save_info(DATA_DIR)
 # create players
 players = [
 	p1,
-	# p2,
-	LudoPlayerRandom(),
-	LudoPlayerRandom(),
-	LudoPlayerRandom(),
+	p2,
+	# LudoPlayerRandom(),
+	# LudoPlayerRandom(),
+	LudoPlayerAggressive(),
+	LudoPlayerDefensive(),
 ]
 
 scores = {}
