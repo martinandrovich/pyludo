@@ -1,0 +1,5 @@
+clc; clear; close all;
+run("plot_config.m")
+%%
+
+t = tiledlayout(1,3);

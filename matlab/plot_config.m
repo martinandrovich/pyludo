@@ -17,6 +17,16 @@ set(groot, "DefaultFigurePosition", [0 0 500 500]);
 set(groot, "DefaultFigureColor", [1 1 1]);
 set(groot, "DefaultAxesFontSize", 12); % !!!
 
+% colors
+COL_GRAY = [200 200 200]/255;
+COL_LIGHTGRAY = [220 220 220]/255;
+COL_ORANGE = [255 143 0]/255;
+COL_BLUE = [0 207 255]/255;
+COL_MAGENTA = [236 88 234]/255;
+COL_MINT = [131 240 220]/255;
+COL_ROSE = [240, 131, 136]/255;
+COL_PINK = [240, 158, 189]/255;
+
 % default MATLAB colors
 % http://math.loyola.edu/~loberbro/matlab/html/colorsInMatlab.html
 MATLAB_COLORS = {
