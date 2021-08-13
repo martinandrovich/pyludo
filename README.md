@@ -1,8 +1,10 @@
 # Python LUDO game (pyludo)
 
-A LUDO simulator in Python3.
+A LUDO board-game simulator in Python3 with Q-learning players.
 
-![img](pyludo/assets/ludoboard.png)
+<p align="center">
+  <img src="/assets/img/pyludo-screenshot.png">
+</p>
 
 <details>
 <summary><strong>Game rules</strong></summary></br>
@@ -38,15 +40,11 @@ pip3 install -e .
 
 ### Running example
 
-You can visualize a ... by running
+You can visualize a an example match by running:
 
 ```bash
-python3 -m pyludo.examples.visualizeRandomPlayerMatch
+python3 pyludo/examples/game_rng_visualize.py
 ```
-
-### Starting a game
-
-Text.
 
 ### State representation
 
@@ -55,6 +53,10 @@ The state is a numpy array of shape (4 players, 4 tokens)
 The game state is represented as integers in a 4x4 numpy `state` array (4 players each with 4 tokens). Such that `state[i]` contains the `i`'th player's tokens, and `state[i][k]` will be the state of the `k`'th token of player `i`.
 
 Home state is `-1`, and goal is `99` for all players. The common area range from `0-51` relative to player 0. The end lane is `52-56` for player 0, `57-61` for player 1 and so forth. A LudoPlayer is always fed a relative state in the `.play()` method, where the player itself is player 0. Note that when you move from home into the common area, you enter at position `1`, not `0`.
+
+### Starting a game
+
+Text.
 
 ### Creating additional players
 
@@ -66,6 +68,6 @@ No license has been decided yet.
 
 ## Acknowledgments
 
-- [Martin Androvich][androvich-git] - original developer(s) of the pyludo project.
-- [Martin Androvich][androvich-git] - original developer(s) of the pyludo project.
+- [Rasmus Haugaard](https://github.com/RasmusHaugaard) - original developer(s) of the pyludo project.
+- [Haukur Kristinsson](https://github.com/haukri) - original developer(s) of the pyludo project.
 
