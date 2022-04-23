@@ -1,17 +1,25 @@
 import numpy as np
 import collections
 
+class Tee:
+	def write(self, *args, **kwargs):
+		self.out1.write(*args, **kwargs)
+		self.out2.write(*args, **kwargs)
+	def __init__(self, out1, out2):
+		self.out1 = out1
+		self.out2 = out2
+
 def randargmax(x, **kw):
 	""" a random tie-breaking argmax"""
 	# https://stackoverflow.com/questions/42071597/numpy-argmax-random-tie-breaking/42071648
 	return np.argmax(np.random.random(x.shape) * (x==x.max()), **kw)
-	
+
 def running_avg(new_val, size=10):
-	
+
 	if not hasattr(running_avg, "buffer"):
 		running_avg.mean = 0.
 		running_avg.buffer = collections.deque([0] * size, maxlen=size)
-		
+
 	last_val = running_avg.buffer.popleft()
 	running_avg.buffer.append(new_val)
 	running_avg.mean += 1/size * (new_val - last_val)
@@ -29,10 +37,10 @@ def star_jump(token_pos):
 
 def is_home(token_pos):
 	return token_pos == -1
-	
+
 def is_in_goal(token_pos):
 	return token_pos == 99
-	
+
 def is_on_globe(token_pos):
 	if token_pos == -1 or token_pos > 51:
 		return False
@@ -44,7 +52,7 @@ def is_on_globe(token_pos):
 
 def is_on_common_path(token_pos):
 	return (token_pos > 0) and (token_pos < 53)
-	
+
 def is_on_victory_road(token_pos):
 	return (token_pos > 51) and (token_pos < 99)
 
@@ -56,7 +64,7 @@ def will_send_self_home(state, next_state):
 
 def will_send_opponent_home(state, next_state):
 	return np.sum(state[1:] == -1) < np.sum(next_state[1:] == -1)
-	
+
 def will_send_self_onto_goal(state, next_state):
 	return np.sum(state[0] == 99) < np.sum(next_state[0] == 99)
 
@@ -65,14 +73,14 @@ def will_send_self_onto_victory_road(state, next_state):
 
 def will_win_game(next_state):
 	return np.all(next_state[0] == 99)
-	
+
 def will_move_from_home(state, next_state):
 	return np.sum(state[0] == -1) > np.sum(next_state[0] == -1)
-	
+
 def steps_taken(state, next_state):
 	return np.sum(next_state[0] - state[0])
-	
-def token_can_kill(state, token_pos):	
+
+def token_can_kill(state, token_pos):
 	return np.any((state[1:] > token_pos) & (state[1:] < (token_pos + 6)) & ~( (state[1:] % 13 == 1) | (state[1:] % 13 == 9) ))
 
 def token_vulnerability(state, token_id):
