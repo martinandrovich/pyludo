@@ -1,13 +1,29 @@
 import numpy as np
 import collections
+import sys, traceback
 
-class Tee:
-	def write(self, *args, **kwargs):
-		self.out1.write(*args, **kwargs)
-		self.out2.write(*args, **kwargs)
-	def __init__(self, out1, out2):
-		self.out1 = out1
-		self.out2 = out2
+class Tee():
+	# https://stackoverflow.com/a/57008707/1658105
+	def __init__(self, filename):
+		self.file = open(filename, "w")
+		self.stdout = sys.stdout
+
+	def __enter__(self):
+		sys.stdout = self
+
+	def __exit__(self, exc_type, exc_value, tb):
+		sys.stdout = self.stdout
+		if exc_type is not None:
+			self.file.write(traceback.format_exc())
+		self.file.close()
+
+	def write(self, data):
+		self.file.write(data)
+		self.stdout.write(data)
+
+	def flush(self):
+		self.file.flush()
+		self.stdout.flush()
 
 def randargmax(x, **kw):
 	""" a random tie-breaking argmax"""
