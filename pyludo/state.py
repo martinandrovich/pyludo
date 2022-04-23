@@ -101,6 +101,11 @@ class LudoState:
 		elif (token_pos > 0) and (token_pos < 53):
 			return STATE.COMMON_PATH
 
+	def get_state_onehot(self, token_id, advanced=False, player_id=0):
+		state_oh = np.zeros((1, len(STATE)))
+		state_oh[:, self.get_state_advanced(token_id, player_id) if advanced else self.get_state(token_id, player_id)] = 1
+		return state_oh
+
 	def get_state_advanced(self, token_id, player_id=0):
 
 		token_pos = self.state[player_id, token_id]
@@ -139,7 +144,7 @@ class LudoState:
 		""" return reward tuple (name, value) for player 0 (for relative states) """
 
 		LONGEST_STEP = 13
-		
+
 		# maybe cancel bonus if only one token is movable
 		if bonus:
 			# change in vulnerabilty (prev - new = score, >0 = good, <0 = bad, =0 = neutral)
