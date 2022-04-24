@@ -15,6 +15,8 @@ setup(
 		'numpy',
 		'pyglet',
 		'aenum',
-		'PyMsgBox'
+		'PyMsgBox',
+		'pygad',
+		'pytorch'
 	]
 )
