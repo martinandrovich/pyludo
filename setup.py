@@ -17,6 +17,7 @@ setup(
 		'aenum',
 		'PyMsgBox',
 		'pygad',
-		'pytorch'
+		'torch',
+		'matplotlib'
 	]
 )
