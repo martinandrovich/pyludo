@@ -11,13 +11,15 @@ import multiprocessing as mp
 import matplotlib.pyplot as plt
 
 from pyludo.game import LudoGame
-from pyludo.player_ga import LudoPlayerGA
+from pyludo.player_gadnn import LudoPlayerGADNN
 from pyludo.state import STATE, ACTION
 from pyludo.players import LudoPlayerRandom, LudoPlayerFast, LudoPlayerAggressive, LudoPlayerDefensive
-from pyludo.player_ga import LudoPlayerGA
+from pyludo.player_gadnn import LudoPlayerGADNN
+
+# multiprocessing version - only on LINUX
+# https://hackernoon.com/how-genetic-algorithms-can-compete-with-gradient-descent-and-backprop-9m9t33bq
 
 if __name__ == "__main__":
-	# multiprocessing only properly works on linux !!!
 	# mp.freeze_support() # for debugging
 	pass
 
@@ -43,10 +45,10 @@ model = torch.nn.Sequential(
 model.eval()
 
 def play_game(solution):
-	players = [LudoPlayerGA(model, solution), LudoPlayerRandom(), LudoPlayerRandom(), LudoPlayerRandom()]
+	players = [LudoPlayerGADNN(model, solution), LudoPlayerRandom(), LudoPlayerRandom(), LudoPlayerRandom()]
 	random.shuffle(players)
 	winner = LudoGame(players).play_full_game()
-	score = 1 if isinstance(players[winner], LudoPlayerGA) else 0.01
+	score = 1 if isinstance(players[winner], LudoPlayerGADNN) else 0.01
 	return score
 
 # fitness function
@@ -61,17 +63,17 @@ def fitness_func(solution, sol_idx):
 	# avg_score = sum(scores)/NUM_GAMES_PER_CHROMOSOME
 
 	# single thread
-	players = [LudoPlayerGA(None, None), LudoPlayerRandom(), LudoPlayerRandom(), LudoPlayerRandom()]
+	players = [LudoPlayerGADNN(None, None), LudoPlayerRandom(), LudoPlayerRandom(), LudoPlayerRandom()]
 	running_score = 0
 	for i in range(0, NUM_GAMES_PER_CHROMOSOME):
 
 		# overwrite player
 		for i in range(0, len(players)):
-			if isinstance(players[i], LudoPlayerGA): players[i] = LudoPlayerGA(model, solution)
+			if isinstance(players[i], LudoPlayerGADNN): players[i] = LudoPlayerGADNN(model, solution)
 
 		random.shuffle(players)
 		winner = LudoGame(players).play_full_game()
-		score = 1 if isinstance(players[winner], LudoPlayerGA) else 0.01
+		score = 1 if isinstance(players[winner], LudoPlayerGADNN) else 0.01
 		running_score += score
 
 	avg_score = running_score/NUM_GAMES_PER_CHROMOSOME
