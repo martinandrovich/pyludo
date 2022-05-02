@@ -1,0 +1,2623 @@
+starting GA training...
+Chromosome 0: 0.1288 in 1.99 sec
+Chromosome 1: 0.2476 in 1.70 sec
+Chromosome 2: 0.2080 in 1.72 sec
+Chromosome 3: 0.3466 in 1.75 sec
+Chromosome 4: 0.3070 in 1.78 sec
+Chromosome 5: 0.1882 in 1.78 sec
+Chromosome 6: 0.0892 in 2.21 sec
+Chromosome 7: 0.1486 in 1.70 sec
+Chromosome 8: 0.0100 in 1.91 sec
+Chromosome 9: 0.2476 in 1.65 sec
+Chromosome 10: 0.4852 in 1.91 sec
+Chromosome 11: 0.3466 in 1.83 sec
+Chromosome 12: 0.4060 in 1.78 sec
+Chromosome 13: 0.1288 in 1.67 sec
+Chromosome 14: 0.5050 in 1.84 sec
+Chromosome 15: 0.1882 in 1.69 sec
+Chromosome 16: 0.1882 in 1.67 sec
+Chromosome 17: 0.3664 in 2.11 sec
+Chromosome 18: 0.1486 in 1.79 sec
+Chromosome 19: 0.2278 in 2.04 sec
+Chromosome 0: 0.3862 in 2.69 sec
+Chromosome 1: 0.3466 in 2.61 sec
+Chromosome 2: 0.3862 in 2.44 sec
+Chromosome 3: 0.4654 in 2.37 sec
+Chromosome 4: 0.1486 in 1.97 sec
+Chromosome 5: 0.4852 in 3.00 sec
+Chromosome 6: 0.4258 in 2.91 sec
+Chromosome 7: 0.2476 in 2.22 sec
+Chromosome 8: 0.1090 in 2.11 sec
+Chromosome 9: 0.2080 in 1.99 sec
+Chromosome 10: 0.3070 in 2.22 sec
+Chromosome 11: 0.4258 in 2.43 sec
+Chromosome 12: 0.2476 in 2.27 sec
+Chromosome 13: 0.3268 in 3.05 sec
+Chromosome 14: 0.3070 in 3.62 sec
+Chromosome 15: 0.5842 in 2.43 sec
+Chromosome 16: 0.4060 in 2.29 sec
+Chromosome 17: 0.2080 in 1.92 sec
+Chromosome 18: 0.2872 in 2.03 sec
+Chromosome 19: 0.1684 in 1.94 sec
+
+>> Generation 1
+>> Fitnesses: [0.3862 0.3466 0.3862 0.4654 0.1486 0.4852 0.4258 0.2476 0.109  0.208
+ 0.307  0.4258 0.2476 0.3268 0.307  0.5842 0.406  0.208  0.2872 0.1684]
+>> Average: 0.3238, Top 5: 0.4773, Best: 0.5842
+
+Chromosome 0: 0.2872 in 1.96 sec
+Chromosome 1: 0.2872 in 2.00 sec
+Chromosome 2: 0.4456 in 1.98 sec
+Chromosome 3: 0.4456 in 2.18 sec
+Chromosome 4: 0.3862 in 2.26 sec
+Chromosome 5: 0.3664 in 2.18 sec
+Chromosome 6: 0.2674 in 2.01 sec
+Chromosome 7: 0.0694 in 2.76 sec
+Chromosome 8: 0.3070 in 2.10 sec
+Chromosome 9: 0.4060 in 1.98 sec
+Chromosome 10: 0.2674 in 2.05 sec
+Chromosome 11: 0.5050 in 1.85 sec
+Chromosome 12: 0.3466 in 1.86 sec
+Chromosome 13: 0.4654 in 1.88 sec
+Chromosome 14: 0.5644 in 1.93 sec
+Chromosome 15: 0.3466 in 1.96 sec
+Chromosome 16: 0.2476 in 1.74 sec
+Chromosome 17: 0.0496 in 2.23 sec
+Chromosome 18: 0.4060 in 2.15 sec
+Chromosome 19: 0.2476 in 1.76 sec
+
+>> Generation 2
+>> Fitnesses: [0.2872 0.2872 0.4456 0.4456 0.3862 0.3664 0.2674 0.0694 0.307  0.406
+ 0.2674 0.505  0.3466 0.4654 0.5644 0.3466 0.2476 0.0496 0.406  0.2476]
+>> Average: 0.3357, Top 5: 0.4852, Best: 0.5644
+
+Chromosome 0: 0.3466 in 1.85 sec
+Chromosome 1: 0.2872 in 2.07 sec
+Chromosome 2: 0.4456 in 1.77 sec
+Chromosome 3: 0.3862 in 2.07 sec
+Chromosome 4: 0.4456 in 1.72 sec
+Chromosome 5: 0.3664 in 1.80 sec
+Chromosome 6: 0.3268 in 2.05 sec
+Chromosome 7: 0.3664 in 1.77 sec
+Chromosome 8: 0.2278 in 1.73 sec
+Chromosome 9: 0.3664 in 1.78 sec
+Chromosome 10: 0.3268 in 1.88 sec
+Chromosome 11: 0.4258 in 2.07 sec
+Chromosome 12: 0.4654 in 2.01 sec
+Chromosome 13: 0.4852 in 2.07 sec
+Chromosome 14: 0.3862 in 1.87 sec
+Chromosome 15: 0.3664 in 1.83 sec
+Chromosome 16: 0.3466 in 2.03 sec
+Chromosome 17: 0.3466 in 2.10 sec
+Chromosome 18: 0.3466 in 1.83 sec
+Chromosome 19: 0.4852 in 1.88 sec
+
+>> Generation 3
+>> Fitnesses: [0.3466 0.2872 0.4456 0.3862 0.4456 0.3664 0.3268 0.3664 0.2278 0.3664
+ 0.3268 0.4258 0.4654 0.4852 0.3862 0.3664 0.3466 0.3466 0.3466 0.4852]
+>> Average: 0.3773, Top 5: 0.4654, Best: 0.4852
+
+Chromosome 0: 0.4258 in 1.93 sec
+Chromosome 1: 0.5446 in 1.98 sec
+Chromosome 2: 0.5842 in 1.86 sec
+Chromosome 3: 0.3070 in 1.71 sec
+Chromosome 4: 0.5248 in 1.73 sec
+Chromosome 5: 0.4060 in 1.89 sec
+Chromosome 6: 0.4258 in 2.36 sec
+Chromosome 7: 0.2872 in 1.92 sec
+Chromosome 8: 0.4258 in 1.87 sec
+Chromosome 9: 0.2278 in 1.98 sec
+Chromosome 10: 0.3862 in 1.95 sec
+Chromosome 11: 0.3862 in 1.90 sec
+Chromosome 12: 0.4060 in 2.22 sec
+Chromosome 13: 0.4654 in 1.95 sec
+Chromosome 14: 0.3862 in 1.86 sec
+Chromosome 15: 0.5248 in 2.09 sec
+Chromosome 16: 0.5446 in 1.87 sec
+Chromosome 17: 0.3466 in 1.83 sec
+Chromosome 18: 0.2476 in 2.22 sec
+Chromosome 19: 0.2278 in 1.91 sec
+
+>> Generation 4
+>> Fitnesses: [0.4258 0.5446 0.5842 0.307  0.5248 0.406  0.4258 0.2872 0.4258 0.2278
+ 0.3862 0.3862 0.406  0.4654 0.3862 0.5248 0.5446 0.3466 0.2476 0.2278]
+>> Average: 0.4040, Top 5: 0.5446, Best: 0.5842
+
+Chromosome 0: 0.3268 in 1.86 sec
+Chromosome 1: 0.4654 in 1.83 sec
+Chromosome 2: 0.2674 in 1.69 sec
+Chromosome 3: 0.3862 in 1.96 sec
+Chromosome 4: 0.3664 in 1.72 sec
+Chromosome 5: 0.3070 in 1.88 sec
+Chromosome 6: 0.3664 in 2.06 sec
+Chromosome 7: 0.3466 in 2.11 sec
+Chromosome 8: 0.4258 in 1.87 sec
+Chromosome 9: 0.0496 in 2.44 sec
+Chromosome 10: 0.3862 in 1.84 sec
+Chromosome 11: 0.4258 in 2.35 sec
+Chromosome 12: 0.4654 in 2.24 sec
+Chromosome 13: 0.4456 in 2.09 sec
+Chromosome 14: 0.3664 in 2.09 sec
+Chromosome 15: 0.2872 in 2.00 sec
+Chromosome 16: 0.4258 in 2.14 sec
+Chromosome 17: 0.5644 in 2.17 sec
+Chromosome 18: 0.5446 in 1.87 sec
+Chromosome 19: 0.3862 in 2.05 sec
+
+>> Generation 5
+>> Fitnesses: [0.3268 0.4654 0.2674 0.3862 0.3664 0.307  0.3664 0.3466 0.4258 0.0496
+ 0.3862 0.4258 0.4654 0.4456 0.3664 0.2872 0.4258 0.5644 0.5446 0.3862]
+>> Average: 0.3803, Top 5: 0.4971, Best: 0.5644
+
+Chromosome 0: 0.3664 in 2.27 sec
+Chromosome 1: 0.4060 in 1.83 sec
+Chromosome 2: 0.5842 in 2.09 sec
+Chromosome 3: 0.4258 in 2.23 sec
+Chromosome 4: 0.3070 in 1.99 sec
+Chromosome 5: 0.4060 in 2.09 sec
+Chromosome 6: 0.0100 in 2.43 sec
+Chromosome 7: 0.5644 in 1.96 sec
+Chromosome 8: 0.3664 in 1.92 sec
+Chromosome 9: 0.3862 in 1.86 sec
+Chromosome 10: 0.4852 in 1.82 sec
+Chromosome 11: 0.6040 in 1.77 sec
+Chromosome 12: 0.5050 in 1.92 sec
+Chromosome 13: 0.3070 in 2.02 sec
+Chromosome 14: 0.4456 in 1.99 sec
+Chromosome 15: 0.3664 in 1.96 sec
+Chromosome 16: 0.3862 in 2.06 sec
+Chromosome 17: 0.2080 in 2.32 sec
+Chromosome 18: 0.3664 in 2.00 sec
+Chromosome 19: 0.4654 in 1.84 sec
+
+>> Generation 6
+>> Fitnesses: [0.3664 0.406  0.5842 0.4258 0.307  0.406  0.01   0.5644 0.3664 0.3862
+ 0.4852 0.604  0.505  0.307  0.4456 0.3664 0.3862 0.208  0.3664 0.4654]
+>> Average: 0.3981, Top 5: 0.5486, Best: 0.6040
+
+Chromosome 0: 0.3466 in 1.87 sec
+Chromosome 1: 0.5050 in 2.00 sec
+Chromosome 2: 0.3268 in 1.74 sec
+Chromosome 3: 0.5842 in 1.94 sec
+Chromosome 4: 0.4060 in 2.04 sec
+Chromosome 5: 0.2872 in 2.03 sec
+Chromosome 6: 0.5248 in 2.06 sec
+Chromosome 7: 0.3862 in 2.16 sec
+Chromosome 8: 0.3862 in 2.01 sec
+Chromosome 9: 0.2476 in 1.88 sec
+Chromosome 10: 0.5842 in 2.05 sec
+Chromosome 11: 0.4852 in 2.08 sec
+Chromosome 12: 0.5050 in 1.99 sec
+Chromosome 13: 0.4060 in 1.90 sec
+Chromosome 14: 0.3862 in 1.88 sec
+Chromosome 15: 0.3862 in 1.90 sec
+Chromosome 16: 0.4060 in 1.92 sec
+Chromosome 17: 0.3268 in 1.74 sec
+Chromosome 18: 0.4060 in 1.72 sec
+Chromosome 19: 0.4060 in 1.69 sec
+
+>> Generation 7
+>> Fitnesses: [0.3466 0.505  0.3268 0.5842 0.406  0.2872 0.5248 0.3862 0.3862 0.2476
+ 0.5842 0.4852 0.505  0.406  0.3862 0.3862 0.406  0.3268 0.406  0.406 ]
+>> Average: 0.4149, Top 5: 0.5406, Best: 0.5842
+
+Chromosome 0: 0.3070 in 1.68 sec
+Chromosome 1: 0.4060 in 1.87 sec
+Chromosome 2: 0.2476 in 1.61 sec
+Chromosome 3: 0.2872 in 1.64 sec
+Chromosome 4: 0.3862 in 1.89 sec
+Chromosome 5: 0.4258 in 1.84 sec
+Chromosome 6: 0.5050 in 1.98 sec
+Chromosome 7: 0.3070 in 1.72 sec
+Chromosome 8: 0.2872 in 1.76 sec
+Chromosome 9: 0.5050 in 1.76 sec
+Chromosome 10: 0.4060 in 1.62 sec
+Chromosome 11: 0.3862 in 1.83 sec
+Chromosome 12: 0.5248 in 1.66 sec
+Chromosome 13: 0.5446 in 1.75 sec
+Chromosome 14: 0.3862 in 1.92 sec
+Chromosome 15: 0.4258 in 1.79 sec
+Chromosome 16: 0.4456 in 1.97 sec
+Chromosome 17: 0.4852 in 1.74 sec
+Chromosome 18: 0.4852 in 1.73 sec
+Chromosome 19: 0.3070 in 1.90 sec
+
+>> Generation 8
+>> Fitnesses: [0.307  0.406  0.2476 0.2872 0.3862 0.4258 0.505  0.307  0.2872 0.505
+ 0.406  0.3862 0.5248 0.5446 0.3862 0.4258 0.4456 0.4852 0.4852 0.307 ]
+>> Average: 0.4030, Top 5: 0.5129, Best: 0.5446
+
+Chromosome 0: 0.5248 in 1.65 sec
+Chromosome 1: 0.4060 in 1.69 sec
+Chromosome 2: 0.5050 in 1.78 sec
+Chromosome 3: 0.4258 in 1.65 sec
+Chromosome 4: 0.6634 in 1.63 sec
+Chromosome 5: 0.3268 in 1.86 sec
+Chromosome 6: 0.2278 in 1.76 sec
+Chromosome 7: 0.4258 in 1.68 sec
+Chromosome 8: 0.3466 in 1.67 sec
+Chromosome 9: 0.0100 in 1.95 sec
+Chromosome 10: 0.3664 in 1.76 sec
+Chromosome 11: 0.0298 in 1.91 sec
+Chromosome 12: 0.3862 in 1.84 sec
+Chromosome 13: 0.4852 in 1.71 sec
+Chromosome 14: 0.4852 in 1.79 sec
+Chromosome 15: 0.4456 in 1.74 sec
+Chromosome 16: 0.2674 in 1.76 sec
+Chromosome 17: 0.3466 in 1.69 sec
+Chromosome 18: 0.5644 in 1.68 sec
+Chromosome 19: 0.3862 in 1.69 sec
+
+>> Generation 9
+>> Fitnesses: [0.5248 0.406  0.505  0.4258 0.6634 0.3268 0.2278 0.4258 0.3466 0.01
+ 0.3664 0.0298 0.3862 0.4852 0.4852 0.4456 0.2674 0.3466 0.5644 0.3862]
+>> Average: 0.3813, Top 5: 0.5486, Best: 0.6634
+
+Chromosome 0: 0.5050 in 1.75 sec
+Chromosome 1: 0.5644 in 1.68 sec
+Chromosome 2: 0.4060 in 1.80 sec
+Chromosome 3: 0.4852 in 1.74 sec
+Chromosome 4: 0.4456 in 1.87 sec
+Chromosome 5: 0.5050 in 1.91 sec
+Chromosome 6: 0.3070 in 1.80 sec
+Chromosome 7: 0.3268 in 1.75 sec
+Chromosome 8: 0.3466 in 1.68 sec
+Chromosome 9: 0.4060 in 1.82 sec
+Chromosome 10: 0.2476 in 1.65 sec
+Chromosome 11: 0.4456 in 1.79 sec
+Chromosome 12: 0.5050 in 1.86 sec
+Chromosome 13: 0.4654 in 1.74 sec
+Chromosome 14: 0.3268 in 1.85 sec
+Chromosome 15: 0.3862 in 1.95 sec
+Chromosome 16: 0.3070 in 1.88 sec
+Chromosome 17: 0.4852 in 1.74 sec
+Chromosome 18: 0.3466 in 1.86 sec
+Chromosome 19: 0.5842 in 1.72 sec
+
+>> Generation 10
+>> Fitnesses: [0.505  0.5644 0.406  0.4852 0.4456 0.505  0.307  0.3268 0.3466 0.406
+ 0.2476 0.4456 0.505  0.4654 0.3268 0.3862 0.307  0.4852 0.3466 0.5842]
+>> Average: 0.4199, Top 5: 0.5327, Best: 0.5842
+
+Chromosome 0: 0.3268 in 1.65 sec
+Chromosome 1: 0.3466 in 1.81 sec
+Chromosome 2: 0.5446 in 1.76 sec
+Chromosome 3: 0.5248 in 1.77 sec
+Chromosome 4: 0.5050 in 1.80 sec
+Chromosome 5: 0.3268 in 2.25 sec
+Chromosome 6: 0.5050 in 2.19 sec
+Chromosome 7: 0.5050 in 1.78 sec
+Chromosome 8: 0.5842 in 1.84 sec
+Chromosome 9: 0.3862 in 1.87 sec
+Chromosome 10: 0.5446 in 1.87 sec
+Chromosome 11: 0.0298 in 1.86 sec
+Chromosome 12: 0.5644 in 1.81 sec
+Chromosome 13: 0.5050 in 1.77 sec
+Chromosome 14: 0.4654 in 1.85 sec
+Chromosome 15: 0.2674 in 2.05 sec
+Chromosome 16: 0.4258 in 2.23 sec
+Chromosome 17: 0.5248 in 2.04 sec
+Chromosome 18: 0.3862 in 2.17 sec
+Chromosome 19: 0.6040 in 1.80 sec
+
+>> Generation 11
+>> Fitnesses: [0.3268 0.3466 0.5446 0.5248 0.505  0.3268 0.505  0.505  0.5842 0.3862
+ 0.5446 0.0298 0.5644 0.505  0.4654 0.2674 0.4258 0.5248 0.3862 0.604 ]
+>> Average: 0.4436, Top 5: 0.5684, Best: 0.6040
+
+Chromosome 0: 0.5050 in 1.77 sec
+Chromosome 1: 0.4258 in 1.71 sec
+Chromosome 2: 0.4258 in 1.73 sec
+Chromosome 3: 0.6238 in 1.68 sec
+Chromosome 4: 0.4852 in 1.89 sec
+Chromosome 5: 0.2080 in 1.66 sec
+Chromosome 6: 0.4456 in 1.88 sec
+Chromosome 7: 0.4852 in 1.70 sec
+Chromosome 8: 0.4852 in 1.77 sec
+Chromosome 9: 0.4852 in 2.30 sec
+Chromosome 10: 0.5446 in 2.23 sec
+Chromosome 11: 0.5446 in 2.14 sec
+Chromosome 12: 0.4654 in 2.19 sec
+Chromosome 13: 0.4852 in 1.84 sec
+Chromosome 14: 0.5446 in 1.80 sec
+Chromosome 15: 0.4060 in 1.73 sec
+Chromosome 16: 0.5248 in 1.87 sec
+Chromosome 17: 0.2278 in 1.78 sec
+Chromosome 18: 0.4456 in 1.78 sec
+Chromosome 19: 0.5446 in 1.76 sec
+
+>> Generation 12
+>> Fitnesses: [0.505  0.4258 0.4258 0.6238 0.4852 0.208  0.4456 0.4852 0.4852 0.4852
+ 0.5446 0.5446 0.4654 0.4852 0.5446 0.406  0.5248 0.2278 0.4456 0.5446]
+>> Average: 0.4654, Top 5: 0.5604, Best: 0.6238
+
+Chromosome 0: 0.6238 in 1.80 sec
+Chromosome 1: 0.3664 in 2.05 sec
+Chromosome 2: 0.0496 in 2.57 sec
+Chromosome 3: 0.4852 in 2.24 sec
+Chromosome 4: 0.5248 in 1.96 sec
+Chromosome 5: 0.5644 in 1.72 sec
+Chromosome 6: 0.5248 in 1.74 sec
+Chromosome 7: 0.3268 in 1.83 sec
+Chromosome 8: 0.2872 in 1.78 sec
+Chromosome 9: 0.3268 in 1.89 sec
+Chromosome 10: 0.5446 in 1.89 sec
+Chromosome 11: 0.4852 in 2.01 sec
+Chromosome 12: 0.3664 in 1.85 sec
+Chromosome 13: 0.3664 in 1.97 sec
+Chromosome 14: 0.6436 in 1.91 sec
+Chromosome 15: 0.4654 in 1.86 sec
+Chromosome 16: 0.4852 in 1.91 sec
+Chromosome 17: 0.2080 in 1.81 sec
+Chromosome 18: 0.4654 in 2.00 sec
+Chromosome 19: 0.4654 in 2.00 sec
+
+>> Generation 13
+>> Fitnesses: [0.6238 0.3664 0.0496 0.4852 0.5248 0.5644 0.5248 0.3268 0.2872 0.3268
+ 0.5446 0.4852 0.3664 0.3664 0.6436 0.4654 0.4852 0.208  0.4654 0.4654]
+>> Average: 0.4288, Top 5: 0.5802, Best: 0.6436
+
+Chromosome 0: 0.5842 in 1.80 sec
+Chromosome 1: 0.5842 in 1.88 sec
+Chromosome 2: 0.5842 in 1.85 sec
+Chromosome 3: 0.6238 in 1.86 sec
+Chromosome 4: 0.5446 in 1.97 sec
+Chromosome 5: 0.5050 in 1.80 sec
+Chromosome 6: 0.5248 in 1.78 sec
+Chromosome 7: 0.4852 in 1.93 sec
+Chromosome 8: 0.4852 in 1.85 sec
+Chromosome 9: 0.6238 in 1.99 sec
+Chromosome 10: 0.5644 in 1.65 sec
+Chromosome 11: 0.6238 in 1.62 sec
+Chromosome 12: 0.4654 in 1.68 sec
+Chromosome 13: 0.4654 in 1.70 sec
+Chromosome 14: 0.5644 in 1.70 sec
+Chromosome 15: 0.4654 in 1.67 sec
+Chromosome 16: 0.4654 in 1.77 sec
+Chromosome 17: 0.4852 in 1.93 sec
+Chromosome 18: 0.4852 in 1.79 sec
+Chromosome 19: 0.3862 in 1.87 sec
+
+>> Generation 14
+>> Fitnesses: [0.5842 0.5842 0.5842 0.6238 0.5446 0.505  0.5248 0.4852 0.4852 0.6238
+ 0.5644 0.6238 0.4654 0.4654 0.5644 0.4654 0.4654 0.4852 0.4852 0.3862]
+>> Average: 0.5258, Top 5: 0.6080, Best: 0.6238
+
+Chromosome 0: 0.4654 in 1.89 sec
+Chromosome 1: 0.4060 in 2.01 sec
+Chromosome 2: 0.4654 in 1.77 sec
+Chromosome 3: 0.0496 in 2.33 sec
+Chromosome 4: 0.5050 in 1.72 sec
+Chromosome 5: 0.4060 in 1.87 sec
+Chromosome 6: 0.4654 in 1.80 sec
+Chromosome 7: 0.5644 in 1.79 sec
+Chromosome 8: 0.5446 in 1.85 sec
+Chromosome 9: 0.2872 in 1.71 sec
+Chromosome 10: 0.3862 in 1.87 sec
+Chromosome 11: 0.5446 in 1.85 sec
+Chromosome 12: 0.4852 in 1.72 sec
+Chromosome 13: 0.5050 in 1.75 sec
+Chromosome 14: 0.4654 in 1.88 sec
+Chromosome 15: 0.4654 in 2.12 sec
+Chromosome 16: 0.4852 in 2.26 sec
+Chromosome 17: 0.4456 in 2.26 sec
+Chromosome 18: 0.4258 in 2.21 sec
+Chromosome 19: 0.4654 in 2.20 sec
+
+>> Generation 15
+>> Fitnesses: [0.4654 0.406  0.4654 0.0496 0.505  0.406  0.4654 0.5644 0.5446 0.2872
+ 0.3862 0.5446 0.4852 0.505  0.4654 0.4654 0.4852 0.4456 0.4258 0.4654]
+>> Average: 0.4416, Top 5: 0.5327, Best: 0.5644
+
+Chromosome 0: 0.5446 in 2.11 sec
+Chromosome 1: 0.4060 in 1.84 sec
+Chromosome 2: 0.5644 in 2.00 sec
+Chromosome 3: 0.6634 in 2.11 sec
+Chromosome 4: 0.5644 in 2.16 sec
+Chromosome 5: 0.5050 in 1.96 sec
+Chromosome 6: 0.4654 in 2.00 sec
+Chromosome 7: 0.4060 in 2.28 sec
+Chromosome 8: 0.5050 in 2.44 sec
+Chromosome 9: 0.4852 in 1.97 sec
+Chromosome 10: 0.5050 in 2.02 sec
+Chromosome 11: 0.6832 in 1.80 sec
+Chromosome 12: 0.5446 in 1.89 sec
+Chromosome 13: 0.3070 in 1.90 sec
+Chromosome 14: 0.5446 in 2.01 sec
+Chromosome 15: 0.4852 in 1.98 sec
+Chromosome 16: 0.7228 in 2.05 sec
+Chromosome 17: 0.5050 in 2.16 sec
+Chromosome 18: 0.4060 in 2.19 sec
+Chromosome 19: 0.5644 in 2.13 sec
+
+>> Generation 16
+>> Fitnesses: [0.5446 0.406  0.5644 0.6634 0.5644 0.505  0.4654 0.406  0.505  0.4852
+ 0.505  0.6832 0.5446 0.307  0.5446 0.4852 0.7228 0.505  0.406  0.5644]
+>> Average: 0.5189, Top 5: 0.6396, Best: 0.7228
+
+Chromosome 0: 0.5446 in 1.88 sec
+Chromosome 1: 0.7030 in 1.92 sec
+Chromosome 2: 0.4258 in 1.92 sec
+Chromosome 3: 0.6040 in 1.93 sec
+Chromosome 4: 0.4060 in 2.08 sec
+Chromosome 5: 0.4258 in 1.97 sec
+Chromosome 6: 0.1288 in 2.51 sec
+Chromosome 7: 0.4456 in 2.25 sec
+Chromosome 8: 0.4456 in 2.23 sec
+Chromosome 9: 0.4258 in 1.85 sec
+Chromosome 10: 0.6238 in 1.81 sec
+Chromosome 11: 0.6040 in 1.99 sec
+Chromosome 12: 0.5248 in 2.20 sec
+Chromosome 13: 0.5644 in 2.11 sec
+Chromosome 14: 0.4852 in 2.86 sec
+Chromosome 15: 0.2674 in 2.80 sec
+Chromosome 16: 0.4258 in 2.03 sec
+Chromosome 17: 0.5446 in 2.14 sec
+Chromosome 18: 0.5446 in 2.14 sec
+Chromosome 19: 0.6634 in 2.02 sec
+
+>> Generation 17
+>> Fitnesses: [0.5446 0.703  0.4258 0.604  0.406  0.4258 0.1288 0.4456 0.4456 0.4258
+ 0.6238 0.604  0.5248 0.5644 0.4852 0.2674 0.4258 0.5446 0.5446 0.6634]
+>> Average: 0.4902, Top 5: 0.6396, Best: 0.7030
+
+Chromosome 0: 0.5446 in 2.19 sec
+Chromosome 1: 0.4654 in 2.05 sec
+Chromosome 2: 0.5248 in 2.09 sec
+Chromosome 3: 0.5050 in 2.00 sec
+Chromosome 4: 0.5842 in 2.03 sec
+Chromosome 5: 0.5446 in 1.94 sec
+Chromosome 6: 0.6040 in 1.99 sec
+Chromosome 7: 0.4654 in 2.00 sec
+Chromosome 8: 0.5446 in 2.20 sec
+Chromosome 9: 0.5644 in 2.40 sec
+Chromosome 10: 0.4258 in 2.37 sec
+Chromosome 11: 0.5842 in 2.30 sec
+Chromosome 12: 0.5446 in 2.69 sec
+Chromosome 13: 0.3664 in 2.62 sec
+Chromosome 14: 0.3862 in 2.50 sec
+Chromosome 15: 0.6040 in 2.54 sec
+Chromosome 16: 0.5050 in 2.60 sec
+Chromosome 17: 0.5446 in 2.42 sec
+Chromosome 18: 0.5050 in 2.04 sec
+Chromosome 19: 0.4852 in 1.99 sec
+
+>> Generation 18
+>> Fitnesses: [0.5446 0.4654 0.5248 0.505  0.5842 0.5446 0.604  0.4654 0.5446 0.5644
+ 0.4258 0.5842 0.5446 0.3664 0.3862 0.604  0.505  0.5446 0.505  0.4852]
+>> Average: 0.5149, Top 5: 0.5882, Best: 0.6040
+
+Chromosome 0: 0.4258 in 1.96 sec
+Chromosome 1: 0.5248 in 2.14 sec
+Chromosome 2: 0.6238 in 2.13 sec
+Chromosome 3: 0.5248 in 2.17 sec
+Chromosome 4: 0.4852 in 2.75 sec
+Chromosome 5: 0.6040 in 2.42 sec
+Chromosome 6: 0.6436 in 3.68 sec
+Chromosome 7: 0.5644 in 2.47 sec
+Chromosome 8: 0.4060 in 3.05 sec
+Chromosome 9: 0.5842 in 2.64 sec
+Chromosome 10: 0.3664 in 2.68 sec
+Chromosome 11: 0.5644 in 2.25 sec
+Chromosome 12: 0.5248 in 1.95 sec
+Chromosome 13: 0.6634 in 2.35 sec
+Chromosome 14: 0.5248 in 2.13 sec
+Chromosome 15: 0.5248 in 2.12 sec
+Chromosome 16: 0.5050 in 2.26 sec
+Chromosome 17: 0.0100 in 2.45 sec
+Chromosome 18: 0.6832 in 2.07 sec
+Chromosome 19: 0.5446 in 2.55 sec
+
+>> Generation 19
+>> Fitnesses: [0.4258 0.5248 0.6238 0.5248 0.4852 0.604  0.6436 0.5644 0.406  0.5842
+ 0.3664 0.5644 0.5248 0.6634 0.5248 0.5248 0.505  0.01   0.6832 0.5446]
+>> Average: 0.5149, Top 5: 0.6436, Best: 0.6832
+
+Chromosome 0: 0.5248 in 2.40 sec
+Chromosome 1: 0.5842 in 2.25 sec
+Chromosome 2: 0.4258 in 2.01 sec
+Chromosome 3: 0.4258 in 1.91 sec
+Chromosome 4: 0.5644 in 2.03 sec
+Chromosome 5: 0.4852 in 2.22 sec
+Chromosome 6: 0.5446 in 1.96 sec
+Chromosome 7: 0.4060 in 1.98 sec
+Chromosome 8: 0.4654 in 2.04 sec
+Chromosome 9: 0.5248 in 2.10 sec
+Chromosome 10: 0.5050 in 2.32 sec
+Chromosome 11: 0.4852 in 2.25 sec
+Chromosome 12: 0.5248 in 2.11 sec
+Chromosome 13: 0.5644 in 2.14 sec
+Chromosome 14: 0.6436 in 2.14 sec
+Chromosome 15: 0.4060 in 2.21 sec
+Chromosome 16: 0.5050 in 2.12 sec
+Chromosome 17: 0.5248 in 2.09 sec
+Chromosome 18: 0.4258 in 1.94 sec
+Chromosome 19: 0.4258 in 1.99 sec
+
+>> Generation 20
+>> Fitnesses: [0.5248 0.5842 0.4258 0.4258 0.5644 0.4852 0.5446 0.406  0.4654 0.5248
+ 0.505  0.4852 0.5248 0.5644 0.6436 0.406  0.505  0.5248 0.4258 0.4258]
+>> Average: 0.4981, Top 5: 0.5802, Best: 0.6436
+
+Chromosome 0: 0.5842 in 1.97 sec
+Chromosome 1: 0.4654 in 2.05 sec
+Chromosome 2: 0.2278 in 1.92 sec
+Chromosome 3: 0.3664 in 2.20 sec
+Chromosome 4: 0.4852 in 2.18 sec
+Chromosome 5: 0.4060 in 2.20 sec
+Chromosome 6: 0.6040 in 2.06 sec
+Chromosome 7: 0.5644 in 2.04 sec
+Chromosome 8: 0.5842 in 2.09 sec
+Chromosome 9: 0.4060 in 2.17 sec
+Chromosome 10: 0.4654 in 2.19 sec
+Chromosome 11: 0.5248 in 2.27 sec
+Chromosome 12: 0.5644 in 2.01 sec
+Chromosome 13: 0.5842 in 2.21 sec
+Chromosome 14: 0.4258 in 2.22 sec
+Chromosome 15: 0.5248 in 2.11 sec
+Chromosome 16: 0.4258 in 2.13 sec
+Chromosome 17: 0.3664 in 2.19 sec
+Chromosome 18: 0.4456 in 2.20 sec
+Chromosome 19: 0.4852 in 2.21 sec
+
+>> Generation 21
+>> Fitnesses: [0.5842 0.4654 0.2278 0.3664 0.4852 0.406  0.604  0.5644 0.5842 0.406
+ 0.4654 0.5248 0.5644 0.5842 0.4258 0.5248 0.4258 0.3664 0.4456 0.4852]
+>> Average: 0.4753, Top 5: 0.5842, Best: 0.6040
+
+Chromosome 0: 0.6238 in 2.55 sec
+Chromosome 1: 0.5248 in 2.27 sec
+Chromosome 2: 0.5842 in 2.11 sec
+Chromosome 3: 0.6832 in 2.17 sec
+Chromosome 4: 0.5644 in 2.34 sec
+Chromosome 5: 0.6040 in 2.19 sec
+Chromosome 6: 0.4456 in 2.15 sec
+Chromosome 7: 0.5842 in 2.17 sec
+Chromosome 8: 0.6238 in 2.27 sec
+Chromosome 9: 0.4852 in 2.29 sec
+Chromosome 10: 0.4456 in 2.30 sec
+Chromosome 11: 0.5842 in 2.28 sec
+Chromosome 12: 0.5248 in 2.25 sec
+Chromosome 13: 0.6040 in 2.11 sec
+Chromosome 14: 0.6634 in 2.27 sec
+Chromosome 15: 0.4258 in 2.25 sec
+Chromosome 16: 0.5446 in 2.21 sec
+Chromosome 17: 0.5446 in 2.30 sec
+Chromosome 18: 0.5842 in 2.31 sec
+Chromosome 19: 0.5248 in 2.21 sec
+
+>> Generation 22
+>> Fitnesses: [0.6238 0.5248 0.5842 0.6832 0.5644 0.604  0.4456 0.5842 0.6238 0.4852
+ 0.4456 0.5842 0.5248 0.604  0.6634 0.4258 0.5446 0.5446 0.5842 0.5248]
+>> Average: 0.5585, Top 5: 0.6396, Best: 0.6832
+
+Chromosome 0: 0.5248 in 2.15 sec
+Chromosome 1: 0.4456 in 2.40 sec
+Chromosome 2: 0.6040 in 2.22 sec
+Chromosome 3: 0.6634 in 2.16 sec
+Chromosome 4: 0.4654 in 2.20 sec
+Chromosome 5: 0.4456 in 2.29 sec
+Chromosome 6: 0.5248 in 2.38 sec
+Chromosome 7: 0.5050 in 2.35 sec
+Chromosome 8: 0.5248 in 2.23 sec
+Chromosome 9: 0.6436 in 2.11 sec
+Chromosome 10: 0.4852 in 2.20 sec
+Chromosome 11: 0.5446 in 2.21 sec
+Chromosome 12: 0.6634 in 2.03 sec
+Chromosome 13: 0.5446 in 2.15 sec
+Chromosome 14: 0.5644 in 2.28 sec
+Chromosome 15: 0.4654 in 2.31 sec
+Chromosome 16: 0.6040 in 2.14 sec
+Chromosome 17: 0.5050 in 2.25 sec
+Chromosome 18: 0.4654 in 2.30 sec
+Chromosome 19: 0.5446 in 2.19 sec
+
+>> Generation 23
+>> Fitnesses: [0.5248 0.4456 0.604  0.6634 0.4654 0.4456 0.5248 0.505  0.5248 0.6436
+ 0.4852 0.5446 0.6634 0.5446 0.5644 0.4654 0.604  0.505  0.4654 0.5446]
+>> Average: 0.5367, Top 5: 0.6357, Best: 0.6634
+
+Chromosome 0: 0.5842 in 2.35 sec
+Chromosome 1: 0.1684 in 2.20 sec
+Chromosome 2: 0.5644 in 2.27 sec
+Chromosome 3: 0.4258 in 2.36 sec
+Chromosome 4: 0.6436 in 2.21 sec
+Chromosome 5: 0.5644 in 2.31 sec
+Chromosome 6: 0.5446 in 2.24 sec
+Chromosome 7: 0.5842 in 2.16 sec
+Chromosome 8: 0.5248 in 2.21 sec
+Chromosome 9: 0.5644 in 2.21 sec
+Chromosome 10: 0.5050 in 2.39 sec
+Chromosome 11: 0.4654 in 2.29 sec
+Chromosome 12: 0.5842 in 2.32 sec
+Chromosome 13: 0.5644 in 2.32 sec
+Chromosome 14: 0.4852 in 2.27 sec
+Chromosome 15: 0.4852 in 2.43 sec
+Chromosome 16: 0.4852 in 2.31 sec
+Chromosome 17: 0.6634 in 2.24 sec
+Chromosome 18: 0.5050 in 2.15 sec
+Chromosome 19: 0.5446 in 2.38 sec
+
+>> Generation 24
+>> Fitnesses: [0.5842 0.1684 0.5644 0.4258 0.6436 0.5644 0.5446 0.5842 0.5248 0.5644
+ 0.505  0.4654 0.5842 0.5644 0.4852 0.4852 0.4852 0.6634 0.505  0.5446]
+>> Average: 0.5228, Top 5: 0.6119, Best: 0.6634
+
+Chromosome 0: 0.5446 in 2.25 sec
+Chromosome 1: 0.6040 in 2.30 sec
+Chromosome 2: 0.5248 in 2.20 sec
+Chromosome 3: 0.5446 in 2.23 sec
+Chromosome 4: 0.4258 in 2.21 sec
+Chromosome 5: 0.4456 in 2.38 sec
+Chromosome 6: 0.6040 in 2.18 sec
+Chromosome 7: 0.4654 in 2.22 sec
+Chromosome 8: 0.4456 in 2.34 sec
+Chromosome 9: 0.4456 in 2.23 sec
+Chromosome 10: 0.4258 in 2.41 sec
+Chromosome 11: 0.5644 in 2.31 sec
+Chromosome 12: 0.5644 in 2.24 sec
+Chromosome 13: 0.4654 in 2.49 sec
+Chromosome 14: 0.4258 in 2.39 sec
+Chromosome 15: 0.4852 in 2.37 sec
+Chromosome 16: 0.5248 in 2.18 sec
+Chromosome 17: 0.4456 in 2.43 sec
+Chromosome 18: 0.3862 in 2.32 sec
+Chromosome 19: 0.4456 in 2.29 sec
+
+>> Generation 25
+>> Fitnesses: [0.5446 0.604  0.5248 0.5446 0.4258 0.4456 0.604  0.4654 0.4456 0.4456
+ 0.4258 0.5644 0.5644 0.4654 0.4258 0.4852 0.5248 0.4456 0.3862 0.4456]
+>> Average: 0.4892, Top 5: 0.5763, Best: 0.6040
+
+Chromosome 0: 0.6040 in 2.25 sec
+Chromosome 1: 0.5842 in 2.15 sec
+Chromosome 2: 0.6832 in 2.32 sec
+Chromosome 3: 0.5842 in 2.15 sec
+Chromosome 4: 0.4456 in 2.47 sec
+Chromosome 5: 0.6436 in 2.45 sec
+Chromosome 6: 0.5842 in 2.38 sec
+Chromosome 7: 0.4456 in 2.19 sec
+Chromosome 8: 0.4654 in 2.49 sec
+Chromosome 9: 0.4852 in 2.46 sec
+Chromosome 10: 0.6040 in 2.27 sec
+Chromosome 11: 0.5446 in 2.28 sec
+Chromosome 12: 0.6040 in 2.31 sec
+Chromosome 13: 0.5248 in 2.31 sec
+Chromosome 14: 0.5446 in 2.80 sec
+Chromosome 15: 0.4852 in 2.92 sec
+Chromosome 16: 0.4258 in 3.01 sec
+Chromosome 17: 0.3862 in 2.93 sec
+Chromosome 18: 0.5248 in 2.38 sec
+Chromosome 19: 0.4456 in 2.41 sec
+
+>> Generation 26
+>> Fitnesses: [0.604  0.5842 0.6832 0.5842 0.4456 0.6436 0.5842 0.4456 0.4654 0.4852
+ 0.604  0.5446 0.604  0.5248 0.5446 0.4852 0.4258 0.3862 0.5248 0.4456]
+>> Average: 0.5307, Top 5: 0.6278, Best: 0.6832
+
+Chromosome 0: 0.5446 in 2.13 sec
+Chromosome 1: 0.5248 in 2.15 sec
+Chromosome 2: 0.4060 in 2.24 sec
+Chromosome 3: 0.7426 in 2.23 sec
+Chromosome 4: 0.6238 in 2.21 sec
+Chromosome 5: 0.5446 in 2.22 sec
+Chromosome 6: 0.3664 in 2.30 sec
+Chromosome 7: 0.5248 in 2.27 sec
+Chromosome 8: 0.5644 in 2.04 sec
+Chromosome 9: 0.5446 in 2.17 sec
+Chromosome 10: 0.5842 in 2.15 sec
+Chromosome 11: 0.4060 in 2.20 sec
+Chromosome 12: 0.4654 in 2.43 sec
+Chromosome 13: 0.5446 in 2.42 sec
+Chromosome 14: 0.5446 in 2.26 sec
+Chromosome 15: 0.4852 in 2.21 sec
+Chromosome 16: 0.5446 in 2.29 sec
+Chromosome 17: 0.5842 in 2.28 sec
+Chromosome 18: 0.4654 in 2.24 sec
+Chromosome 19: 0.5644 in 2.36 sec
+
+>> Generation 27
+>> Fitnesses: [0.5446 0.5248 0.406  0.7426 0.6238 0.5446 0.3664 0.5248 0.5644 0.5446
+ 0.5842 0.406  0.4654 0.5446 0.5446 0.4852 0.5446 0.5842 0.4654 0.5644]
+>> Average: 0.5288, Top 5: 0.6198, Best: 0.7426
+
+Chromosome 0: 0.6436 in 2.24 sec
+Chromosome 1: 0.4654 in 2.37 sec
+Chromosome 2: 0.4456 in 2.30 sec
+Chromosome 3: 0.6040 in 2.28 sec
+Chromosome 4: 0.7030 in 2.14 sec
+Chromosome 5: 0.3070 in 2.56 sec
+Chromosome 6: 0.6040 in 2.27 sec
+Chromosome 7: 0.4258 in 2.32 sec
+Chromosome 8: 0.5446 in 2.30 sec
+Chromosome 9: 0.4456 in 2.20 sec
+Chromosome 10: 0.6436 in 2.29 sec
+Chromosome 11: 0.1684 in 2.10 sec
+Chromosome 12: 0.5248 in 2.30 sec
+Chromosome 13: 0.5248 in 2.39 sec
+Chromosome 14: 0.5446 in 2.32 sec
+Chromosome 15: 0.5446 in 2.40 sec
+Chromosome 16: 0.5050 in 2.31 sec
+Chromosome 17: 0.6436 in 2.31 sec
+Chromosome 18: 0.4456 in 2.23 sec
+Chromosome 19: 0.4852 in 2.17 sec
+
+>> Generation 28
+>> Fitnesses: [0.6436 0.4654 0.4456 0.604  0.703  0.307  0.604  0.4258 0.5446 0.4456
+ 0.6436 0.1684 0.5248 0.5248 0.5446 0.5446 0.505  0.6436 0.4456 0.4852]
+>> Average: 0.5109, Top 5: 0.6476, Best: 0.7030
+
+Chromosome 0: 0.6040 in 2.40 sec
+Chromosome 1: 0.4654 in 2.28 sec
+Chromosome 2: 0.6436 in 2.30 sec
+Chromosome 3: 0.5446 in 2.62 sec
+Chromosome 4: 0.5644 in 2.27 sec
+Chromosome 5: 0.4258 in 2.45 sec
+Chromosome 6: 0.5644 in 2.28 sec
+Chromosome 7: 0.5248 in 2.18 sec
+Chromosome 8: 0.4258 in 2.40 sec
+Chromosome 9: 0.5446 in 2.39 sec
+Chromosome 10: 0.5050 in 2.34 sec
+Chromosome 11: 0.6634 in 2.46 sec
+Chromosome 12: 0.5446 in 2.39 sec
+Chromosome 13: 0.0298 in 2.59 sec
+Chromosome 14: 0.6436 in 2.29 sec
+Chromosome 15: 0.5446 in 2.16 sec
+Chromosome 16: 0.5446 in 2.27 sec
+Chromosome 17: 0.4060 in 2.32 sec
+Chromosome 18: 0.5644 in 2.22 sec
+Chromosome 19: 0.4456 in 2.17 sec
+
+>> Generation 29
+>> Fitnesses: [0.604  0.4654 0.6436 0.5446 0.5644 0.4258 0.5644 0.5248 0.4258 0.5446
+ 0.505  0.6634 0.5446 0.0298 0.6436 0.5446 0.5446 0.406  0.5644 0.4456]
+>> Average: 0.5100, Top 5: 0.6238, Best: 0.6634
+
+Chromosome 0: 0.5644 in 2.40 sec
+Chromosome 1: 0.3664 in 2.33 sec
+Chromosome 2: 0.5644 in 2.10 sec
+Chromosome 3: 0.6238 in 2.16 sec
+Chromosome 4: 0.4654 in 2.38 sec
+Chromosome 5: 0.6634 in 2.21 sec
+Chromosome 6: 0.5446 in 2.15 sec
+Chromosome 7: 0.3466 in 2.31 sec
+Chromosome 8: 0.4060 in 2.32 sec
+Chromosome 9: 0.5446 in 2.24 sec
+Chromosome 10: 0.4852 in 2.37 sec
+Chromosome 11: 0.4654 in 2.46 sec
+Chromosome 12: 0.5644 in 2.28 sec
+Chromosome 13: 0.3466 in 2.22 sec
+Chromosome 14: 0.4852 in 2.35 sec
+Chromosome 15: 0.5644 in 2.32 sec
+Chromosome 16: 0.5842 in 2.32 sec
+Chromosome 17: 0.6832 in 2.28 sec
+Chromosome 18: 0.4060 in 2.14 sec
+Chromosome 19: 0.4456 in 2.31 sec
+
+>> Generation 30
+>> Fitnesses: [0.5644 0.3664 0.5644 0.6238 0.4654 0.6634 0.5446 0.3466 0.406  0.5446
+ 0.4852 0.4654 0.5644 0.3466 0.4852 0.5644 0.5842 0.6832 0.406  0.4456]
+>> Average: 0.5060, Top 5: 0.6238, Best: 0.6832
+
+Chromosome 0: 0.5842 in 2.36 sec
+Chromosome 1: 0.5050 in 2.41 sec
+Chromosome 2: 0.5644 in 2.31 sec
+Chromosome 3: 0.5644 in 2.37 sec
+Chromosome 4: 0.4654 in 2.51 sec
+Chromosome 5: 0.4258 in 2.49 sec
+Chromosome 6: 0.5644 in 2.36 sec
+Chromosome 7: 0.2476 in 2.29 sec
+Chromosome 8: 0.5644 in 2.45 sec
+Chromosome 9: 0.6040 in 2.41 sec
+Chromosome 10: 0.4654 in 2.48 sec
+Chromosome 11: 0.5644 in 2.69 sec
+Chromosome 12: 0.5842 in 2.24 sec
+Chromosome 13: 0.6238 in 2.31 sec
+Chromosome 14: 0.5644 in 2.26 sec
+Chromosome 15: 0.3862 in 2.32 sec
+Chromosome 16: 0.5446 in 2.43 sec
+Chromosome 17: 0.6436 in 2.36 sec
+Chromosome 18: 0.4258 in 2.26 sec
+Chromosome 19: 0.5446 in 2.29 sec
+
+>> Generation 31
+>> Fitnesses: [0.5842 0.505  0.5644 0.5644 0.4654 0.4258 0.5644 0.2476 0.5644 0.604
+ 0.4654 0.5644 0.5842 0.6238 0.5644 0.3862 0.5446 0.6436 0.4258 0.5446]
+>> Average: 0.5218, Top 5: 0.6080, Best: 0.6436
+
+Chromosome 0: 0.5248 in 2.33 sec
+Chromosome 1: 0.5842 in 2.43 sec
+Chromosome 2: 0.3268 in 2.17 sec
+Chromosome 3: 0.6238 in 2.40 sec
+Chromosome 4: 0.4654 in 2.34 sec
+Chromosome 5: 0.3268 in 2.54 sec
+Chromosome 6: 0.6238 in 2.26 sec
+Chromosome 7: 0.5644 in 2.21 sec
+Chromosome 8: 0.3268 in 2.26 sec
+Chromosome 9: 0.6832 in 2.22 sec
+Chromosome 10: 0.6238 in 2.28 sec
+Chromosome 11: 0.5644 in 2.31 sec
+Chromosome 12: 0.4852 in 2.18 sec
+Chromosome 13: 0.5446 in 2.17 sec
+Chromosome 14: 0.6040 in 2.25 sec
+Chromosome 15: 0.3664 in 2.39 sec
+Chromosome 16: 0.6634 in 2.33 sec
+Chromosome 17: 0.5446 in 2.50 sec
+Chromosome 18: 0.0496 in 2.84 sec
+Chromosome 19: 0.5644 in 2.28 sec
+
+>> Generation 32
+>> Fitnesses: [0.5248 0.5842 0.3268 0.6238 0.4654 0.3268 0.6238 0.5644 0.3268 0.6832
+ 0.6238 0.5644 0.4852 0.5446 0.604  0.3664 0.6634 0.5446 0.0496 0.5644]
+>> Average: 0.5030, Top 5: 0.6436, Best: 0.6832
+
+Chromosome 0: 0.4852 in 2.38 sec
+Chromosome 1: 0.5644 in 2.38 sec
+Chromosome 2: 0.5644 in 2.37 sec
+Chromosome 3: 0.7030 in 2.17 sec
+Chromosome 4: 0.5842 in 2.38 sec
+Chromosome 5: 0.4654 in 2.17 sec
+Chromosome 6: 0.5248 in 2.30 sec
+Chromosome 7: 0.6436 in 2.29 sec
+Chromosome 8: 0.5446 in 2.32 sec
+Chromosome 9: 0.6040 in 2.17 sec
+Chromosome 10: 0.5842 in 2.24 sec
+Chromosome 11: 0.6436 in 2.26 sec
+Chromosome 12: 0.1882 in 2.21 sec
+Chromosome 13: 0.6238 in 2.24 sec
+Chromosome 14: 0.5644 in 2.29 sec
+Chromosome 15: 0.3466 in 2.19 sec
+Chromosome 16: 0.5248 in 2.41 sec
+Chromosome 17: 0.5050 in 2.30 sec
+Chromosome 18: 0.4456 in 2.37 sec
+Chromosome 19: 0.2872 in 2.83 sec
+
+>> Generation 33
+>> Fitnesses: [0.4852 0.5644 0.5644 0.703  0.5842 0.4654 0.5248 0.6436 0.5446 0.604
+ 0.5842 0.6436 0.1882 0.6238 0.5644 0.3466 0.5248 0.505  0.4456 0.2872]
+>> Average: 0.5199, Top 5: 0.6436, Best: 0.7030
+
+Chromosome 0: 0.5050 in 2.69 sec
+Chromosome 1: 0.2476 in 2.42 sec
+Chromosome 2: 0.5644 in 2.40 sec
+Chromosome 3: 0.0694 in 2.93 sec
+Chromosome 4: 0.4456 in 2.22 sec
+Chromosome 5: 0.4456 in 2.16 sec
+Chromosome 6: 0.5248 in 2.31 sec
+Chromosome 7: 0.5050 in 2.33 sec
+Chromosome 8: 0.4852 in 2.65 sec
+Chromosome 9: 0.4258 in 2.32 sec
+Chromosome 10: 0.6634 in 2.13 sec
+Chromosome 11: 0.6040 in 2.23 sec
+Chromosome 12: 0.6040 in 2.23 sec
+Chromosome 13: 0.5644 in 2.32 sec
+Chromosome 14: 0.6040 in 2.23 sec
+Chromosome 15: 0.4654 in 2.33 sec
+Chromosome 16: 0.6436 in 2.23 sec
+Chromosome 17: 0.5644 in 2.37 sec
+Chromosome 18: 0.5842 in 2.31 sec
+Chromosome 19: 0.4852 in 2.49 sec
+
+>> Generation 34
+>> Fitnesses: [0.505  0.2476 0.5644 0.0694 0.4456 0.4456 0.5248 0.505  0.4852 0.4258
+ 0.6634 0.604  0.604  0.5644 0.604  0.4654 0.6436 0.5644 0.5842 0.4852]
+>> Average: 0.5001, Top 5: 0.6238, Best: 0.6634
+
+Chromosome 0: 0.5644 in 2.39 sec
+Chromosome 1: 0.4852 in 2.44 sec
+Chromosome 2: 0.4852 in 2.20 sec
+Chromosome 3: 0.4456 in 2.23 sec
+Chromosome 4: 0.6238 in 2.32 sec
+Chromosome 5: 0.1486 in 2.59 sec
+Chromosome 6: 0.6238 in 2.19 sec
+Chromosome 7: 0.5248 in 2.36 sec
+Chromosome 8: 0.5644 in 2.23 sec
+Chromosome 9: 0.4456 in 2.21 sec
+Chromosome 10: 0.5842 in 2.25 sec
+Chromosome 11: 0.3268 in 2.14 sec
+Chromosome 12: 0.5248 in 2.43 sec
+Chromosome 13: 0.5050 in 2.28 sec
+Chromosome 14: 0.5446 in 2.46 sec
+Chromosome 15: 0.5644 in 2.32 sec
+Chromosome 16: 0.6634 in 2.19 sec
+Chromosome 17: 0.4654 in 2.41 sec
+Chromosome 18: 0.5842 in 2.32 sec
+Chromosome 19: 0.6040 in 2.19 sec
+
+>> Generation 35
+>> Fitnesses: [0.5644 0.4852 0.4852 0.4456 0.6238 0.1486 0.6238 0.5248 0.5644 0.4456
+ 0.5842 0.3268 0.5248 0.505  0.5446 0.5644 0.6634 0.4654 0.5842 0.604 ]
+>> Average: 0.5139, Top 5: 0.6198, Best: 0.6634
+
+Chromosome 0: 0.5842 in 2.50 sec
+Chromosome 1: 0.5248 in 2.26 sec
+Chromosome 2: 0.5842 in 2.34 sec
+Chromosome 3: 0.5842 in 2.55 sec
+Chromosome 4: 0.6832 in 2.33 sec
+Chromosome 5: 0.4852 in 2.46 sec
+Chromosome 6: 0.6634 in 2.35 sec
+Chromosome 7: 0.6436 in 2.30 sec
+Chromosome 8: 0.6832 in 2.41 sec
+Chromosome 9: 0.5842 in 2.31 sec
+Chromosome 10: 0.1684 in 2.71 sec
+Chromosome 11: 0.4456 in 2.53 sec
+Chromosome 12: 0.6040 in 2.35 sec
+Chromosome 13: 0.4060 in 2.42 sec
+Chromosome 14: 0.5248 in 2.34 sec
+Chromosome 15: 0.4456 in 2.34 sec
+Chromosome 16: 0.4654 in 2.52 sec
+Chromosome 17: 0.6832 in 2.43 sec
+Chromosome 18: 0.6238 in 2.41 sec
+Chromosome 19: 0.4456 in 2.34 sec
+
+>> Generation 36
+>> Fitnesses: [0.5842 0.5248 0.5842 0.5842 0.6832 0.4852 0.6634 0.6436 0.6832 0.5842
+ 0.1684 0.4456 0.604  0.406  0.5248 0.4456 0.4654 0.6832 0.6238 0.4456]
+>> Average: 0.5416, Top 5: 0.6713, Best: 0.6832
+
+Chromosome 0: 0.5248 in 2.32 sec
+Chromosome 1: 0.6832 in 2.26 sec
+Chromosome 2: 0.4060 in 2.24 sec
+Chromosome 3: 0.6832 in 2.40 sec
+Chromosome 4: 0.6040 in 2.32 sec
+Chromosome 5: 0.6040 in 2.27 sec
+Chromosome 6: 0.4852 in 2.36 sec
+Chromosome 7: 0.5446 in 2.20 sec
+Chromosome 8: 0.5446 in 2.35 sec
+Chromosome 9: 0.5446 in 2.21 sec
+Chromosome 10: 0.5050 in 2.27 sec
+Chromosome 11: 0.5446 in 2.31 sec
+Chromosome 12: 0.0694 in 2.71 sec
+Chromosome 13: 0.4654 in 2.32 sec
+Chromosome 14: 0.5446 in 2.24 sec
+Chromosome 15: 0.5446 in 2.62 sec
+Chromosome 16: 0.6634 in 2.31 sec
+Chromosome 17: 0.3862 in 2.51 sec
+Chromosome 18: 0.4060 in 2.49 sec
+Chromosome 19: 0.6436 in 2.30 sec
+
+>> Generation 37
+>> Fitnesses: [0.5248 0.6832 0.406  0.6832 0.604  0.604  0.4852 0.5446 0.5446 0.5446
+ 0.505  0.5446 0.0694 0.4654 0.5446 0.5446 0.6634 0.3862 0.406  0.6436]
+>> Average: 0.5199, Top 5: 0.6555, Best: 0.6832
+
+Chromosome 0: 0.2674 in 2.27 sec
+Chromosome 1: 0.4456 in 2.40 sec
+Chromosome 2: 0.4654 in 2.34 sec
+Chromosome 3: 0.5446 in 2.35 sec
+Chromosome 4: 0.6238 in 2.33 sec
+Chromosome 5: 0.6238 in 2.31 sec
+Chromosome 6: 0.6832 in 2.53 sec
+Chromosome 7: 0.6238 in 2.18 sec
+Chromosome 8: 0.5644 in 2.34 sec
+Chromosome 9: 0.5644 in 2.35 sec
+Chromosome 10: 0.5644 in 2.35 sec
+Chromosome 11: 0.6238 in 2.28 sec
+Chromosome 12: 0.6040 in 2.30 sec
+Chromosome 13: 0.3466 in 2.48 sec
+Chromosome 14: 0.6040 in 2.23 sec
+Chromosome 15: 0.6238 in 2.40 sec
+Chromosome 16: 0.5248 in 2.45 sec
+Chromosome 17: 0.6040 in 2.43 sec
+Chromosome 18: 0.5248 in 2.38 sec
+Chromosome 19: 0.6040 in 2.26 sec
+
+>> Generation 38
+>> Fitnesses: [0.2674 0.4456 0.4654 0.5446 0.6238 0.6238 0.6832 0.6238 0.5644 0.5644
+ 0.5644 0.6238 0.604  0.3466 0.604  0.6238 0.5248 0.604  0.5248 0.604 ]
+>> Average: 0.5515, Top 5: 0.6357, Best: 0.6832
+
+Chromosome 0: 0.5644 in 2.21 sec
+Chromosome 1: 0.7228 in 2.22 sec
+Chromosome 2: 0.6040 in 2.27 sec
+Chromosome 3: 0.5248 in 2.31 sec
+Chromosome 4: 0.5050 in 2.29 sec
+Chromosome 5: 0.7228 in 2.21 sec
+Chromosome 6: 0.4456 in 2.33 sec
+Chromosome 7: 0.6436 in 2.30 sec
+Chromosome 8: 0.6436 in 2.31 sec
+Chromosome 9: 0.7030 in 2.30 sec
+Chromosome 10: 0.6040 in 2.32 sec
+Chromosome 11: 0.4654 in 2.28 sec
+Chromosome 12: 0.4258 in 2.42 sec
+Chromosome 13: 0.4852 in 2.52 sec
+Chromosome 14: 0.3862 in 2.47 sec
+Chromosome 15: 0.4654 in 2.59 sec
+Chromosome 16: 0.5842 in 3.11 sec
+Chromosome 17: 0.6634 in 2.90 sec
+Chromosome 18: 0.6832 in 3.12 sec
+Chromosome 19: 0.5446 in 3.43 sec
+
+>> Generation 39
+>> Fitnesses: [0.5644 0.7228 0.604  0.5248 0.505  0.7228 0.4456 0.6436 0.6436 0.703
+ 0.604  0.4654 0.4258 0.4852 0.3862 0.4654 0.5842 0.6634 0.6832 0.5446]
+>> Average: 0.5694, Top 5: 0.6990, Best: 0.7228
+
+Chromosome 0: 0.5644 in 2.37 sec
+Chromosome 1: 0.5644 in 2.31 sec
+Chromosome 2: 0.6634 in 2.47 sec
+Chromosome 3: 0.4852 in 2.42 sec
+Chromosome 4: 0.6436 in 2.41 sec
+Chromosome 5: 0.5842 in 2.41 sec
+Chromosome 6: 0.6238 in 2.41 sec
+Chromosome 7: 0.6634 in 2.17 sec
+Chromosome 8: 0.1288 in 2.61 sec
+Chromosome 9: 0.2278 in 2.03 sec
+Chromosome 10: 0.5446 in 2.16 sec
+Chromosome 11: 0.3862 in 2.27 sec
+Chromosome 12: 0.7228 in 2.29 sec
+Chromosome 13: 0.5842 in 2.21 sec
+Chromosome 14: 0.6634 in 2.33 sec
+Chromosome 15: 0.7030 in 2.30 sec
+Chromosome 16: 0.4060 in 2.32 sec
+Chromosome 17: 0.5644 in 2.45 sec
+Chromosome 18: 0.6040 in 2.33 sec
+Chromosome 19: 0.6436 in 2.41 sec
+
+>> Generation 40
+>> Fitnesses: [0.5644 0.5644 0.6634 0.4852 0.6436 0.5842 0.6238 0.6634 0.1288 0.2278
+ 0.5446 0.3862 0.7228 0.5842 0.6634 0.703  0.406  0.5644 0.604  0.6436]
+>> Average: 0.5486, Top 5: 0.6832, Best: 0.7228
+
+Chromosome 0: 0.4258 in 2.44 sec
+Chromosome 1: 0.6832 in 2.26 sec
+Chromosome 2: 0.5842 in 2.57 sec
+Chromosome 3: 0.6238 in 2.39 sec
+Chromosome 4: 0.6238 in 2.15 sec
+Chromosome 5: 0.6436 in 2.39 sec
+Chromosome 6: 0.6238 in 2.36 sec
+Chromosome 7: 0.6634 in 2.34 sec
+Chromosome 8: 0.5050 in 2.32 sec
+Chromosome 9: 0.6436 in 2.61 sec
+Chromosome 10: 0.3466 in 2.34 sec
+Chromosome 11: 0.5446 in 2.39 sec
+Chromosome 12: 0.1882 in 2.27 sec
+Chromosome 13: 0.5248 in 2.36 sec
+Chromosome 14: 0.5644 in 2.50 sec
+Chromosome 15: 0.5446 in 2.36 sec
+Chromosome 16: 0.7030 in 2.45 sec
+Chromosome 17: 0.5842 in 2.18 sec
+Chromosome 18: 0.6040 in 2.39 sec
+Chromosome 19: 0.6436 in 2.21 sec
+
+>> Generation 41
+>> Fitnesses: [0.4258 0.6832 0.5842 0.6238 0.6238 0.6436 0.6238 0.6634 0.505  0.6436
+ 0.3466 0.5446 0.1882 0.5248 0.5644 0.5446 0.703  0.5842 0.604  0.6436]
+>> Average: 0.5634, Top 5: 0.6674, Best: 0.7030
+
+Chromosome 0: 0.3466 in 2.51 sec
+Chromosome 1: 0.5446 in 2.14 sec
+Chromosome 2: 0.4852 in 2.25 sec
+Chromosome 3: 0.6634 in 2.22 sec
+Chromosome 4: 0.6436 in 2.32 sec
+Chromosome 5: 0.4258 in 2.30 sec
+Chromosome 6: 0.6634 in 2.15 sec
+Chromosome 7: 0.6634 in 2.27 sec
+Chromosome 8: 0.4852 in 2.33 sec
+Chromosome 9: 0.5842 in 2.21 sec
+Chromosome 10: 0.3466 in 2.60 sec
+Chromosome 11: 0.5644 in 2.33 sec
+Chromosome 12: 0.4654 in 2.30 sec
+Chromosome 13: 0.4654 in 2.43 sec
+Chromosome 14: 0.4654 in 2.39 sec
+Chromosome 15: 0.5842 in 2.45 sec
+Chromosome 16: 0.5446 in 2.39 sec
+Chromosome 17: 0.5248 in 2.20 sec
+Chromosome 18: 0.6238 in 2.25 sec
+Chromosome 19: 0.7030 in 2.25 sec
+
+>> Generation 42
+>> Fitnesses: [0.3466 0.5446 0.4852 0.6634 0.6436 0.4258 0.6634 0.6634 0.4852 0.5842
+ 0.3466 0.5644 0.4654 0.4654 0.4654 0.5842 0.5446 0.5248 0.6238 0.703 ]
+>> Average: 0.5397, Top 5: 0.6674, Best: 0.7030
+
+Chromosome 0: 0.7030 in 2.35 sec
+Chromosome 1: 0.5644 in 2.36 sec
+Chromosome 2: 0.4456 in 2.23 sec
+Chromosome 3: 0.6040 in 2.31 sec
+Chromosome 4: 0.5446 in 2.35 sec
+Chromosome 5: 0.5050 in 2.36 sec
+Chromosome 6: 0.2872 in 2.28 sec
+Chromosome 7: 0.6040 in 2.42 sec
+Chromosome 8: 0.4654 in 2.47 sec
+Chromosome 9: 0.4852 in 2.38 sec
+Chromosome 10: 0.5644 in 2.35 sec
+Chromosome 11: 0.2278 in 2.25 sec
+Chromosome 12: 0.5644 in 2.53 sec
+Chromosome 13: 0.5842 in 2.44 sec
+Chromosome 14: 0.5644 in 2.42 sec
+Chromosome 15: 0.5050 in 2.46 sec
+Chromosome 16: 0.5644 in 2.42 sec
+Chromosome 17: 0.6436 in 2.38 sec
+Chromosome 18: 0.5050 in 2.50 sec
+Chromosome 19: 0.6040 in 2.44 sec
+
+>> Generation 43
+>> Fitnesses: [0.703  0.5644 0.4456 0.604  0.5446 0.505  0.2872 0.604  0.4654 0.4852
+ 0.5644 0.2278 0.5644 0.5842 0.5644 0.505  0.5644 0.6436 0.505  0.604 ]
+>> Average: 0.5268, Top 5: 0.6317, Best: 0.7030
+
+Chromosome 0: 0.5446 in 2.39 sec
+Chromosome 1: 0.6634 in 2.34 sec
+Chromosome 2: 0.5842 in 2.30 sec
+Chromosome 3: 0.4852 in 2.26 sec
+Chromosome 4: 0.5248 in 2.38 sec
+Chromosome 5: 0.5050 in 2.22 sec
+Chromosome 6: 0.6040 in 2.10 sec
+Chromosome 7: 0.1882 in 2.14 sec
+Chromosome 8: 0.6634 in 2.20 sec
+Chromosome 9: 0.5446 in 2.28 sec
+Chromosome 10: 0.5248 in 2.27 sec
+Chromosome 11: 0.6040 in 2.30 sec
+Chromosome 12: 0.5644 in 2.29 sec
+Chromosome 13: 0.5248 in 2.44 sec
+Chromosome 14: 0.5842 in 2.30 sec
+Chromosome 15: 0.5050 in 2.49 sec
+Chromosome 16: 0.6238 in 2.55 sec
+Chromosome 17: 0.5644 in 2.65 sec
+Chromosome 18: 0.6040 in 2.38 sec
+Chromosome 19: 0.2278 in 2.37 sec
+
+>> Generation 44
+>> Fitnesses: [0.5446 0.6634 0.5842 0.4852 0.5248 0.505  0.604  0.1882 0.6634 0.5446
+ 0.5248 0.604  0.5644 0.5248 0.5842 0.505  0.6238 0.5644 0.604  0.2278]
+>> Average: 0.5317, Top 5: 0.6317, Best: 0.6634
+
+Chromosome 0: 0.5050 in 2.26 sec
+Chromosome 1: 0.4258 in 2.46 sec
+Chromosome 2: 0.5050 in 2.33 sec
+Chromosome 3: 0.4852 in 2.51 sec
+Chromosome 4: 0.6436 in 2.22 sec
+Chromosome 5: 0.2872 in 2.11 sec
+Chromosome 6: 0.4852 in 2.40 sec
+Chromosome 7: 0.6238 in 2.55 sec
+Chromosome 8: 0.5248 in 2.33 sec
+Chromosome 9: 0.7228 in 2.30 sec
+Chromosome 10: 0.5644 in 2.38 sec
+Chromosome 11: 0.7624 in 2.26 sec
+Chromosome 12: 0.5644 in 2.33 sec
+Chromosome 13: 0.7228 in 2.30 sec
+Chromosome 14: 0.0298 in 2.68 sec
+Chromosome 15: 0.4258 in 2.48 sec
+Chromosome 16: 0.6634 in 2.22 sec
+Chromosome 17: 0.5446 in 2.29 sec
+Chromosome 18: 0.5446 in 2.46 sec
+Chromosome 19: 0.6040 in 2.18 sec
+
+>> Generation 45
+>> Fitnesses: [0.505  0.4258 0.505  0.4852 0.6436 0.2872 0.4852 0.6238 0.5248 0.7228
+ 0.5644 0.7624 0.5644 0.7228 0.0298 0.4258 0.6634 0.5446 0.5446 0.604 ]
+>> Average: 0.5317, Top 5: 0.7030, Best: 0.7624
+
+Chromosome 0: 0.4654 in 2.24 sec
+Chromosome 1: 0.5842 in 2.24 sec
+Chromosome 2: 0.6436 in 2.16 sec
+Chromosome 3: 0.5050 in 2.36 sec
+Chromosome 4: 0.4654 in 2.43 sec
+Chromosome 5: 0.5248 in 2.27 sec
+Chromosome 6: 0.6634 in 2.29 sec
+Chromosome 7: 0.0298 in 2.77 sec
+Chromosome 8: 0.4060 in 2.44 sec
+Chromosome 9: 0.4060 in 2.40 sec
+Chromosome 10: 0.6040 in 2.41 sec
+Chromosome 11: 0.6832 in 2.43 sec
+Chromosome 12: 0.6634 in 2.45 sec
+Chromosome 13: 0.5446 in 2.32 sec
+Chromosome 14: 0.5842 in 2.32 sec
+Chromosome 15: 0.6634 in 2.33 sec
+Chromosome 16: 0.5248 in 2.35 sec
+Chromosome 17: 0.4654 in 2.38 sec
+Chromosome 18: 0.5446 in 2.42 sec
+Chromosome 19: 0.5446 in 2.17 sec
+
+>> Generation 46
+>> Fitnesses: [0.4654 0.5842 0.6436 0.505  0.4654 0.5248 0.6634 0.0298 0.406  0.406
+ 0.604  0.6832 0.6634 0.5446 0.5842 0.6634 0.5248 0.4654 0.5446 0.5446]
+>> Average: 0.5258, Top 5: 0.6634, Best: 0.6832
+
+Chromosome 0: 0.4654 in 2.37 sec
+Chromosome 1: 0.4654 in 2.34 sec
+Chromosome 2: 0.6040 in 2.21 sec
+Chromosome 3: 0.7030 in 2.26 sec
+Chromosome 4: 0.5446 in 2.42 sec
+Chromosome 5: 0.5644 in 2.37 sec
+Chromosome 6: 0.4654 in 2.26 sec
+Chromosome 7: 0.5842 in 2.41 sec
+Chromosome 8: 0.5644 in 2.08 sec
+Chromosome 9: 0.6040 in 2.45 sec
+Chromosome 10: 0.6040 in 2.23 sec
+Chromosome 11: 0.1288 in 2.75 sec
+Chromosome 12: 0.5842 in 2.36 sec
+Chromosome 13: 0.5644 in 2.20 sec
+Chromosome 14: 0.5446 in 2.16 sec
+Chromosome 15: 0.5050 in 2.39 sec
+Chromosome 16: 0.4060 in 3.86 sec
+Chromosome 17: 0.4258 in 3.26 sec
+Chromosome 18: 0.5248 in 2.20 sec
+Chromosome 19: 0.4852 in 2.33 sec
+
+>> Generation 47
+>> Fitnesses: [0.4654 0.4654 0.604  0.703  0.5446 0.5644 0.4654 0.5842 0.5644 0.604
+ 0.604  0.1288 0.5842 0.5644 0.5446 0.505  0.406  0.4258 0.5248 0.4852]
+>> Average: 0.5169, Top 5: 0.6198, Best: 0.7030
+
+Chromosome 0: 0.5842 in 1.97 sec
+Chromosome 1: 0.4456 in 2.32 sec
+Chromosome 2: 0.5644 in 2.17 sec
+Chromosome 3: 0.5842 in 2.30 sec
+Chromosome 4: 0.5446 in 3.58 sec
+Chromosome 5: 0.5446 in 2.58 sec
+Chromosome 6: 0.2080 in 1.97 sec
+Chromosome 7: 0.5446 in 2.36 sec
+Chromosome 8: 0.4060 in 2.15 sec
+Chromosome 9: 0.5050 in 1.79 sec
+Chromosome 10: 0.5446 in 1.89 sec
+Chromosome 11: 0.5248 in 2.17 sec
+Chromosome 12: 0.6436 in 1.95 sec
+Chromosome 13: 0.6634 in 1.95 sec
+Chromosome 14: 0.5644 in 3.07 sec
+Chromosome 15: 0.5248 in 2.38 sec
+Chromosome 16: 0.5248 in 2.59 sec
+Chromosome 17: 0.4456 in 2.46 sec
+Chromosome 18: 0.4852 in 2.64 sec
+Chromosome 19: 0.4258 in 2.38 sec
+
+>> Generation 48
+>> Fitnesses: [0.5842 0.4456 0.5644 0.5842 0.5446 0.5446 0.208  0.5446 0.406  0.505
+ 0.5446 0.5248 0.6436 0.6634 0.5644 0.5248 0.5248 0.4456 0.4852 0.4258]
+>> Average: 0.5139, Top 5: 0.6080, Best: 0.6634
+
+Chromosome 0: 0.5248 in 2.19 sec
+Chromosome 1: 0.5446 in 2.18 sec
+Chromosome 2: 0.6832 in 2.11 sec
+Chromosome 3: 0.5248 in 2.23 sec
+Chromosome 4: 0.1684 in 2.66 sec
+Chromosome 5: 0.5644 in 2.98 sec
+Chromosome 6: 0.5050 in 2.40 sec
+Chromosome 7: 0.6436 in 2.21 sec
+Chromosome 8: 0.0100 in 2.81 sec
+Chromosome 9: 0.5050 in 2.18 sec
+Chromosome 10: 0.5842 in 2.20 sec
+Chromosome 11: 0.6436 in 2.16 sec
+Chromosome 12: 0.0100 in 2.48 sec
+Chromosome 13: 0.5446 in 2.07 sec
+Chromosome 14: 0.5644 in 2.22 sec
+Chromosome 15: 0.5644 in 2.07 sec
+Chromosome 16: 0.5842 in 2.04 sec
+Chromosome 17: 0.6238 in 2.09 sec
+Chromosome 18: 0.5248 in 2.11 sec
+Chromosome 19: 0.5644 in 2.30 sec
+
+>> Generation 49
+>> Fitnesses: [0.5248 0.5446 0.6832 0.5248 0.1684 0.5644 0.505  0.6436 0.01   0.505
+ 0.5842 0.6436 0.01   0.5446 0.5644 0.5644 0.5842 0.6238 0.5248 0.5644]
+>> Average: 0.4941, Top 5: 0.6357, Best: 0.6832
+
+Chromosome 0: 0.5248 in 2.70 sec
+Chromosome 1: 0.5446 in 2.42 sec
+Chromosome 2: 0.7426 in 2.45 sec
+Chromosome 3: 0.5050 in 2.64 sec
+Chromosome 4: 0.5842 in 2.65 sec
+Chromosome 5: 0.5050 in 2.48 sec
+Chromosome 6: 0.6238 in 2.07 sec
+Chromosome 7: 0.6040 in 1.98 sec
+Chromosome 8: 0.4654 in 2.28 sec
+Chromosome 9: 0.5248 in 2.21 sec
+Chromosome 10: 0.4456 in 2.46 sec
+Chromosome 11: 0.3466 in 2.12 sec
+Chromosome 12: 0.6238 in 2.00 sec
+Chromosome 13: 0.2278 in 2.10 sec
+Chromosome 14: 0.6436 in 2.05 sec
+Chromosome 15: 0.1882 in 1.95 sec
+Chromosome 16: 0.5842 in 2.86 sec
+Chromosome 17: 0.5050 in 2.46 sec
+Chromosome 18: 0.6040 in 2.30 sec
+Chromosome 19: 0.5446 in 2.37 sec
+
+>> Generation 50
+>> Fitnesses: [0.5248 0.5446 0.7426 0.505  0.5842 0.505  0.6238 0.604  0.4654 0.5248
+ 0.4456 0.3466 0.6238 0.2278 0.6436 0.1882 0.5842 0.505  0.604  0.5446]
+>> Average: 0.5169, Top 5: 0.6476, Best: 0.7426
+
+saving models...
+Chromosome 0: 0.5050 in 2.59 sec
+Chromosome 1: 0.4456 in 2.38 sec
+Chromosome 2: 0.6634 in 2.33 sec
+Chromosome 3: 0.5446 in 2.18 sec
+Chromosome 4: 0.5446 in 2.16 sec
+Chromosome 5: 0.6436 in 2.16 sec
+Chromosome 6: 0.6238 in 2.08 sec
+Chromosome 7: 0.6238 in 2.38 sec
+Chromosome 8: 0.2872 in 2.10 sec
+Chromosome 9: 0.5644 in 2.22 sec
+Chromosome 10: 0.5842 in 2.11 sec
+Chromosome 11: 0.5446 in 2.23 sec
+Chromosome 12: 0.6238 in 2.20 sec
+Chromosome 13: 0.5644 in 2.16 sec
+Chromosome 14: 0.4060 in 2.25 sec
+Chromosome 15: 0.3466 in 2.20 sec
+Chromosome 16: 0.6832 in 2.10 sec
+Chromosome 17: 0.4654 in 2.33 sec
+Chromosome 18: 0.5842 in 2.36 sec
+Chromosome 19: 0.4852 in 2.28 sec
+
+>> Generation 51
+>> Fitnesses: [0.505  0.4456 0.6634 0.5446 0.5446 0.6436 0.6238 0.6238 0.2872 0.5644
+ 0.5842 0.5446 0.6238 0.5644 0.406  0.3466 0.6832 0.4654 0.5842 0.4852]
+>> Average: 0.5367, Top 5: 0.6476, Best: 0.6832
+
+Chromosome 0: 0.6040 in 2.11 sec
+Chromosome 1: 0.4060 in 2.15 sec
+Chromosome 2: 0.4852 in 2.06 sec
+Chromosome 3: 0.7030 in 2.07 sec
+Chromosome 4: 0.4456 in 2.34 sec
+Chromosome 5: 0.5446 in 2.12 sec
+Chromosome 6: 0.6436 in 2.02 sec
+Chromosome 7: 0.5248 in 2.10 sec
+Chromosome 8: 0.6436 in 2.18 sec
+Chromosome 9: 0.4060 in 2.59 sec
+Chromosome 10: 0.3664 in 2.02 sec
+Chromosome 11: 0.6238 in 2.28 sec
+Chromosome 12: 0.4654 in 1.98 sec
+Chromosome 13: 0.4852 in 2.04 sec
+Chromosome 14: 0.6040 in 2.24 sec
+Chromosome 15: 0.5842 in 2.19 sec
+Chromosome 16: 0.4258 in 2.12 sec
+Chromosome 17: 0.5446 in 2.22 sec
+Chromosome 18: 0.4654 in 2.66 sec
+Chromosome 19: 0.6238 in 2.81 sec
+
+>> Generation 52
+>> Fitnesses: [0.604  0.406  0.4852 0.703  0.4456 0.5446 0.6436 0.5248 0.6436 0.406
+ 0.3664 0.6238 0.4654 0.4852 0.604  0.5842 0.4258 0.5446 0.4654 0.6238]
+>> Average: 0.5298, Top 5: 0.6476, Best: 0.7030
+
+Chromosome 0: 0.5248 in 2.76 sec
+Chromosome 1: 0.5842 in 2.82 sec
+Chromosome 2: 0.5644 in 2.48 sec
+Chromosome 3: 0.6040 in 2.08 sec
+Chromosome 4: 0.5644 in 2.20 sec
+Chromosome 5: 0.5644 in 2.21 sec
+Chromosome 6: 0.5446 in 2.15 sec
+Chromosome 7: 0.4258 in 2.00 sec
+Chromosome 8: 0.5842 in 2.08 sec
+Chromosome 9: 0.5248 in 2.00 sec
+Chromosome 10: 0.6832 in 2.06 sec
+Chromosome 11: 0.5050 in 2.21 sec
+Chromosome 12: 0.2476 in 2.16 sec
+Chromosome 13: 0.4654 in 2.04 sec
+Chromosome 14: 0.7030 in 2.30 sec
+Chromosome 15: 0.6238 in 2.22 sec
+Chromosome 16: 0.6238 in 2.01 sec
+Chromosome 17: 0.6436 in 2.15 sec
+Chromosome 18: 0.6436 in 2.25 sec
+Chromosome 19: 0.5050 in 2.18 sec
+
+>> Generation 53
+>> Fitnesses: [0.5248 0.5842 0.5644 0.604  0.5644 0.5644 0.5446 0.4258 0.5842 0.5248
+ 0.6832 0.505  0.2476 0.4654 0.703  0.6238 0.6238 0.6436 0.6436 0.505 ]
+>> Average: 0.5565, Top 5: 0.6594, Best: 0.7030
+
+Chromosome 0: 0.5050 in 2.26 sec
+Chromosome 1: 0.4456 in 2.43 sec
+Chromosome 2: 0.6436 in 2.10 sec
+Chromosome 3: 0.5644 in 2.21 sec
+Chromosome 4: 0.6040 in 2.25 sec
+Chromosome 5: 0.5050 in 2.29 sec
+Chromosome 6: 0.5644 in 2.34 sec
+Chromosome 7: 0.5248 in 2.36 sec
+Chromosome 8: 0.5644 in 2.35 sec
+Chromosome 9: 0.2872 in 2.18 sec
+Chromosome 10: 0.4852 in 2.52 sec
+Chromosome 11: 0.7228 in 2.19 sec
+Chromosome 12: 0.5644 in 2.18 sec
+Chromosome 13: 0.3070 in 2.25 sec
+Chromosome 14: 0.6040 in 2.18 sec
+Chromosome 15: 0.6040 in 2.44 sec
+Chromosome 16: 0.5842 in 2.40 sec
+Chromosome 17: 0.5842 in 2.05 sec
+Chromosome 18: 0.4258 in 2.24 sec
+Chromosome 19: 0.5248 in 2.47 sec
+
+>> Generation 54
+>> Fitnesses: [0.505  0.4456 0.6436 0.5644 0.604  0.505  0.5644 0.5248 0.5644 0.2872
+ 0.4852 0.7228 0.5644 0.307  0.604  0.604  0.5842 0.5842 0.4258 0.5248]
+>> Average: 0.5307, Top 5: 0.6357, Best: 0.7228
+
+Chromosome 0: 0.5446 in 2.27 sec
+Chromosome 1: 0.5842 in 2.24 sec
+Chromosome 2: 0.6040 in 2.19 sec
+Chromosome 3: 0.6040 in 2.28 sec
+Chromosome 4: 0.5248 in 2.39 sec
+Chromosome 5: 0.6238 in 2.29 sec
+Chromosome 6: 0.6436 in 2.26 sec
+Chromosome 7: 0.5842 in 2.22 sec
+Chromosome 8: 0.6040 in 2.12 sec
+Chromosome 9: 0.6238 in 2.35 sec
+Chromosome 10: 0.5050 in 2.43 sec
+Chromosome 11: 0.5446 in 2.41 sec
+Chromosome 12: 0.6436 in 2.28 sec
+Chromosome 13: 0.6238 in 2.27 sec
+Chromosome 14: 0.6832 in 2.19 sec
+Chromosome 15: 0.6040 in 2.22 sec
+Chromosome 16: 0.4258 in 2.22 sec
+Chromosome 17: 0.5842 in 2.38 sec
+Chromosome 18: 0.6238 in 2.16 sec
+Chromosome 19: 0.5644 in 2.30 sec
+
+>> Generation 55
+>> Fitnesses: [0.5446 0.5842 0.604  0.604  0.5248 0.6238 0.6436 0.5842 0.604  0.6238
+ 0.505  0.5446 0.6436 0.6238 0.6832 0.604  0.4258 0.5842 0.6238 0.5644]
+>> Average: 0.5872, Top 5: 0.6436, Best: 0.6832
+
+Chromosome 0: 0.5446 in 2.36 sec
+Chromosome 1: 0.6040 in 2.34 sec
+Chromosome 2: 0.6634 in 2.39 sec
+Chromosome 3: 0.5248 in 2.36 sec
+Chromosome 4: 0.4258 in 2.31 sec
+Chromosome 5: 0.4258 in 2.44 sec
+Chromosome 6: 0.5842 in 2.18 sec
+Chromosome 7: 0.5644 in 2.38 sec
+Chromosome 8: 0.7030 in 2.24 sec
+Chromosome 9: 0.4852 in 2.41 sec
+Chromosome 10: 0.4852 in 2.27 sec
+Chromosome 11: 0.6436 in 2.32 sec
+Chromosome 12: 0.6238 in 2.32 sec
+Chromosome 13: 0.4654 in 2.43 sec
+Chromosome 14: 0.5644 in 2.27 sec
+Chromosome 15: 0.6634 in 2.30 sec
+Chromosome 16: 0.5644 in 2.24 sec
+Chromosome 17: 0.6436 in 2.30 sec
+Chromosome 18: 0.4654 in 2.34 sec
+Chromosome 19: 0.5842 in 2.31 sec
+
+>> Generation 56
+>> Fitnesses: [0.5446 0.604  0.6634 0.5248 0.4258 0.4258 0.5842 0.5644 0.703  0.4852
+ 0.4852 0.6436 0.6238 0.4654 0.5644 0.6634 0.5644 0.6436 0.4654 0.5842]
+>> Average: 0.5614, Top 5: 0.6634, Best: 0.7030
+
+Chromosome 0: 0.4456 in 2.19 sec
+Chromosome 1: 0.5446 in 2.34 sec
+Chromosome 2: 0.4258 in 2.31 sec
+Chromosome 3: 0.6040 in 2.28 sec
+Chromosome 4: 0.7030 in 2.41 sec
+Chromosome 5: 0.6436 in 2.38 sec
+Chromosome 6: 0.5248 in 2.40 sec
+Chromosome 7: 0.6238 in 2.23 sec
+Chromosome 8: 0.5050 in 2.44 sec
+Chromosome 9: 0.5446 in 2.32 sec
+Chromosome 10: 0.6832 in 2.38 sec
+Chromosome 11: 0.6040 in 2.41 sec
+Chromosome 12: 0.6238 in 2.31 sec
+Chromosome 13: 0.6238 in 2.29 sec
+Chromosome 14: 0.5842 in 2.41 sec
+Chromosome 15: 0.5050 in 2.24 sec
+Chromosome 16: 0.5842 in 2.43 sec
+Chromosome 17: 0.0298 in 2.68 sec
+Chromosome 18: 0.5050 in 2.23 sec
+Chromosome 19: 0.4654 in 2.37 sec
+
+>> Generation 57
+>> Fitnesses: [0.4456 0.5446 0.4258 0.604  0.703  0.6436 0.5248 0.6238 0.505  0.5446
+ 0.6832 0.604  0.6238 0.6238 0.5842 0.505  0.5842 0.0298 0.505  0.4654]
+>> Average: 0.5387, Top 5: 0.6555, Best: 0.7030
+
+Chromosome 0: 0.5050 in 2.40 sec
+Chromosome 1: 0.6040 in 2.20 sec
+Chromosome 2: 0.5644 in 2.20 sec
+Chromosome 3: 0.5050 in 2.31 sec
+Chromosome 4: 0.4258 in 2.23 sec
+Chromosome 5: 0.6040 in 2.26 sec
+Chromosome 6: 0.5842 in 2.26 sec
+Chromosome 7: 0.6832 in 2.33 sec
+Chromosome 8: 0.6832 in 2.27 sec
+Chromosome 9: 0.6040 in 2.38 sec
+Chromosome 10: 0.5842 in 2.27 sec
+Chromosome 11: 0.5446 in 2.31 sec
+Chromosome 12: 0.5050 in 2.25 sec
+Chromosome 13: 0.5446 in 2.25 sec
+Chromosome 14: 0.6040 in 2.11 sec
+Chromosome 15: 0.4852 in 2.35 sec
+Chromosome 16: 0.3664 in 2.14 sec
+Chromosome 17: 0.5644 in 2.34 sec
+Chromosome 18: 0.3664 in 2.21 sec
+Chromosome 19: 0.6436 in 2.22 sec
+
+>> Generation 58
+>> Fitnesses: [0.505  0.604  0.5644 0.505  0.4258 0.604  0.5842 0.6832 0.6832 0.604
+ 0.5842 0.5446 0.505  0.5446 0.604  0.4852 0.3664 0.5644 0.3664 0.6436]
+>> Average: 0.5486, Top 5: 0.6436, Best: 0.6832
+
+Chromosome 0: 0.6238 in 2.08 sec
+Chromosome 1: 0.5842 in 2.42 sec
+Chromosome 2: 0.5248 in 2.20 sec
+Chromosome 3: 0.6436 in 2.32 sec
+Chromosome 4: 0.4060 in 2.20 sec
+Chromosome 5: 0.6238 in 2.19 sec
+Chromosome 6: 0.5644 in 2.25 sec
+Chromosome 7: 0.5644 in 2.18 sec
+Chromosome 8: 0.5050 in 2.49 sec
+Chromosome 9: 0.6436 in 2.61 sec
+Chromosome 10: 0.5842 in 2.35 sec
+Chromosome 11: 0.5248 in 2.48 sec
+Chromosome 12: 0.6436 in 2.18 sec
+Chromosome 13: 0.5446 in 2.34 sec
+Chromosome 14: 0.6238 in 2.23 sec
+Chromosome 15: 0.5050 in 2.16 sec
+Chromosome 16: 0.5644 in 2.26 sec
+Chromosome 17: 0.6634 in 2.44 sec
+Chromosome 18: 0.5446 in 2.42 sec
+Chromosome 19: 0.6436 in 2.31 sec
+
+>> Generation 59
+>> Fitnesses: [0.6238 0.5842 0.5248 0.6436 0.406  0.6238 0.5644 0.5644 0.505  0.6436
+ 0.5842 0.5248 0.6436 0.5446 0.6238 0.505  0.5644 0.6634 0.5446 0.6436]
+>> Average: 0.5763, Top 5: 0.6476, Best: 0.6634
+
+Chromosome 0: 0.5248 in 2.27 sec
+Chromosome 1: 0.5644 in 2.30 sec
+Chromosome 2: 0.6436 in 2.25 sec
+Chromosome 3: 0.4654 in 2.34 sec
+Chromosome 4: 0.4060 in 2.31 sec
+Chromosome 5: 0.5644 in 2.26 sec
+Chromosome 6: 0.6634 in 2.27 sec
+Chromosome 7: 0.3070 in 2.12 sec
+Chromosome 8: 0.3664 in 2.40 sec
+Chromosome 9: 0.5842 in 2.33 sec
+Chromosome 10: 0.5842 in 2.26 sec
+Chromosome 11: 0.6040 in 2.32 sec
+Chromosome 12: 0.5050 in 2.46 sec
+Chromosome 13: 0.6040 in 2.33 sec
+Chromosome 14: 0.7030 in 2.21 sec
+Chromosome 15: 0.7030 in 2.34 sec
+Chromosome 16: 0.0496 in 2.80 sec
+Chromosome 17: 0.5050 in 2.32 sec
+Chromosome 18: 0.5644 in 2.65 sec
+Chromosome 19: 0.3466 in 2.24 sec
+
+>> Generation 60
+>> Fitnesses: [0.5248 0.5644 0.6436 0.4654 0.406  0.5644 0.6634 0.307  0.3664 0.5842
+ 0.5842 0.604  0.505  0.604  0.703  0.703  0.0496 0.505  0.5644 0.3466]
+>> Average: 0.5129, Top 5: 0.6634, Best: 0.7030
+
+Chromosome 0: 0.0298 in 3.06 sec
+Chromosome 1: 0.4852 in 2.39 sec
+Chromosome 2: 0.7228 in 2.25 sec
+Chromosome 3: 0.5248 in 2.32 sec
+Chromosome 4: 0.1882 in 2.29 sec
+Chromosome 5: 0.5644 in 2.45 sec
+Chromosome 6: 0.5842 in 2.29 sec
+Chromosome 7: 0.5050 in 2.65 sec
+Chromosome 8: 0.5050 in 2.44 sec
+Chromosome 9: 0.4852 in 2.45 sec
+Chromosome 10: 0.5248 in 2.47 sec
+Chromosome 11: 0.0298 in 2.94 sec
+Chromosome 12: 0.6832 in 2.43 sec
+Chromosome 13: 0.5842 in 2.35 sec
+Chromosome 14: 0.4654 in 2.24 sec
+Chromosome 15: 0.6832 in 2.47 sec
+Chromosome 16: 0.4258 in 2.32 sec
+Chromosome 17: 0.5248 in 2.22 sec
+Chromosome 18: 0.3862 in 2.32 sec
+Chromosome 19: 0.7624 in 2.40 sec
+
+>> Generation 61
+>> Fitnesses: [0.0298 0.4852 0.7228 0.5248 0.1882 0.5644 0.5842 0.505  0.505  0.4852
+ 0.5248 0.0298 0.6832 0.5842 0.4654 0.6832 0.4258 0.5248 0.3862 0.7624]
+>> Average: 0.4832, Top 5: 0.6872, Best: 0.7624
+
+Chromosome 0: 0.5644 in 2.33 sec
+Chromosome 1: 0.4060 in 2.28 sec
+Chromosome 2: 0.6040 in 2.27 sec
+Chromosome 3: 0.5446 in 2.13 sec
+Chromosome 4: 0.5050 in 2.20 sec
+Chromosome 5: 0.3664 in 2.48 sec
+Chromosome 6: 0.4852 in 2.27 sec
+Chromosome 7: 0.5050 in 2.23 sec
+Chromosome 8: 0.4852 in 2.16 sec
+Chromosome 9: 0.6634 in 2.22 sec
+Chromosome 10: 0.5644 in 2.32 sec
+Chromosome 11: 0.5050 in 2.26 sec
+Chromosome 12: 0.6040 in 2.13 sec
+Chromosome 13: 0.4852 in 2.46 sec
+Chromosome 14: 0.6832 in 2.40 sec
+Chromosome 15: 0.6238 in 2.38 sec
+Chromosome 16: 0.5842 in 2.36 sec
+Chromosome 17: 0.6832 in 2.29 sec
+Chromosome 18: 0.5644 in 2.31 sec
+Chromosome 19: 0.6436 in 2.31 sec
+
+>> Generation 62
+>> Fitnesses: [0.5644 0.406  0.604  0.5446 0.505  0.3664 0.4852 0.505  0.4852 0.6634
+ 0.5644 0.505  0.604  0.4852 0.6832 0.6238 0.5842 0.6832 0.5644 0.6436]
+>> Average: 0.5535, Top 5: 0.6594, Best: 0.6832
+
+Chromosome 0: 0.4852 in 2.26 sec
+Chromosome 1: 0.5446 in 2.39 sec
+Chromosome 2: 0.5248 in 2.28 sec
+Chromosome 3: 0.5248 in 2.25 sec
+Chromosome 4: 0.5446 in 2.38 sec
+Chromosome 5: 0.5050 in 2.25 sec
+Chromosome 6: 0.5842 in 2.29 sec
+Chromosome 7: 0.5842 in 2.30 sec
+Chromosome 8: 0.6238 in 2.31 sec
+Chromosome 9: 0.5248 in 2.34 sec
+Chromosome 10: 0.6436 in 2.21 sec
+Chromosome 11: 0.6832 in 2.29 sec
+Chromosome 12: 0.6832 in 2.32 sec
+Chromosome 13: 0.5446 in 2.29 sec
+Chromosome 14: 0.6238 in 2.23 sec
+Chromosome 15: 0.5842 in 2.38 sec
+Chromosome 16: 0.6040 in 2.39 sec
+Chromosome 17: 0.5842 in 2.22 sec
+Chromosome 18: 0.0298 in 2.97 sec
+Chromosome 19: 0.6040 in 2.46 sec
+
+>> Generation 63
+>> Fitnesses: [0.4852 0.5446 0.5248 0.5248 0.5446 0.505  0.5842 0.5842 0.6238 0.5248
+ 0.6436 0.6832 0.6832 0.5446 0.6238 0.5842 0.604  0.5842 0.0298 0.604 ]
+>> Average: 0.5515, Top 5: 0.6515, Best: 0.6832
+
+Chromosome 0: 0.5050 in 2.42 sec
+Chromosome 1: 0.4852 in 2.42 sec
+Chromosome 2: 0.5248 in 2.39 sec
+Chromosome 3: 0.5050 in 2.49 sec
+Chromosome 4: 0.5644 in 2.32 sec
+Chromosome 5: 0.6238 in 2.28 sec
+Chromosome 6: 0.5842 in 2.24 sec
+Chromosome 7: 0.7030 in 2.33 sec
+Chromosome 8: 0.4456 in 2.34 sec
+Chromosome 9: 0.5050 in 2.40 sec
+Chromosome 10: 0.4456 in 2.50 sec
+Chromosome 11: 0.4654 in 2.26 sec
+Chromosome 12: 0.5446 in 2.34 sec
+Chromosome 13: 0.3862 in 2.34 sec
+Chromosome 14: 0.4654 in 2.30 sec
+Chromosome 15: 0.5644 in 2.26 sec
+Chromosome 16: 0.5842 in 2.22 sec
+Chromosome 17: 0.3466 in 2.27 sec
+Chromosome 18: 0.6238 in 2.43 sec
+Chromosome 19: 0.5644 in 2.27 sec
+
+>> Generation 64
+>> Fitnesses: [0.505  0.4852 0.5248 0.505  0.5644 0.6238 0.5842 0.703  0.4456 0.505
+ 0.4456 0.4654 0.5446 0.3862 0.4654 0.5644 0.5842 0.3466 0.6238 0.5644]
+>> Average: 0.5218, Top 5: 0.6238, Best: 0.7030
+
+Chromosome 0: 0.6436 in 2.22 sec
+Chromosome 1: 0.5446 in 2.37 sec
+Chromosome 2: 0.6040 in 2.15 sec
+Chromosome 3: 0.5050 in 2.19 sec
+Chromosome 4: 0.6634 in 2.16 sec
+Chromosome 5: 0.5446 in 2.22 sec
+Chromosome 6: 0.7228 in 2.29 sec
+Chromosome 7: 0.6436 in 2.36 sec
+Chromosome 8: 0.7228 in 2.20 sec
+Chromosome 9: 0.5842 in 2.35 sec
+Chromosome 10: 0.5446 in 2.43 sec
+Chromosome 11: 0.5050 in 2.47 sec
+Chromosome 12: 0.4456 in 2.22 sec
+Chromosome 13: 0.5644 in 2.35 sec
+Chromosome 14: 0.5644 in 2.28 sec
+Chromosome 15: 0.4258 in 2.42 sec
+Chromosome 16: 0.5446 in 2.50 sec
+Chromosome 17: 0.4654 in 2.53 sec
+Chromosome 18: 0.6634 in 2.37 sec
+Chromosome 19: 0.5644 in 2.27 sec
+
+>> Generation 65
+>> Fitnesses: [0.6436 0.5446 0.604  0.505  0.6634 0.5446 0.7228 0.6436 0.7228 0.5842
+ 0.5446 0.505  0.4456 0.5644 0.5644 0.4258 0.5446 0.4654 0.6634 0.5644]
+>> Average: 0.5733, Top 5: 0.6832, Best: 0.7228
+
+Chromosome 0: 0.7030 in 2.41 sec
+Chromosome 1: 0.6040 in 2.29 sec
+Chromosome 2: 0.5446 in 2.67 sec
+Chromosome 3: 0.6436 in 2.65 sec
+Chromosome 4: 0.5446 in 2.97 sec
+Chromosome 5: 0.6436 in 3.01 sec
+Chromosome 6: 0.5248 in 2.67 sec
+Chromosome 7: 0.5248 in 2.33 sec
+Chromosome 8: 0.7426 in 2.26 sec
+Chromosome 9: 0.0694 in 2.75 sec
+Chromosome 10: 0.5644 in 2.37 sec
+Chromosome 11: 0.5446 in 2.49 sec
+Chromosome 12: 0.6238 in 2.43 sec
+Chromosome 13: 0.5050 in 2.30 sec
+Chromosome 14: 0.5248 in 2.42 sec
+Chromosome 15: 0.6040 in 2.35 sec
+Chromosome 16: 0.6040 in 2.31 sec
+Chromosome 17: 0.5446 in 2.31 sec
+Chromosome 18: 0.5842 in 2.25 sec
+Chromosome 19: 0.2080 in 2.07 sec
+
+>> Generation 66
+>> Fitnesses: [0.703  0.604  0.5446 0.6436 0.5446 0.6436 0.5248 0.5248 0.7426 0.0694
+ 0.5644 0.5446 0.6238 0.505  0.5248 0.604  0.604  0.5446 0.5842 0.208 ]
+>> Average: 0.5426, Top 5: 0.6713, Best: 0.7426
+
+Chromosome 0: 0.7030 in 2.16 sec
+Chromosome 1: 0.5644 in 2.39 sec
+Chromosome 2: 0.6634 in 2.24 sec
+Chromosome 3: 0.5248 in 2.31 sec
+Chromosome 4: 0.6832 in 2.35 sec
+Chromosome 5: 0.5842 in 2.47 sec
+Chromosome 6: 0.4852 in 2.51 sec
+Chromosome 7: 0.6238 in 2.30 sec
+Chromosome 8: 0.6634 in 2.30 sec
+Chromosome 9: 0.5644 in 2.46 sec
+Chromosome 10: 0.5248 in 2.57 sec
+Chromosome 11: 0.6436 in 2.28 sec
+Chromosome 12: 0.6238 in 2.21 sec
+Chromosome 13: 0.5644 in 2.36 sec
+Chromosome 14: 0.5644 in 2.24 sec
+Chromosome 15: 0.5446 in 2.33 sec
+Chromosome 16: 0.6832 in 2.37 sec
+Chromosome 17: 0.5446 in 2.22 sec
+Chromosome 18: 0.2476 in 2.20 sec
+Chromosome 19: 0.2080 in 2.33 sec
+
+>> Generation 67
+>> Fitnesses: [0.703  0.5644 0.6634 0.5248 0.6832 0.5842 0.4852 0.6238 0.6634 0.5644
+ 0.5248 0.6436 0.6238 0.5644 0.5644 0.5446 0.6832 0.5446 0.2476 0.208 ]
+>> Average: 0.5604, Top 5: 0.6792, Best: 0.7030
+
+Chromosome 0: 0.4654 in 2.36 sec
+Chromosome 1: 0.5644 in 2.38 sec
+Chromosome 2: 0.4852 in 2.33 sec
+Chromosome 3: 0.4852 in 2.31 sec
+Chromosome 4: 0.6436 in 2.33 sec
+Chromosome 5: 0.6238 in 2.35 sec
+Chromosome 6: 0.5050 in 2.19 sec
+Chromosome 7: 0.4654 in 2.46 sec
+Chromosome 8: 0.5644 in 2.34 sec
+Chromosome 9: 0.6634 in 2.11 sec
+Chromosome 10: 0.6634 in 2.37 sec
+Chromosome 11: 0.6634 in 2.23 sec
+Chromosome 12: 0.0694 in 2.88 sec
+Chromosome 13: 0.4654 in 2.33 sec
+Chromosome 14: 0.0298 in 2.76 sec
+Chromosome 15: 0.4852 in 2.25 sec
+Chromosome 16: 0.5050 in 2.15 sec
+Chromosome 17: 0.5842 in 2.25 sec
+Chromosome 18: 0.6634 in 2.21 sec
+Chromosome 19: 0.5248 in 2.20 sec
+
+>> Generation 68
+>> Fitnesses: [0.4654 0.5644 0.4852 0.4852 0.6436 0.6238 0.505  0.4654 0.5644 0.6634
+ 0.6634 0.6634 0.0694 0.4654 0.0298 0.4852 0.505  0.5842 0.6634 0.5248]
+>> Average: 0.5060, Top 5: 0.6594, Best: 0.6634
+
+Chromosome 0: 0.7030 in 2.16 sec
+Chromosome 1: 0.5446 in 2.32 sec
+Chromosome 2: 0.5446 in 2.42 sec
+Chromosome 3: 0.5644 in 2.27 sec
+Chromosome 4: 0.5842 in 2.34 sec
+Chromosome 5: 0.5446 in 2.18 sec
+Chromosome 6: 0.5446 in 2.31 sec
+Chromosome 7: 0.5248 in 2.14 sec
+Chromosome 8: 0.5446 in 2.07 sec
+Chromosome 9: 0.5050 in 2.31 sec
+Chromosome 10: 0.5446 in 2.23 sec
+Chromosome 11: 0.5050 in 2.47 sec
+Chromosome 12: 0.4852 in 2.15 sec
+Chromosome 13: 0.6634 in 2.33 sec
+Chromosome 14: 0.6634 in 2.61 sec
+Chromosome 15: 0.0100 in 3.15 sec
+Chromosome 16: 0.6436 in 2.43 sec
+Chromosome 17: 0.6634 in 2.32 sec
+Chromosome 18: 0.0496 in 2.90 sec
+Chromosome 19: 0.4258 in 2.22 sec
+
+>> Generation 69
+>> Fitnesses: [0.703  0.5446 0.5446 0.5644 0.5842 0.5446 0.5446 0.5248 0.5446 0.505
+ 0.5446 0.505  0.4852 0.6634 0.6634 0.01   0.6436 0.6634 0.0496 0.4258]
+>> Average: 0.5129, Top 5: 0.6674, Best: 0.7030
+
+Chromosome 0: 0.6040 in 2.24 sec
+Chromosome 1: 0.6040 in 2.29 sec
+Chromosome 2: 0.5644 in 2.27 sec
+Chromosome 3: 0.5248 in 2.18 sec
+Chromosome 4: 0.5842 in 2.25 sec
+Chromosome 5: 0.4456 in 2.18 sec
+Chromosome 6: 0.4456 in 2.18 sec
+Chromosome 7: 0.5446 in 2.35 sec
+Chromosome 8: 0.5446 in 2.27 sec
+Chromosome 9: 0.5050 in 2.22 sec
+Chromosome 10: 0.5248 in 2.20 sec
+Chromosome 11: 0.6040 in 2.26 sec
+Chromosome 12: 0.5644 in 2.26 sec
+Chromosome 13: 0.5050 in 2.31 sec
+Chromosome 14: 0.5248 in 2.31 sec
+Chromosome 15: 0.6040 in 2.25 sec
+Chromosome 16: 0.6040 in 2.27 sec
+Chromosome 17: 0.5050 in 2.31 sec
+Chromosome 18: 0.6238 in 2.15 sec
+Chromosome 19: 0.5842 in 2.19 sec
+
+>> Generation 70
+>> Fitnesses: [0.604  0.604  0.5644 0.5248 0.5842 0.4456 0.4456 0.5446 0.5446 0.505
+ 0.5248 0.604  0.5644 0.505  0.5248 0.604  0.604  0.505  0.6238 0.5842]
+>> Average: 0.5505, Top 5: 0.6080, Best: 0.6238
+
+Chromosome 0: 0.6238 in 2.25 sec
+Chromosome 1: 0.6436 in 2.22 sec
+Chromosome 2: 0.6238 in 2.27 sec
+Chromosome 3: 0.5248 in 2.29 sec
+Chromosome 4: 0.4852 in 2.25 sec
+Chromosome 5: 0.5446 in 2.15 sec
+Chromosome 6: 0.5248 in 2.25 sec
+Chromosome 7: 0.5644 in 2.44 sec
+Chromosome 8: 0.5050 in 2.22 sec
+Chromosome 9: 0.4060 in 2.41 sec
+Chromosome 10: 0.4654 in 2.51 sec
+Chromosome 11: 0.4654 in 2.27 sec
+Chromosome 12: 0.3664 in 2.52 sec
+Chromosome 13: 0.5644 in 2.38 sec
+Chromosome 14: 0.5050 in 2.50 sec
+Chromosome 15: 0.6040 in 2.44 sec
+Chromosome 16: 0.6040 in 2.19 sec
+Chromosome 17: 0.5446 in 2.29 sec
+Chromosome 18: 0.4654 in 2.29 sec
+Chromosome 19: 0.5644 in 2.24 sec
+
+>> Generation 71
+>> Fitnesses: [0.6238 0.6436 0.6238 0.5248 0.4852 0.5446 0.5248 0.5644 0.505  0.406
+ 0.4654 0.4654 0.3664 0.5644 0.505  0.604  0.604  0.5446 0.4654 0.5644]
+>> Average: 0.5298, Top 5: 0.6198, Best: 0.6436
+
+Chromosome 0: 0.5446 in 2.24 sec
+Chromosome 1: 0.5446 in 2.26 sec
+Chromosome 2: 0.2278 in 2.23 sec
+Chromosome 3: 0.2278 in 2.14 sec
+Chromosome 4: 0.5842 in 2.32 sec
+Chromosome 5: 0.6832 in 2.24 sec
+Chromosome 6: 0.4654 in 2.68 sec
+Chromosome 7: 0.3070 in 2.21 sec
+Chromosome 8: 0.5644 in 2.40 sec
+Chromosome 9: 0.4654 in 2.34 sec
+Chromosome 10: 0.5644 in 2.21 sec
+Chromosome 11: 0.4654 in 2.28 sec
+Chromosome 12: 0.5842 in 2.35 sec
+Chromosome 13: 0.5842 in 2.42 sec
+Chromosome 14: 0.6040 in 2.37 sec
+Chromosome 15: 0.1882 in 2.18 sec
+Chromosome 16: 0.5842 in 2.57 sec
+Chromosome 17: 0.0496 in 2.80 sec
+Chromosome 18: 0.5446 in 2.32 sec
+Chromosome 19: 0.6040 in 2.25 sec
+
+>> Generation 72
+>> Fitnesses: [0.5446 0.5446 0.2278 0.2278 0.5842 0.6832 0.4654 0.307  0.5644 0.4654
+ 0.5644 0.4654 0.5842 0.5842 0.604  0.1882 0.5842 0.0496 0.5446 0.604 ]
+>> Average: 0.4694, Top 5: 0.6119, Best: 0.6832
+
+Chromosome 0: 0.5248 in 2.25 sec
+Chromosome 1: 0.4654 in 2.24 sec
+Chromosome 2: 0.5842 in 2.35 sec
+Chromosome 3: 0.4654 in 2.48 sec
+Chromosome 4: 0.7624 in 2.33 sec
+Chromosome 5: 0.2080 in 2.21 sec
+Chromosome 6: 0.5842 in 2.47 sec
+Chromosome 7: 0.5050 in 2.42 sec
+Chromosome 8: 0.4258 in 2.35 sec
+Chromosome 9: 0.6040 in 2.34 sec
+Chromosome 10: 0.5248 in 2.30 sec
+Chromosome 11: 0.5644 in 2.38 sec
+Chromosome 12: 0.6040 in 2.45 sec
+Chromosome 13: 0.4852 in 2.28 sec
+Chromosome 14: 0.6436 in 2.44 sec
+Chromosome 15: 0.6238 in 2.38 sec
+Chromosome 16: 0.6040 in 2.21 sec
+Chromosome 17: 0.5446 in 2.23 sec
+Chromosome 18: 0.4654 in 2.29 sec
+Chromosome 19: 0.4654 in 2.31 sec
+
+>> Generation 73
+>> Fitnesses: [0.5248 0.4654 0.5842 0.4654 0.7624 0.208  0.5842 0.505  0.4258 0.604
+ 0.5248 0.5644 0.604  0.4852 0.6436 0.6238 0.604  0.5446 0.4654 0.4654]
+>> Average: 0.5327, Top 5: 0.6476, Best: 0.7624
+
+Chromosome 0: 0.7228 in 2.32 sec
+Chromosome 1: 0.6436 in 2.25 sec
+Chromosome 2: 0.3664 in 2.45 sec
+Chromosome 3: 0.4654 in 2.51 sec
+Chromosome 4: 0.6238 in 2.54 sec
+Chromosome 5: 0.4456 in 2.68 sec
+Chromosome 6: 0.5842 in 2.39 sec
+Chromosome 7: 0.4060 in 2.51 sec
+Chromosome 8: 0.5050 in 2.51 sec
+Chromosome 9: 0.5446 in 2.35 sec
+Chromosome 10: 0.5248 in 2.37 sec
+Chromosome 11: 0.5248 in 2.30 sec
+Chromosome 12: 0.5644 in 2.56 sec
+Chromosome 13: 0.5842 in 2.34 sec
+Chromosome 14: 0.5248 in 2.35 sec
+Chromosome 15: 0.4456 in 2.47 sec
+Chromosome 16: 0.6238 in 2.28 sec
+Chromosome 17: 0.6040 in 2.33 sec
+Chromosome 18: 0.4852 in 2.44 sec
+Chromosome 19: 0.5050 in 2.32 sec
+
+>> Generation 74
+>> Fitnesses: [0.7228 0.6436 0.3664 0.4654 0.6238 0.4456 0.5842 0.406  0.505  0.5446
+ 0.5248 0.5248 0.5644 0.5842 0.5248 0.4456 0.6238 0.604  0.4852 0.505 ]
+>> Average: 0.5347, Top 5: 0.6436, Best: 0.7228
+
+Chromosome 0: 0.6238 in 2.34 sec
+Chromosome 1: 0.2476 in 2.18 sec
+Chromosome 2: 0.5248 in 2.36 sec
+Chromosome 3: 0.5050 in 2.35 sec
+Chromosome 4: 0.4852 in 2.38 sec
+Chromosome 5: 0.5842 in 2.19 sec
+Chromosome 6: 0.5050 in 2.24 sec
+Chromosome 7: 0.2872 in 2.61 sec
+Chromosome 8: 0.5644 in 2.41 sec
+Chromosome 9: 0.6040 in 2.72 sec
+Chromosome 10: 0.6040 in 2.45 sec
+Chromosome 11: 0.4852 in 1.80 sec
+Chromosome 12: 0.6238 in 2.15 sec
+Chromosome 13: 0.5050 in 2.73 sec
+Chromosome 14: 0.5248 in 2.31 sec
+Chromosome 15: 0.4654 in 2.64 sec
+Chromosome 16: 0.3466 in 2.56 sec
+Chromosome 17: 0.4258 in 2.24 sec
+Chromosome 18: 0.5446 in 2.07 sec
+Chromosome 19: 0.6436 in 1.83 sec
+
+>> Generation 75
+>> Fitnesses: [0.6238 0.2476 0.5248 0.505  0.4852 0.5842 0.505  0.2872 0.5644 0.604
+ 0.604  0.4852 0.6238 0.505  0.5248 0.4654 0.3466 0.4258 0.5446 0.6436]
+>> Average: 0.5050, Top 5: 0.6198, Best: 0.6436
+
+Chromosome 0: 0.6832 in 2.13 sec
+Chromosome 1: 0.7030 in 2.24 sec
+Chromosome 2: 0.6040 in 2.82 sec
+Chromosome 3: 0.5446 in 2.92 sec
+Chromosome 4: 0.5050 in 2.22 sec
+Chromosome 5: 0.6436 in 2.31 sec
+Chromosome 6: 0.6436 in 2.49 sec
+Chromosome 7: 0.6040 in 2.33 sec
+Chromosome 8: 0.5842 in 2.26 sec
+Chromosome 9: 0.6040 in 2.24 sec
+Chromosome 10: 0.4852 in 2.50 sec
+Chromosome 11: 0.5248 in 2.33 sec
+Chromosome 12: 0.5050 in 2.22 sec
+Chromosome 13: 0.5446 in 2.06 sec
+Chromosome 14: 0.6040 in 2.18 sec
+Chromosome 15: 0.5644 in 2.29 sec
+Chromosome 16: 0.3466 in 2.01 sec
+Chromosome 17: 0.6436 in 2.31 sec
+Chromosome 18: 0.5248 in 2.16 sec
+Chromosome 19: 0.4852 in 2.43 sec
+
+>> Generation 76
+>> Fitnesses: [0.6832 0.703  0.604  0.5446 0.505  0.6436 0.6436 0.604  0.5842 0.604
+ 0.4852 0.5248 0.505  0.5446 0.604  0.5644 0.3466 0.6436 0.5248 0.4852]
+>> Average: 0.5674, Top 5: 0.6634, Best: 0.7030
+
+Chromosome 0: 0.5446 in 2.25 sec
+Chromosome 1: 0.5644 in 3.15 sec
+Chromosome 2: 0.3664 in 2.37 sec
+Chromosome 3: 0.2674 in 2.50 sec
+Chromosome 4: 0.6040 in 2.00 sec
+Chromosome 5: 0.5842 in 2.39 sec
+Chromosome 6: 0.4456 in 2.07 sec
+Chromosome 7: 0.5842 in 2.18 sec
+Chromosome 8: 0.7822 in 2.22 sec
+Chromosome 9: 0.4852 in 2.18 sec
+Chromosome 10: 0.0298 in 2.55 sec
+Chromosome 11: 0.5248 in 2.03 sec
+Chromosome 12: 0.6040 in 2.01 sec
+Chromosome 13: 0.5248 in 2.11 sec
+Chromosome 14: 0.5248 in 2.10 sec
+Chromosome 15: 0.1882 in 2.09 sec
+Chromosome 16: 0.6040 in 2.27 sec
+Chromosome 17: 0.5248 in 2.18 sec
+Chromosome 18: 0.4456 in 2.06 sec
+Chromosome 19: 0.5050 in 2.56 sec
+
+>> Generation 77
+>> Fitnesses: [0.5446 0.5644 0.3664 0.2674 0.604  0.5842 0.4456 0.5842 0.7822 0.4852
+ 0.0298 0.5248 0.604  0.5248 0.5248 0.1882 0.604  0.5248 0.4456 0.505 ]
+>> Average: 0.4852, Top 5: 0.6357, Best: 0.7822
+
+Chromosome 0: 0.6040 in 2.45 sec
+Chromosome 1: 0.4258 in 2.69 sec
+Chromosome 2: 0.6634 in 2.72 sec
+Chromosome 3: 0.4852 in 2.80 sec
+Chromosome 4: 0.7030 in 2.67 sec
+Chromosome 5: 0.1684 in 2.65 sec
+Chromosome 6: 0.5842 in 2.09 sec
+Chromosome 7: 0.6634 in 2.07 sec
+Chromosome 8: 0.5842 in 2.08 sec
+Chromosome 9: 0.6832 in 2.12 sec
+Chromosome 10: 0.6832 in 1.94 sec
+Chromosome 11: 0.5842 in 2.01 sec
+Chromosome 12: 0.6832 in 2.79 sec
+Chromosome 13: 0.6634 in 2.28 sec
+Chromosome 14: 0.5842 in 2.41 sec
+Chromosome 15: 0.5842 in 2.33 sec
+Chromosome 16: 0.5644 in 2.60 sec
+Chromosome 17: 0.5644 in 2.29 sec
+Chromosome 18: 0.4852 in 2.25 sec
+Chromosome 19: 0.6436 in 2.22 sec
+
+>> Generation 78
+>> Fitnesses: [0.604  0.4258 0.6634 0.4852 0.703  0.1684 0.5842 0.6634 0.5842 0.6832
+ 0.6832 0.5842 0.6832 0.6634 0.5842 0.5842 0.5644 0.5644 0.4852 0.6436]
+>> Average: 0.5802, Top 5: 0.6832, Best: 0.7030
+
+Chromosome 0: 0.3466 in 2.08 sec
+Chromosome 1: 0.5644 in 2.27 sec
+Chromosome 2: 0.5644 in 2.21 sec
+Chromosome 3: 0.4258 in 2.10 sec
+Chromosome 4: 0.5050 in 2.80 sec
+Chromosome 5: 0.5446 in 2.63 sec
+Chromosome 6: 0.6634 in 2.76 sec
+Chromosome 7: 0.5050 in 2.80 sec
+Chromosome 8: 0.4852 in 2.17 sec
+Chromosome 9: 0.5248 in 2.19 sec
+Chromosome 10: 0.6040 in 2.19 sec
+Chromosome 11: 0.7030 in 1.95 sec
+Chromosome 12: 0.5842 in 1.98 sec
+Chromosome 13: 0.5644 in 2.10 sec
+Chromosome 14: 0.5050 in 2.07 sec
+Chromosome 15: 0.6040 in 2.07 sec
+Chromosome 16: 0.6238 in 2.51 sec
+Chromosome 17: 0.3070 in 2.01 sec
+Chromosome 18: 0.5842 in 2.17 sec
+Chromosome 19: 0.5842 in 2.25 sec
+
+>> Generation 79
+>> Fitnesses: [0.3466 0.5644 0.5644 0.4258 0.505  0.5446 0.6634 0.505  0.4852 0.5248
+ 0.604  0.703  0.5842 0.5644 0.505  0.604  0.6238 0.307  0.5842 0.5842]
+>> Average: 0.5397, Top 5: 0.6396, Best: 0.7030
+
+Chromosome 0: 0.4060 in 2.08 sec
+Chromosome 1: 0.5248 in 2.48 sec
+Chromosome 2: 0.5050 in 2.43 sec
+Chromosome 3: 0.5248 in 2.22 sec
+Chromosome 4: 0.3070 in 2.08 sec
+Chromosome 5: 0.5050 in 2.03 sec
+Chromosome 6: 0.4456 in 2.21 sec
+Chromosome 7: 0.5842 in 2.28 sec
+Chromosome 8: 0.7228 in 2.25 sec
+Chromosome 9: 0.5248 in 2.17 sec
+Chromosome 10: 0.5050 in 2.25 sec
+Chromosome 11: 0.5644 in 2.52 sec
+Chromosome 12: 0.3862 in 2.66 sec
+Chromosome 13: 0.6040 in 2.41 sec
+Chromosome 14: 0.5644 in 2.35 sec
+Chromosome 15: 0.5050 in 2.50 sec
+Chromosome 16: 0.5248 in 2.21 sec
+Chromosome 17: 0.6238 in 2.29 sec
+Chromosome 18: 0.6040 in 2.27 sec
+Chromosome 19: 0.5842 in 2.23 sec
+
+>> Generation 80
+>> Fitnesses: [0.406  0.5248 0.505  0.5248 0.307  0.505  0.4456 0.5842 0.7228 0.5248
+ 0.505  0.5644 0.3862 0.604  0.5644 0.505  0.5248 0.6238 0.604  0.5842]
+>> Average: 0.5258, Top 5: 0.6278, Best: 0.7228
+
+Chromosome 0: 0.6832 in 2.22 sec
+Chromosome 1: 0.4654 in 2.45 sec
+Chromosome 2: 0.6436 in 2.25 sec
+Chromosome 3: 0.5644 in 2.48 sec
+Chromosome 4: 0.5842 in 2.22 sec
+Chromosome 5: 0.6436 in 2.38 sec
+Chromosome 6: 0.0892 in 2.35 sec
+Chromosome 7: 0.1486 in 2.33 sec
+Chromosome 8: 0.6634 in 2.36 sec
+Chromosome 9: 0.6634 in 2.30 sec
+Chromosome 10: 0.5842 in 2.26 sec
+Chromosome 11: 0.6238 in 2.30 sec
+Chromosome 12: 0.5446 in 2.29 sec
+Chromosome 13: 0.5842 in 2.24 sec
+Chromosome 14: 0.5446 in 2.36 sec
+Chromosome 15: 0.3466 in 2.76 sec
+Chromosome 16: 0.5050 in 2.64 sec
+Chromosome 17: 0.6238 in 2.28 sec
+Chromosome 18: 0.0694 in 2.93 sec
+Chromosome 19: 0.6832 in 2.19 sec
+
+>> Generation 81
+>> Fitnesses: [0.6832 0.4654 0.6436 0.5644 0.5842 0.6436 0.0892 0.1486 0.6634 0.6634
+ 0.5842 0.6238 0.5446 0.5842 0.5446 0.3466 0.505  0.6238 0.0694 0.6832]
+>> Average: 0.5129, Top 5: 0.6674, Best: 0.6832
+
+Chromosome 0: 0.4852 in 2.40 sec
+Chromosome 1: 0.5842 in 2.45 sec
+Chromosome 2: 0.5050 in 2.41 sec
+Chromosome 3: 0.7030 in 2.30 sec
+Chromosome 4: 0.5446 in 2.36 sec
+Chromosome 5: 0.6634 in 2.42 sec
+Chromosome 6: 0.5248 in 2.38 sec
+Chromosome 7: 0.5842 in 2.34 sec
+Chromosome 8: 0.5446 in 2.32 sec
+Chromosome 9: 0.5644 in 2.39 sec
+Chromosome 10: 0.5842 in 2.32 sec
+Chromosome 11: 0.6436 in 2.26 sec
+Chromosome 12: 0.5644 in 2.44 sec
+Chromosome 13: 0.4258 in 2.65 sec
+Chromosome 14: 0.5248 in 2.42 sec
+Chromosome 15: 0.5050 in 2.22 sec
+Chromosome 16: 0.6436 in 2.22 sec
+Chromosome 17: 0.5248 in 2.45 sec
+Chromosome 18: 0.7426 in 2.36 sec
+Chromosome 19: 0.5050 in 2.25 sec
+
+>> Generation 82
+>> Fitnesses: [0.4852 0.5842 0.505  0.703  0.5446 0.6634 0.5248 0.5842 0.5446 0.5644
+ 0.5842 0.6436 0.5644 0.4258 0.5248 0.505  0.6436 0.5248 0.7426 0.505 ]
+>> Average: 0.5684, Top 5: 0.6792, Best: 0.7426
+
+Chromosome 0: 0.5842 in 2.35 sec
+Chromosome 1: 0.7822 in 2.33 sec
+Chromosome 2: 0.5248 in 2.22 sec
+Chromosome 3: 0.5644 in 2.29 sec
+Chromosome 4: 0.5644 in 2.31 sec
+Chromosome 5: 0.6634 in 2.44 sec
+Chromosome 6: 0.2476 in 2.30 sec
+Chromosome 7: 0.5842 in 2.46 sec
+Chromosome 8: 0.6634 in 2.25 sec
+Chromosome 9: 0.6040 in 2.36 sec
+Chromosome 10: 0.5842 in 2.38 sec
+Chromosome 11: 0.5644 in 2.42 sec
+Chromosome 12: 0.7030 in 2.31 sec
+Chromosome 13: 0.5644 in 2.23 sec
+Chromosome 14: 0.5644 in 2.37 sec
+Chromosome 15: 0.4852 in 2.44 sec
+Chromosome 16: 0.6436 in 2.36 sec
+Chromosome 17: 0.6634 in 2.44 sec
+Chromosome 18: 0.6040 in 2.26 sec
+Chromosome 19: 0.5644 in 2.34 sec
+
+>> Generation 83
+>> Fitnesses: [0.5842 0.7822 0.5248 0.5644 0.5644 0.6634 0.2476 0.5842 0.6634 0.604
+ 0.5842 0.5644 0.703  0.5644 0.5644 0.4852 0.6436 0.6634 0.604  0.5644]
+>> Average: 0.5862, Top 5: 0.6951, Best: 0.7822
+
+Chromosome 0: 0.6238 in 2.38 sec
+Chromosome 1: 0.5842 in 2.50 sec
+Chromosome 2: 0.5050 in 2.46 sec
+Chromosome 3: 0.5446 in 2.28 sec
+Chromosome 4: 0.6436 in 2.26 sec
+Chromosome 5: 0.5842 in 2.34 sec
+Chromosome 6: 0.6040 in 2.28 sec
+Chromosome 7: 0.5644 in 2.49 sec
+Chromosome 8: 0.4852 in 2.43 sec
+Chromosome 9: 0.6436 in 2.23 sec
+Chromosome 10: 0.5842 in 2.32 sec
+Chromosome 11: 0.6040 in 2.39 sec
+Chromosome 12: 0.4654 in 2.46 sec
+Chromosome 13: 0.6040 in 2.30 sec
+Chromosome 14: 0.5644 in 2.27 sec
+Chromosome 15: 0.6832 in 2.33 sec
+Chromosome 16: 0.6832 in 2.41 sec
+Chromosome 17: 0.5644 in 2.34 sec
+Chromosome 18: 0.6040 in 2.31 sec
+Chromosome 19: 0.5644 in 2.32 sec
+
+>> Generation 84
+>> Fitnesses: [0.6238 0.5842 0.505  0.5446 0.6436 0.5842 0.604  0.5644 0.4852 0.6436
+ 0.5842 0.604  0.4654 0.604  0.5644 0.6832 0.6832 0.5644 0.604  0.5644]
+>> Average: 0.5852, Top 5: 0.6555, Best: 0.6832
+
+Chromosome 0: 0.3466 in 2.28 sec
+Chromosome 1: 0.5644 in 2.45 sec
+Chromosome 2: 0.5446 in 2.21 sec
+Chromosome 3: 0.5248 in 2.57 sec
+Chromosome 4: 0.4654 in 2.36 sec
+Chromosome 5: 0.4060 in 2.32 sec
+Chromosome 6: 0.5446 in 2.39 sec
+Chromosome 7: 0.7228 in 2.26 sec
+Chromosome 8: 0.4654 in 2.35 sec
+Chromosome 9: 0.1090 in 2.17 sec
+Chromosome 10: 0.6040 in 2.39 sec
+Chromosome 11: 0.6040 in 2.37 sec
+Chromosome 12: 0.5248 in 2.28 sec
+Chromosome 13: 0.5446 in 2.33 sec
+Chromosome 14: 0.5248 in 2.23 sec
+Chromosome 15: 0.4456 in 2.26 sec
+Chromosome 16: 0.5050 in 2.27 sec
+Chromosome 17: 0.6040 in 2.36 sec
+Chromosome 18: 0.6238 in 2.27 sec
+Chromosome 19: 0.4258 in 2.30 sec
+
+>> Generation 85
+>> Fitnesses: [0.3466 0.5644 0.5446 0.5248 0.4654 0.406  0.5446 0.7228 0.4654 0.109
+ 0.604  0.604  0.5248 0.5446 0.5248 0.4456 0.505  0.604  0.6238 0.4258]
+>> Average: 0.5050, Top 5: 0.6317, Best: 0.7228
+
+Chromosome 0: 0.5248 in 2.28 sec
+Chromosome 1: 0.5644 in 2.37 sec
+Chromosome 2: 0.5842 in 2.29 sec
+Chromosome 3: 0.5644 in 2.22 sec
+Chromosome 4: 0.5050 in 2.32 sec
+Chromosome 5: 0.5644 in 2.45 sec
+Chromosome 6: 0.5842 in 2.37 sec
+Chromosome 7: 0.5446 in 2.30 sec
+Chromosome 8: 0.5644 in 2.33 sec
+Chromosome 9: 0.6238 in 2.30 sec
+Chromosome 10: 0.6238 in 2.33 sec
+Chromosome 11: 0.6238 in 2.41 sec
+Chromosome 12: 0.5050 in 2.33 sec
+Chromosome 13: 0.5842 in 2.25 sec
+Chromosome 14: 0.0496 in 2.96 sec
+Chromosome 15: 0.4060 in 2.37 sec
+Chromosome 16: 0.5842 in 2.35 sec
+Chromosome 17: 0.5842 in 2.43 sec
+Chromosome 18: 0.5842 in 2.38 sec
+Chromosome 19: 0.5644 in 2.31 sec
+
+>> Generation 86
+>> Fitnesses: [0.5248 0.5644 0.5842 0.5644 0.505  0.5644 0.5842 0.5446 0.5644 0.6238
+ 0.6238 0.6238 0.505  0.5842 0.0496 0.406  0.5842 0.5842 0.5842 0.5644]
+>> Average: 0.5367, Top 5: 0.6080, Best: 0.6238
+
+Chromosome 0: 0.6238 in 2.54 sec
+Chromosome 1: 0.5644 in 2.29 sec
+Chromosome 2: 0.5446 in 2.21 sec
+Chromosome 3: 0.5248 in 2.25 sec
+Chromosome 4: 0.4258 in 2.31 sec
+Chromosome 5: 0.5248 in 2.30 sec
+Chromosome 6: 0.6040 in 2.20 sec
+Chromosome 7: 0.5248 in 2.44 sec
+Chromosome 8: 0.5842 in 2.36 sec
+Chromosome 9: 0.6040 in 2.47 sec
+Chromosome 10: 0.4456 in 2.38 sec
+Chromosome 11: 0.6832 in 2.36 sec
+Chromosome 12: 0.6436 in 2.35 sec
+Chromosome 13: 0.4060 in 2.40 sec
+Chromosome 14: 0.5842 in 2.15 sec
+Chromosome 15: 0.5644 in 2.17 sec
+Chromosome 16: 0.4060 in 2.24 sec
+Chromosome 17: 0.6832 in 2.20 sec
+Chromosome 18: 0.4852 in 2.21 sec
+Chromosome 19: 0.6436 in 2.32 sec
+
+>> Generation 87
+>> Fitnesses: [0.6238 0.5644 0.5446 0.5248 0.4258 0.5248 0.604  0.5248 0.5842 0.604
+ 0.4456 0.6832 0.6436 0.406  0.5842 0.5644 0.406  0.6832 0.4852 0.6436]
+>> Average: 0.5535, Top 5: 0.6555, Best: 0.6832
+
+Chromosome 0: 0.6238 in 2.35 sec
+Chromosome 1: 0.6040 in 2.50 sec
+Chromosome 2: 0.7030 in 2.42 sec
+Chromosome 3: 0.5050 in 2.49 sec
+Chromosome 4: 0.6238 in 2.28 sec
+Chromosome 5: 0.5248 in 2.26 sec
+Chromosome 6: 0.5050 in 2.35 sec
+Chromosome 7: 0.5842 in 2.41 sec
+Chromosome 8: 0.6436 in 2.48 sec
+Chromosome 9: 0.5842 in 2.25 sec
+Chromosome 10: 0.6238 in 2.28 sec
+Chromosome 11: 0.5248 in 2.17 sec
+Chromosome 12: 0.5446 in 2.45 sec
+Chromosome 13: 0.5644 in 2.27 sec
+Chromosome 14: 0.5050 in 2.30 sec
+Chromosome 15: 0.5050 in 2.57 sec
+Chromosome 16: 0.5842 in 2.30 sec
+Chromosome 17: 0.6832 in 2.32 sec
+Chromosome 18: 0.6040 in 2.27 sec
+Chromosome 19: 0.5446 in 2.74 sec
+
+>> Generation 88
+>> Fitnesses: [0.6238 0.604  0.703  0.505  0.6238 0.5248 0.505  0.5842 0.6436 0.5842
+ 0.6238 0.5248 0.5446 0.5644 0.505  0.505  0.5842 0.6832 0.604  0.5446]
+>> Average: 0.5793, Top 5: 0.6555, Best: 0.7030
+
+Chromosome 0: 0.6040 in 2.32 sec
+Chromosome 1: 0.5248 in 2.60 sec
+Chromosome 2: 0.5842 in 2.28 sec
+Chromosome 3: 0.5248 in 2.46 sec
+Chromosome 4: 0.5842 in 2.27 sec
+Chromosome 5: 0.6040 in 2.38 sec
+Chromosome 6: 0.6238 in 2.32 sec
+Chromosome 7: 0.6238 in 2.29 sec
+Chromosome 8: 0.6040 in 2.35 sec
+Chromosome 9: 0.6040 in 2.42 sec
+Chromosome 10: 0.6634 in 2.34 sec
+Chromosome 11: 0.6634 in 2.26 sec
+Chromosome 12: 0.6832 in 2.34 sec
+Chromosome 13: 0.5446 in 2.45 sec
+Chromosome 14: 0.5644 in 2.26 sec
+Chromosome 15: 0.5446 in 2.39 sec
+Chromosome 16: 0.5248 in 2.30 sec
+Chromosome 17: 0.5842 in 2.37 sec
+Chromosome 18: 0.4456 in 2.51 sec
+Chromosome 19: 0.6238 in 2.27 sec
+
+>> Generation 89
+>> Fitnesses: [0.604  0.5248 0.5842 0.5248 0.5842 0.604  0.6238 0.6238 0.604  0.604
+ 0.6634 0.6634 0.6832 0.5446 0.5644 0.5446 0.5248 0.5842 0.4456 0.6238]
+>> Average: 0.5862, Top 5: 0.6515, Best: 0.6832
+
+Chromosome 0: 0.5248 in 2.40 sec
+Chromosome 1: 0.4456 in 2.28 sec
+Chromosome 2: 0.5644 in 2.37 sec
+Chromosome 3: 0.6832 in 2.35 sec
+Chromosome 4: 0.4654 in 2.38 sec
+Chromosome 5: 0.4060 in 2.54 sec
+Chromosome 6: 0.5644 in 2.52 sec
+Chromosome 7: 0.7030 in 2.52 sec
+Chromosome 8: 0.6634 in 2.36 sec
+Chromosome 9: 0.6436 in 2.33 sec
+Chromosome 10: 0.5446 in 2.29 sec
+Chromosome 11: 0.6040 in 2.39 sec
+Chromosome 12: 0.5644 in 2.41 sec
+Chromosome 13: 0.6634 in 2.17 sec
+Chromosome 14: 0.6040 in 2.37 sec
+Chromosome 15: 0.5644 in 2.36 sec
+Chromosome 16: 0.0100 in 3.31 sec
+Chromosome 17: 0.6040 in 2.43 sec
+Chromosome 18: 0.5842 in 2.32 sec
+Chromosome 19: 0.5644 in 2.39 sec
+
+>> Generation 90
+>> Fitnesses: [0.5248 0.4456 0.5644 0.6832 0.4654 0.406  0.5644 0.703  0.6634 0.6436
+ 0.5446 0.604  0.5644 0.6634 0.604  0.5644 0.01   0.604  0.5842 0.5644]
+>> Average: 0.5486, Top 5: 0.6713, Best: 0.7030
+
+Chromosome 0: 0.5050 in 2.25 sec
+Chromosome 1: 0.2872 in 2.30 sec
+Chromosome 2: 0.6040 in 2.32 sec
+Chromosome 3: 0.5248 in 2.45 sec
+Chromosome 4: 0.6238 in 2.29 sec
+Chromosome 5: 0.5644 in 2.19 sec
+Chromosome 6: 0.6040 in 2.23 sec
+Chromosome 7: 0.5446 in 2.35 sec
+Chromosome 8: 0.0298 in 2.85 sec
+Chromosome 9: 0.6040 in 2.32 sec
+Chromosome 10: 0.6040 in 2.20 sec
+Chromosome 11: 0.6040 in 2.34 sec
+Chromosome 12: 0.3070 in 2.21 sec
+Chromosome 13: 0.5248 in 2.38 sec
+Chromosome 14: 0.5644 in 2.33 sec
+Chromosome 15: 0.5248 in 2.32 sec
+Chromosome 16: 0.6238 in 2.52 sec
+Chromosome 17: 0.4654 in 2.23 sec
+Chromosome 18: 0.5050 in 2.35 sec
+Chromosome 19: 0.6238 in 2.28 sec
+
+>> Generation 91
+>> Fitnesses: [0.505  0.2872 0.604  0.5248 0.6238 0.5644 0.604  0.5446 0.0298 0.604
+ 0.604  0.604  0.307  0.5248 0.5644 0.5248 0.6238 0.4654 0.505  0.6238]
+>> Average: 0.5119, Top 5: 0.6159, Best: 0.6238
+
+Chromosome 0: 0.6436 in 2.47 sec
+Chromosome 1: 0.5446 in 2.64 sec
+Chromosome 2: 0.5842 in 2.34 sec
+Chromosome 3: 0.3862 in 2.26 sec
+Chromosome 4: 0.6238 in 2.56 sec
+Chromosome 5: 0.6040 in 3.18 sec
+Chromosome 6: 0.5842 in 3.02 sec
+Chromosome 7: 0.5842 in 2.81 sec
+Chromosome 8: 0.5842 in 2.73 sec
+Chromosome 9: 0.6238 in 2.25 sec
+Chromosome 10: 0.4654 in 2.27 sec
+Chromosome 11: 0.5842 in 2.15 sec
+Chromosome 12: 0.6634 in 2.33 sec
+Chromosome 13: 0.5842 in 2.30 sec
+Chromosome 14: 0.6634 in 2.35 sec
+Chromosome 15: 0.5644 in 2.25 sec
+Chromosome 16: 0.5644 in 2.34 sec
+Chromosome 17: 0.6040 in 2.46 sec
+Chromosome 18: 0.4852 in 2.35 sec
+Chromosome 19: 0.5842 in 2.40 sec
+
+>> Generation 92
+>> Fitnesses: [0.6436 0.5446 0.5842 0.3862 0.6238 0.604  0.5842 0.5842 0.5842 0.6238
+ 0.4654 0.5842 0.6634 0.5842 0.6634 0.5644 0.5644 0.604  0.4852 0.5842]
+>> Average: 0.5763, Top 5: 0.6436, Best: 0.6634
+
+Chromosome 0: 0.6238 in 2.38 sec
+Chromosome 1: 0.6238 in 2.32 sec
+Chromosome 2: 0.6832 in 2.49 sec
+Chromosome 3: 0.5446 in 2.27 sec
+Chromosome 4: 0.5842 in 2.38 sec
+Chromosome 5: 0.6040 in 2.32 sec
+Chromosome 6: 0.6238 in 2.32 sec
+Chromosome 7: 0.6634 in 2.33 sec
+Chromosome 8: 0.6634 in 2.33 sec
+Chromosome 9: 0.5644 in 2.54 sec
+Chromosome 10: 0.4654 in 2.14 sec
+Chromosome 11: 0.6634 in 2.36 sec
+Chromosome 12: 0.6040 in 2.20 sec
+Chromosome 13: 0.5842 in 2.44 sec
+Chromosome 14: 0.2278 in 2.19 sec
+Chromosome 15: 0.5446 in 2.37 sec
+Chromosome 16: 0.6238 in 2.42 sec
+Chromosome 17: 0.5842 in 2.21 sec
+Chromosome 18: 0.5248 in 2.63 sec
+Chromosome 19: 0.4654 in 2.47 sec
+
+>> Generation 93
+>> Fitnesses: [0.6238 0.6238 0.6832 0.5446 0.5842 0.604  0.6238 0.6634 0.6634 0.5644
+ 0.4654 0.6634 0.604  0.5842 0.2278 0.5446 0.6238 0.5842 0.5248 0.4654]
+>> Average: 0.5733, Top 5: 0.6594, Best: 0.6832
+
+Chromosome 0: 0.3070 in 2.28 sec
+Chromosome 1: 0.5842 in 2.41 sec
+Chromosome 2: 0.6238 in 2.52 sec
+Chromosome 3: 0.6040 in 2.39 sec
+Chromosome 4: 0.5644 in 2.47 sec
+Chromosome 5: 0.4654 in 2.32 sec
+Chromosome 6: 0.5644 in 2.35 sec
+Chromosome 7: 0.7030 in 2.22 sec
+Chromosome 8: 0.6832 in 2.22 sec
+Chromosome 9: 0.6238 in 2.19 sec
+Chromosome 10: 0.5842 in 2.38 sec
+Chromosome 11: 0.6238 in 2.38 sec
+Chromosome 12: 0.5842 in 2.30 sec
+Chromosome 13: 0.6238 in 2.22 sec
+Chromosome 14: 0.5446 in 2.17 sec
+Chromosome 15: 0.6832 in 2.19 sec
+Chromosome 16: 0.6832 in 2.27 sec
+Chromosome 17: 0.5248 in 2.17 sec
+Chromosome 18: 0.6436 in 2.10 sec
+Chromosome 19: 0.6040 in 2.19 sec
+
+>> Generation 94
+>> Fitnesses: [0.307  0.5842 0.6238 0.604  0.5644 0.4654 0.5644 0.703  0.6832 0.6238
+ 0.5842 0.6238 0.5842 0.6238 0.5446 0.6832 0.6832 0.5248 0.6436 0.604 ]
+>> Average: 0.5911, Top 5: 0.6792, Best: 0.7030
+
+Chromosome 0: 0.0298 in 2.98 sec
+Chromosome 1: 0.6634 in 1.99 sec
+Chromosome 2: 0.7030 in 2.00 sec
+Chromosome 3: 0.3862 in 2.12 sec
+Chromosome 4: 0.5446 in 2.11 sec
+Chromosome 5: 0.6238 in 2.01 sec
+Chromosome 6: 0.5248 in 2.08 sec
+Chromosome 7: 0.4258 in 2.06 sec
+Chromosome 8: 0.6634 in 2.04 sec
+Chromosome 9: 0.5842 in 2.22 sec
+Chromosome 10: 0.6634 in 1.99 sec
+Chromosome 11: 0.6634 in 2.15 sec
+Chromosome 12: 0.5842 in 2.14 sec
+Chromosome 13: 0.6238 in 1.96 sec
+Chromosome 14: 0.5446 in 2.15 sec
+Chromosome 15: 0.6040 in 2.15 sec
+Chromosome 16: 0.5248 in 1.96 sec
+Chromosome 17: 0.4852 in 2.18 sec
+Chromosome 18: 0.6040 in 1.98 sec
+Chromosome 19: 0.4654 in 2.23 sec
+
+>> Generation 95
+>> Fitnesses: [0.0298 0.6634 0.703  0.3862 0.5446 0.6238 0.5248 0.4258 0.6634 0.5842
+ 0.6634 0.6634 0.5842 0.6238 0.5446 0.604  0.5248 0.4852 0.604  0.4654]
+>> Average: 0.5456, Top 5: 0.6713, Best: 0.7030
+
+Chromosome 0: 0.5248 in 1.99 sec
+Chromosome 1: 0.5842 in 1.96 sec
+Chromosome 2: 0.0496 in 2.61 sec
+Chromosome 3: 0.5050 in 2.09 sec
+Chromosome 4: 0.5644 in 1.87 sec
+Chromosome 5: 0.5446 in 1.94 sec
+Chromosome 6: 0.1882 in 1.84 sec
+Chromosome 7: 0.5446 in 2.07 sec
+Chromosome 8: 0.7228 in 2.12 sec
+Chromosome 9: 0.4654 in 2.18 sec
+Chromosome 10: 0.6436 in 1.92 sec
+Chromosome 11: 0.5644 in 1.91 sec
+Chromosome 12: 0.6832 in 2.02 sec
+Chromosome 13: 0.5446 in 1.95 sec
+Chromosome 14: 0.7030 in 1.92 sec
+Chromosome 15: 0.5644 in 1.94 sec
+Chromosome 16: 0.6040 in 2.00 sec
+Chromosome 17: 0.5446 in 2.12 sec
+Chromosome 18: 0.6040 in 1.90 sec
+Chromosome 19: 0.5050 in 1.88 sec
+
+>> Generation 96
+>> Fitnesses: [0.5248 0.5842 0.0496 0.505  0.5644 0.5446 0.1882 0.5446 0.7228 0.4654
+ 0.6436 0.5644 0.6832 0.5446 0.703  0.5644 0.604  0.5446 0.604  0.505 ]
+>> Average: 0.5327, Top 5: 0.6713, Best: 0.7228
+
+Chromosome 0: 0.6436 in 2.02 sec
+Chromosome 1: 0.6040 in 2.02 sec
+Chromosome 2: 0.5644 in 2.11 sec
+Chromosome 3: 0.6436 in 2.10 sec
+Chromosome 4: 0.4852 in 2.11 sec
+Chromosome 5: 0.6634 in 2.00 sec
+Chromosome 6: 0.4654 in 2.14 sec
+Chromosome 7: 0.5248 in 1.92 sec
+Chromosome 8: 0.3862 in 2.16 sec
+Chromosome 9: 0.4258 in 1.95 sec
+Chromosome 10: 0.5248 in 2.10 sec
+Chromosome 11: 0.6436 in 2.06 sec
+Chromosome 12: 0.6832 in 2.19 sec
+Chromosome 13: 0.6436 in 2.03 sec
+Chromosome 14: 0.5644 in 2.04 sec
+Chromosome 15: 0.5644 in 2.19 sec
+Chromosome 16: 0.6436 in 1.92 sec
+Chromosome 17: 0.5446 in 2.21 sec
+Chromosome 18: 0.6040 in 2.16 sec
+Chromosome 19: 0.5842 in 2.18 sec
+
+>> Generation 97
+>> Fitnesses: [0.6436 0.604  0.5644 0.6436 0.4852 0.6634 0.4654 0.5248 0.3862 0.4258
+ 0.5248 0.6436 0.6832 0.6436 0.5644 0.5644 0.6436 0.5446 0.604  0.5842]
+>> Average: 0.5703, Top 5: 0.6555, Best: 0.6832
+
+Chromosome 0: 0.6238 in 2.18 sec
+Chromosome 1: 0.5050 in 2.07 sec
+Chromosome 2: 0.5446 in 2.16 sec
+Chromosome 3: 0.5644 in 2.18 sec
+Chromosome 4: 0.7030 in 2.06 sec
+Chromosome 5: 0.6238 in 2.17 sec
+Chromosome 6: 0.5446 in 2.00 sec
+Chromosome 7: 0.5644 in 1.95 sec
+Chromosome 8: 0.5050 in 1.99 sec
+Chromosome 9: 0.5446 in 1.89 sec
+Chromosome 10: 0.5842 in 1.97 sec
+Chromosome 11: 0.6436 in 2.02 sec
+Chromosome 12: 0.6238 in 1.91 sec
+Chromosome 13: 0.5842 in 1.92 sec
+Chromosome 14: 0.5050 in 2.00 sec
+Chromosome 15: 0.6040 in 2.09 sec
+Chromosome 16: 0.5446 in 1.93 sec
+Chromosome 17: 0.5248 in 1.94 sec
+Chromosome 18: 0.7624 in 1.94 sec
+Chromosome 19: 0.5446 in 2.08 sec
+
+>> Generation 98
+>> Fitnesses: [0.6238 0.505  0.5446 0.5644 0.703  0.6238 0.5446 0.5644 0.505  0.5446
+ 0.5842 0.6436 0.6238 0.5842 0.505  0.604  0.5446 0.5248 0.7624 0.5446]
+>> Average: 0.5822, Top 5: 0.6713, Best: 0.7624
+
+Chromosome 0: 0.6634 in 2.02 sec
+Chromosome 1: 0.4456 in 2.23 sec
+Chromosome 2: 0.4654 in 2.01 sec
+Chromosome 3: 0.4456 in 2.01 sec
+Chromosome 4: 0.5446 in 2.15 sec
+Chromosome 5: 0.7030 in 2.02 sec
+Chromosome 6: 0.5050 in 2.06 sec
+Chromosome 7: 0.6238 in 2.04 sec
+Chromosome 8: 0.5842 in 2.13 sec
+Chromosome 9: 0.4852 in 2.04 sec
+Chromosome 10: 0.5842 in 2.00 sec
+Chromosome 11: 0.7030 in 1.99 sec
+Chromosome 12: 0.5446 in 1.92 sec
+Chromosome 13: 0.5446 in 1.99 sec
+Chromosome 14: 0.6238 in 1.92 sec
+Chromosome 15: 0.4852 in 2.04 sec
+Chromosome 16: 0.6040 in 1.89 sec
+Chromosome 17: 0.6040 in 1.95 sec
+Chromosome 18: 0.4456 in 1.94 sec
+Chromosome 19: 0.5248 in 1.99 sec
+
+>> Generation 99
+>> Fitnesses: [0.6634 0.4456 0.4654 0.4456 0.5446 0.703  0.505  0.6238 0.5842 0.4852
+ 0.5842 0.703  0.5446 0.5446 0.6238 0.4852 0.604  0.604  0.4456 0.5248]
+>> Average: 0.5565, Top 5: 0.6634, Best: 0.7030
+
+Chromosome 0: 0.4456 in 1.95 sec
+Chromosome 1: 0.5644 in 1.95 sec
+Chromosome 2: 0.5644 in 1.91 sec
+Chromosome 3: 0.6832 in 2.05 sec
+Chromosome 4: 0.3268 in 1.93 sec
+Chromosome 5: 0.6436 in 1.90 sec
+Chromosome 6: 0.6436 in 1.98 sec
+Chromosome 7: 0.6040 in 1.95 sec
+Chromosome 8: 0.6634 in 1.95 sec
+Chromosome 9: 0.2278 in 1.85 sec
+Chromosome 10: 0.7030 in 2.00 sec
+Chromosome 11: 0.6634 in 2.07 sec
+Chromosome 12: 0.3862 in 2.11 sec
+Chromosome 13: 0.2476 in 1.81 sec
+Chromosome 14: 0.3862 in 2.20 sec
+Chromosome 15: 0.5050 in 1.96 sec
+Chromosome 16: 0.6832 in 2.08 sec
+Chromosome 17: 0.0298 in 2.52 sec
+Chromosome 18: 0.5842 in 2.04 sec
+Chromosome 19: 0.7030 in 1.99 sec
+
+>> Generation 100
+>> Fitnesses: [0.4456 0.5644 0.5644 0.6832 0.3268 0.6436 0.6436 0.604  0.6634 0.2278
+ 0.703  0.6634 0.3862 0.2476 0.3862 0.505  0.6832 0.0298 0.5842 0.703 ]
+>> Average: 0.5129, Top 5: 0.6872, Best: 0.7030
+
+saving models...
